@@ -26,15 +26,29 @@ Envie o token de qualquer uma das 3 formas:
 
 | Ação | Parâmetros | Efeito no Catálogo |
 |---|---|---|
+| `order` | `{"action":"order", "id":"shineray-worker-125", "order":1}` | Define a posição exata de exibição da moto no catálogo (`#1`, `#2`, etc.). |
+| `reorder` | `{"action":"reorder", "ids":["shineray-worker-125", "shineray-worker-cross-150", "shineray-jet-125ss-efi"]}` | Reordena toda a listagem de motos na sequência exata enviada no array. |
+| `desc` | `{"action":"desc", "id":"shineray-worker-125", "desc":"A clássica café racer..."}` | Altera a descrição do modelo (usada nos cards do WhatsApp, carrossel, modal e IA). |
 | `price` | `{"action":"price", "id":"shineray-worker-125", "price":8490, "oldPrice":9490}` | Atualiza o preço à vista e "de/por". Se baixou, animação e badge de desconto imediato. |
 | `promo` | `{"action":"promo", "id":"shineray-worker-125", "active":true, "label":"R$ 1.000 OFF", "until":"31/12/2026"}` | Ativa/desativa promoção com selo e validade. Envie `active:false` para encerrar. |
-| `hero` | `{"action":"hero", "id":"shineray-worker-125", "featured":true, "order":1}` | Coloca o modelo no carrossel de destaque do topo na posição desejada. |
-| `hero_list` | `{"action":"hero_list", "ids":["shineray-worker-125", "shineray-shi-175"]}` | Define a lista completa e ordem dos modelos do carrossel. |
+| `hero` / `carousel` | `{"action":"carousel", "id":"shineray-worker-125", "featured":true, "order":1}` | Coloca o modelo no carrossel de destaque do topo na posição desejada. |
+| `hero_list` / `carousel_list` | `{"action":"carousel_list", "ids":["shineray-worker-125", "shineray-jet-125ss-efi"]}` | Define a lista completa e ordem dos modelos do carrossel do topo. |
 | `active` | `{"action":"active", "id":"shineray-se1", "value":false}` | Mostra (`true`) ou oculta (`false`) o modelo do catálogo instantaneamente. |
 | `stock` | `{"action":"stock", "id":"shineray-worker-125", "stock":0}` | Controla estoque: `0` = Esgotado, `1..2` = Últimas unidades, `>2` = Em estoque. Ou `inStock:false`. |
-| `upsert` | `{"action":"upsert", "product":{...}}` | Adiciona um novo modelo ou atualiza dados cadastrais completos. |
+| `create` / `add` / `upsert` | `{"action":"create", "id":"...", "brand":"Shineray", "name":"...", "cat":"shineray", "price":12990, ...}` | Cadastra um novo modelo de moto ou atualiza dados cadastrais existentes. |
 | `remove` | `{"action":"remove", "id":"modelo-id"}` | Remove definitivamente o produto do catálogo. |
 | `config` | `{"action":"config", "config":{"whatsapp":"5511999999999"}}` | Altera dados gerais da loja ou taxas de parcelamento. |
+
+---
+
+## Por Que a Descrição (`desc`) Existe e Onde Ela é Usada?
+
+O campo `desc` é fundamental na plataforma L1MA Motors porque alimenta simultaneamente 4 pontos estratégicos de conversão de vendas:
+
+1. **Card Dinâmico do WhatsApp (Open Graph):** Quando o cliente ou vendedor compartilha o link de uma moto (ex: `https://seusite.com/?m=shineray-worker-125`), o WhatsApp gera automaticamente o balão interativo com a foto da moto, o título oficial e a **descrição cadastrada**. Uma boa descrição aumenta radicalmente a taxa de cliques.
+2. **Modal de Detalhes Completo:** Ao clicar no card da moto, a janela modal de alta conversão exibe essa descrição em destaque logo abaixo das fotos e do preço, convencendo o cliente com os pontos fortes do produto.
+3. **Banner Principal (Carrossel do Topo):** Se o modelo estiver no carrossel de destaque (`hero`), o parágrafo de chamada do slide exibe exatamente essa descrição em tipografia premium.
+4. **Inteligência Artificial de Atendimento:** O motor de IA (`/api/chat`) usa o campo `desc` para responder perguntas de clientes sobre a moto (autonomia, proposta, conforto, economia, estilo).
 
 ---
 

@@ -40,17 +40,47 @@ function applyOp(op) {
   const need = id => { const p = find(id); if (!p) throw new Error(`produto '${id}' não existe`); return p; };
   const name = p => `${p.brand || ''} ${p.name || ''}`.trim();
   switch (op.action) {
-    case "upsert": {
-      const d = op.product || op.data; if (!d?.id) throw new Error("product.id obrigatório");
+    case "upsert":
+    case "create":
+    case "add": {
+      const d = op.product || op.data || { ...op };
+      delete d.action;
+      if (!d?.id) throw new Error("product.id (ou id) obrigatório");
       if (d.cat && !CATS.includes(d.cat)) throw new Error("cat deve ser ele|semi|off|shineray");
       const p = find(d.id);
       if (p) { Object.assign(p, d); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
-      P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, ...d });
+      P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, sortOrder: d.sortOrder ?? (P.length + 1), ...d });
       return { type: "new", id: d.id, text: `Novidade no catálogo: ${name(d)}` };
     }
     case "remove": {
       const p = need(op.id); catalog.products = P.filter(x => x !== p);
       return { type: "remove", id: op.id, text: `${name(p)} saiu do catálogo` };
+    }
+    // ORDENAÇÃO DOS MODELOS
+    case "order": {
+      const p = need(op.id);
+      const val = op.order ?? op.sortOrder ?? op.value;
+      if (val === undefined) throw new Error("order ou sortOrder é obrigatório");
+      p.sortOrder = +val;
+      return { type: "update", id: p.id, text: `Posição de ${name(p)} atualizada para #${p.sortOrder}` };
+    }
+    case "reorder": {
+      const ids = Array.isArray(op.ids) ? op.ids : [];
+      if (!ids.length) throw new Error("ids deve ser um array com os IDs dos modelos na nova ordem");
+      ids.forEach((id, index) => {
+        const p = find(id);
+        if (p) p.sortOrder = index + 1;
+      });
+      return { type: "update", text: `Ordem de ${ids.length} modelos atualizada` };
+    }
+    // DESCRIÇÃO DO MODELO
+    case "desc":
+    case "description": {
+      const p = need(op.id);
+      const val = op.desc ?? op.description ?? op.value;
+      if (val === undefined) throw new Error("desc ou description é obrigatório");
+      p.desc = String(val);
+      return { type: "update", id: p.id, text: `Descrição de ${name(p)} atualizada` };
     }
     // 1. VISIBILIDADE / MODELOS QUE APARECEM
     case "active":
@@ -127,14 +157,16 @@ function applyOp(op) {
       return { type: "promo", id: p.id, text: `Promoção: ${name(p)} — ${label}${untilText}` };
     }
     // 5. CARROSSEL (Hero)
-    case "hero": {
+    case "hero":
+    case "carousel": {
       const p = need(op.id);
       const isFeatured = op.featured !== undefined ? !!op.featured : (op.value !== undefined ? !!op.value : true);
       p.featuredHero = isFeatured;
       if (op.order !== undefined) p.heroOrder = +op.order;
       return { type: "config", id: p.id, text: `${name(p)} ${isFeatured ? 'adicionado ao carrossel de destaque' : 'removido do carrossel'}` };
     }
-    case "hero_list": {
+    case "hero_list":
+    case "carousel_list": {
       const ids = Array.isArray(op.ids) ? op.ids : [];
       P.forEach(p => {
         const idx = ids.indexOf(p.id);

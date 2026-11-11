@@ -169,9 +169,11 @@ function heroItems() {
     if (list.length) return list.slice(0, 5);
   }
   const explicit = L.filter(p => p.featuredHero).sort((a, b) => (a.heroOrder ?? 99) - (b.heroOrder ?? 99));
-  if (explicit.length >= 3) return explicit.slice(0, 5);
-  const score = p => (p.featuredHero ? 10000 : 0) + (p.promo ? 100 : 0) + (p.oldPrice ? 60 : 0) + (p.readyDelivery ? 30 : 0) + (p.price ? 10 : 0) + (p.price || 0) / 1e4;
-  return L.sort((a, b) => score(b) - score(a)).slice(0, Math.max(3, explicit.length));
+  if (explicit.length) {
+    const rest = L.filter(p => !p.featuredHero).sort((a, b) => (a.sortOrder ?? 999) - (b.sortOrder ?? 999));
+    return [...explicit, ...rest].slice(0, Math.max(explicit.length, 3));
+  }
+  return L.sort((a, b) => (a.sortOrder ?? 999) - (b.sortOrder ?? 999)).slice(0, 4);
 }
 function renderHero() {
   const S = heroItems();
@@ -257,8 +259,19 @@ function renderCampaign() {
   tick(); cdT = setInterval(tick, 1000);
 }
 function renderTrust() {
-  const brands = [...new Set(P().map(p => p.brand).filter(b => !/el[ée]tric|quadri|kart|triciclo/i.test(b)))].slice(0, 3).join(", ");
-  $("#trust").innerHTML = [["card", `Até ${maxN()}x no cartão`, "Simule suas parcelas"], ["zap", "Débito, crédito e Pix", "Escolha como pagar"], ["shield", "Garantia de 1 ano", "Em modelos selecionados"], ["store", "Multimarcas", brands]]
+  const isShineray = cat === "shineray";
+  const items = isShineray ? [
+    ["store", "Concessionária Autorizada", "Shineray do Brasil"],
+    ["shield", "Garantia de Fábrica", "Peças e serviços originais"],
+    ["card", `Até ${maxN()}x no cartão`, "Financiamento facilitado"],
+    ["zap", "Débito, crédito e Pix", "Pronta entrega"]
+  ] : [
+    ["card", `Até ${maxN()}x no cartão`, "Simule suas parcelas"],
+    ["zap", "Débito, crédito e Pix", "Escolha como pagar"],
+    ["shield", "Garantia de 1 ano", "Em modelos selecionados"],
+    ["store", "Multimarcas", [...new Set(P().map(p => p.brand).filter(b => !/el[ée]tric|quadri|kart|triciclo/i.test(b)))].slice(0, 3).join(", ")]
+  ];
+  $("#trust").innerHTML = items
     .map(([i, b, s]) => `<div><span class="ico">${ic(i)}</span><p><b>${b}</b><span>${esc(s)}</span></p></div>`).join("");
 }
 
@@ -290,7 +303,12 @@ function renderList() {
   const nq = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   let l = P().filter(p => p.cat === cat && (sub === "all" || p.sub === sub) && nq(`${pName(p)} ${p.sub}`).includes(nq(q)));
   const base = (a, b) => isOut(a) - isOut(b);
-  l.sort((a, b) => base(a, b) || (sort === "asc" ? (a.price ?? 1e9) - (b.price ?? 1e9) : sort === "desc" ? (b.price ?? -1) - (a.price ?? -1) : sort === "az" ? a.name.localeCompare(b.name) : (!!b.promo - !!a.promo) || (!!b.readyDelivery - !!a.readyDelivery)));
+  l.sort((a, b) => base(a, b) || (
+    sort === "asc" ? (a.price ?? 1e9) - (b.price ?? 1e9) :
+    sort === "desc" ? (b.price ?? -1) - (a.price ?? -1) :
+    sort === "az" ? a.name.localeCompare(b.name) :
+    ((a.sortOrder ?? 999) - (b.sortOrder ?? 999)) || (!!b.promo - !!a.promo) || (!!b.readyDelivery - !!a.readyDelivery)
+  ));
   $("#list").innerHTML = `<div class="grid">${l.length ? l.map((p, i) => {
     const out = isOut(p);
     const subLabel = esc(p.sub || (p.cat === 'shineray' ? 'MOTO' : 'ELÉTRICA'));

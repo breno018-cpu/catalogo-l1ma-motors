@@ -1,90 +1,361 @@
 [
   {
-    "type": "lowstock",
-    "id": "shineray-worker-125",
-    "text": "Últimas 2 unidade(s): Shineray WORKER 125",
-    "at": "2026-11-11T16:25:40.620Z"
+    "type": "update",
+    "text": "Ordem de 3 modelos atualizada",
+    "at": "2026-11-11T20:50:30.729Z"
   },
   {
     "type": "config",
     "id": "shineray-worker-125",
     "text": "Shineray WORKER 125 adicionado ao carrossel de destaque",
-    "at": "2026-11-11T16:25:40.603Z"
+    "at": "2026-11-11T20:50:30.718Z"
   },
   {
-    "type": "promo",
+    "type": "update",
     "id": "shineray-worker-125",
-    "text": "Promoção: Shineray WORKER 125 — R$ 500 OFF (válido até 31/12/2026)",
-    "at": "2026-11-11T16:25:40.594Z"
-  },
-  {
-    "type": "promo",
-    "text": "Inauguração Oficial L1MA Motors",
-    "at": "2026-11-11T13:41:17.037Z"
+    "text": "Descrição de Shineray WORKER 125 atualizada",
+    "at": "2026-11-11T20:50:30.706Z"
   },
   {
     "type": "update",
-    "id": "passion",
-    "text": "GOAT Passion foi atualizado",
-    "at": "2026-11-11T13:41:17.039Z"
+    "id": "shineray-worker-125",
+    "text": "Posição de Shineray WORKER 125 atualizada para #1",
+    "at": "2026-11-11T20:50:30.686Z"
   },
   {
     "type": "update",
-    "id": "quatro-e",
-    "text": "Lima Motors Quatro E foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-jet-50",
+    "text": "Shineray JET 50 foi atualizado",
+    "at": "2026-11-11T20:44:30.722Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-jet-50-2x",
+    "text": "Shineray JET 50 2X saiu do catálogo",
+    "at": "2026-11-11T20:44:21.022Z"
   },
   {
     "type": "update",
-    "id": "toky01",
-    "text": "Conduzzn Toky01 foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-shi-175",
+    "text": "Shineray SHI 175 foi atualizado",
+    "at": "2026-11-11T20:43:28.524Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sbm-600t",
+    "text": "Shineray SBM 600t ocultado do catálogo",
+    "at": "2026-11-11T20:43:22.873Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-shi-175s-efi",
+    "text": "Shineray SHI 175s EFI saiu do catálogo",
+    "at": "2026-11-11T20:43:20.402Z"
   },
   {
     "type": "update",
-    "id": "vegas",
-    "text": "Elétrica Vegas foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-shi-175s-efi",
+    "text": "Shineray SHI 175s EFI foi atualizado",
+    "at": "2026-11-11T20:43:15.123Z"
   },
   {
     "type": "update",
-    "id": "foston-x1",
-    "text": "Foston X1 foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-shi-175ss",
+    "text": "Shineray SHI 175ss foi atualizado",
+    "at": "2026-11-11T20:43:08.067Z"
   },
   {
     "type": "update",
-    "id": "quad-125",
-    "text": "Quadriciclo 125 cc foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-shi-250",
+    "text": "Shineray SHI 250 foi atualizado",
+    "at": "2026-11-11T20:43:00.232Z"
   },
   {
     "type": "update",
-    "id": "atv-200",
-    "text": "MXF ATV 200 foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
+    "id": "shineray-storm-200",
+    "text": "Shineray STORM 200 EFI foi atualizado",
+    "at": "2026-11-11T20:42:45.574Z"
   },
   {
     "type": "update",
-    "id": "kart",
-    "text": "Kart elétrico Kart para manobras foi atualizado",
-    "at": "2026-11-11T13:41:17.040Z"
-  },
-  {
-    "type": "config",
-    "text": "Condições da loja atualizadas",
-    "at": "2026-11-11T11:27:44.500Z"
-  },
-  {
-    "type": "lowstock",
-    "id": "passion",
-    "text": "Últimas 1 unidade(s): GOAT Passion",
-    "at": "2026-11-10T11:28:18.938Z"
+    "id": "shineray-sbm-400ss-2",
+    "text": "Shineray SBM 400ss foi atualizado",
+    "at": "2026-11-11T20:42:38.542Z"
   },
   {
     "type": "update",
-    "id": "passion",
-    "text": "Estoque de GOAT Passion atualizado",
-    "at": "2026-11-10T11:28:18.938Z"
+    "id": "shineray-sbm-250t",
+    "text": "Shineray SBM 250t foi atualizado",
+    "at": "2026-11-11T20:42:29.722Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-free-150",
+    "text": "Shineray FREE 150 ocultado do catálogo",
+    "at": "2026-11-11T20:37:33.259Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-sbm-150",
+    "text": "Shineray SBM 150s foi atualizado",
+    "at": "2026-11-11T20:37:28.897Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sbm-150",
+    "text": "Shineray SBM 150s ocultado do catálogo",
+    "at": "2026-11-11T20:37:22.695Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-shi-170-cs",
+    "text": "Shineray SHI 170 foi atualizado",
+    "at": "2026-11-11T20:37:19.101Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-jef-150",
+    "text": "Shineray JEF 150 saiu do catálogo",
+    "at": "2026-11-11T20:37:08.036Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-jef-170",
+    "text": "Shineray JEF 170 foi atualizado",
+    "at": "2026-11-11T20:37:01.528Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-jef-150s-efi",
+    "text": "Shineray JEF 150 foi atualizado",
+    "at": "2026-11-11T20:36:54.490Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-250f",
+    "text": "Shineray FLASH 250 foi atualizado",
+    "at": "2026-11-11T20:36:37.684Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-sbm-400",
+    "text": "Shineray SBM 400s foi atualizado",
+    "at": "2026-11-11T20:36:23.095Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-tlux",
+    "text": "Shineray TLUX saiu do catálogo",
+    "at": "2026-11-11T20:36:15.247Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sh4",
+    "text": "Shineray SH4 ocultado do catálogo",
+    "at": "2026-11-11T20:36:12.304Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sh3",
+    "text": "Shineray SH3 ocultado do catálogo",
+    "at": "2026-11-11T20:36:08.942Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-jet-125",
+    "text": "Shineray NEW JET 125 foi atualizado",
+    "at": "2026-11-11T20:36:06.517Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-rio-125-efi",
+    "text": "Shineray RIO 125 EFI foi atualizado",
+    "at": "2026-11-11T20:35:45.492Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-urban-lite",
+    "text": "Shineray URBAN LITE foi atualizado",
+    "at": "2026-11-11T20:35:27.905Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-jet-125ss-efi",
+    "text": "Shineray JET 125 foi atualizado",
+    "at": "2026-11-11T20:35:16.752Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-urban-150",
+    "text": "Shineray URBAN 150 EFI foi atualizado",
+    "at": "2026-11-11T20:35:03.891Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-ptxs",
+    "text": "Shineray PTXS ocultado do catálogo",
+    "at": "2026-11-11T20:34:46.805Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt-stand",
+    "text": "Shineray PT-STAND ocultado do catálogo",
+    "at": "2026-11-11T20:34:45.748Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt1",
+    "text": "Shineray PT1 ocultado do catálogo",
+    "at": "2026-11-11T20:34:44.723Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-ptxr",
+    "text": "Shineray PTXR ocultado do catálogo",
+    "at": "2026-11-11T20:34:42.604Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt1s",
+    "text": "Shineray PT1s ocultado do catálogo",
+    "at": "2026-11-11T20:34:41.468Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2xs",
+    "text": "Shineray PT2XS ocultado do catálogo",
+    "at": "2026-11-11T20:34:40.530Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2n",
+    "text": "Shineray PT2N ocultado do catálogo",
+    "at": "2026-11-11T20:34:38.613Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt4-pro",
+    "text": "Shineray PT4-PRO ocultado do catálogo",
+    "at": "2026-11-11T20:34:37.695Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2",
+    "text": "Shineray PT2 ocultado do catálogo",
+    "at": "2026-11-11T20:34:36.029Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3-m1",
+    "text": "Shineray PT3 M1 ocultado do catálogo",
+    "at": "2026-11-11T20:34:34.467Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3",
+    "text": "Shineray PT3 ocultado do catálogo",
+    "at": "2026-11-11T20:34:33.404Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3s",
+    "text": "Shineray PT3S ocultado do catálogo",
+    "at": "2026-11-11T20:34:32.384Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3-triciclo",
+    "text": "Shineray PT3 TRICICLO ocultado do catálogo",
+    "at": "2026-11-11T20:34:30.320Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt4-pro-s",
+    "text": "Shineray PT4-PRO S ocultado do catálogo",
+    "at": "2026-11-11T20:34:29.026Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-kart-200",
+    "text": "Shineray KART 200 foi atualizado",
+    "at": "2026-11-11T20:34:26.897Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-125",
+    "text": "Shineray ATV 125 ocultado do catálogo",
+    "at": "2026-11-11T20:34:19.462Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-125-efi",
+    "text": "Shineray ATV 125 EFI ocultado do catálogo",
+    "at": "2026-11-11T20:34:17.811Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-kart-125",
+    "text": "Shineray KART 125 ocultado do catálogo",
+    "at": "2026-11-11T20:34:15.333Z"
+  },
+  {
+    "type": "update",
+    "id": "shineray-atv-200",
+    "text": "Shineray ATV 200 foi atualizado",
+    "at": "2026-11-11T20:34:12.939Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-250",
+    "text": "Shineray ATV 250 ocultado do catálogo",
+    "at": "2026-11-11T20:34:04.227Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-kart-200s",
+    "text": "Shineray KART 200s ocultado do catálogo",
+    "at": "2026-11-11T20:34:02.969Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-200-efi",
+    "text": "Shineray ATV 200 EFI ocultado do catálogo",
+    "at": "2026-11-11T20:34:01.123Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-300",
+    "text": "Shineray ATV 300 ocultado do catálogo",
+    "at": "2026-11-11T20:33:58.964Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-atv-1000",
+    "text": "Shineray ATV 1000 ocultado do catálogo",
+    "at": "2026-11-11T20:33:56.426Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sbm-400rr",
+    "text": "Shineray SBM 400rr ocultado do catálogo",
+    "at": "2026-11-11T20:33:52.868Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sbm-600rc",
+    "text": "Shineray SBM 600rc ocultado do catálogo",
+    "at": "2026-11-11T20:33:51.395Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sbm-600rc-v2",
+    "text": "Shineray SBM 600rc v2 ocultado do catálogo",
+    "at": "2026-11-11T20:33:49.308Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-se1",
+    "text": "Shineray SE1 ocultado do catálogo",
+    "at": "2026-11-11T20:33:46.816Z"
   }
 ]
