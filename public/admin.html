@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>L1MA · Painel de Integração</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,system-ui,sans-serif;background:#f5f6f8;color:#16181b;padding:max(20px,env(safe-area-inset-top)) 16px 40px}
+h1{font-size:24px;font-weight:900}h1 i{color:#e10600;font-style:normal}h2{font-size:15px;margin-bottom:12px}
+.wrap{max-width:1200px;margin:auto;display:grid;gap:18px}
+.box{background:#fff;border:1px solid #e7e9ec;border-radius:16px;padding:18px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+input,select,textarea{font:inherit;font-size:15px;border:1.5px solid #e7e9ec;border-radius:10px;padding:9px 10px;outline:0;background:#fff;width:100%}
+input:focus{border-color:#0a6cff}
+button{font:inherit;font-weight:700;font-size:13px;border:0;border-radius:10px;padding:10px 14px;cursor:pointer;background:#0a0a0a;color:#fff;white-space:nowrap;transition:.15s}
+button:active{transform:scale(.95)}button.r{background:#e10600}button.g{background:#16a34a}button.o{background:#fff;color:#16181b;border:1.5px solid #e7e9ec}button.y{background:#ffb300;color:#000}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:8px 6px;border-bottom:1px solid #eee;text-align:left;vertical-align:middle}
+th{font-size:11px;color:#6b7178;text-transform:uppercase;letter-spacing:1px}
+td img{width:46px;height:46px;border-radius:8px;object-fit:cover}
+.scroll{overflow-x:auto}.row{display:flex;gap:6px;align-items:center}
+.n{width:80px}.p{width:110px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+label{font-size:12px;font-weight:700;color:#6b7178;display:grid;gap:4px}
+.log{font:12px/1.6 ui-monospace,monospace;max-height:260px;overflow:auto;background:#0a0a0a;color:#cfe;padding:12px;border-radius:10px;white-space:pre-wrap}
+.pill{font-size:11px;font-weight:800;padding:4px 8px;border-radius:6px;background:#eee}
+.pill.out{background:#d10000;color:#fff}.pill.low{background:#ffb300}
+code{background:#f0f1f3;padding:2px 6px;border-radius:5px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <div class="top"><div><h1>L<i>1</i>MA · Painel de Integração</h1><p style="color:#6b7178;font-size:13px">Simula o seu sistema central enviando dados para o catálogo em tempo real. Abra o catálogo em outra aba para ver as animações.</p></div>
+  <div class="row"><input id="tk" placeholder="Token de sincronização" style="width:220px"><a href="/" target="_blank"><button class="o">Abrir catálogo</button></a></div></div>
+
+ <div class="box"><h2>Estoque, preço e promoções</h2><div class="scroll"><table id="tb"></table></div></div>
+
+ <div class="grid2" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">
+  <div class="box"><h2>Campanha (banner com contagem regressiva)</h2>
+   <div class="grid2"><label>Título<input id="cpT" placeholder="Black Friday L1MA"></label><label>Termina em<input id="cpU" type="datetime-local"></label></div>
+   <label style="margin-top:10px">Texto<input id="cpX" placeholder="Condições especiais em toda a linha elétrica"></label>
+   <div class="row" style="margin-top:12px"><button class="g" onclick="campaign()">Publicar campanha</button><button class="o" onclick="send({action:'campaign',campaign:null})">Encerrar</button></div></div>
+
+  <div class="box"><h2>Configurações da loja</h2>
+   <div class="grid2"><label>WhatsApp (DDI+DDD+nº)<input id="cfW" placeholder="5511999999999"></label><label>Estoque baixo até<input id="cfL" type="number" min="0"></label><label>Máx. parcelas<input id="cfM" type="number" min="1" max="24"></label></div>
+   <label style="margin-top:10px">Taxas da maquininha % (1x,2x,3x… separadas por vírgula; vazio = não informar)<input id="cfR" placeholder="ex.: 3.15,5.39,6.12,..."></label>
+   <button style="margin-top:12px" onclick="saveCfg()">Salvar configurações</button></div>
+ </div>
+
+ <div class="box"><h2>Adicionar modelo ao catálogo</h2>
+  <div class="grid2">
+   <label>ID (único)<input id="aId" placeholder="honda-cg160-2022"></label>
+   <label>Catálogo<select id="aCat"><option value="ele">Elétricas</option><option value="semi">Semi-novos</option><option value="off">Off-road</option></select></label>
+   <label>Tipo<input id="aSub" placeholder="Street / Scooter / Quadriciclo"></label>
+   <label>Marca<input id="aBrand" placeholder="Honda"></label>
+   <label>Nome<input id="aName" placeholder="CG 160 Fan 2022"></label>
+   <label>Preço (vazio = consulta)<input id="aPrice" type="number"></label>
+   <label>Estoque<input id="aStock" type="number"></label>
+   <label>URL da foto<input id="aImg" placeholder="https://... ou assets/vegas-0.jpg"></label>
+  </div>
+  <label style="margin-top:10px">Descrição<input id="aDesc"></label>
+  <label style="margin-top:10px">Ficha técnica (valor:rótulo; separados por |)<input id="aSpecs" placeholder="160 cc:Cilindrada|2022:Ano|25.000 km:Quilometragem"></label>
+  <button class="g" style="margin-top:12px" onclick="addProd()">Adicionar ao catálogo</button></div>
+
+ <div class="box"><h2>Log de sincronização</h2><div class="log" id="log"></div></div>
+
+ <div class="box"><h2>Integração com o seu sistema</h2><p style="font-size:13px;line-height:1.7">Seu sistema envia <code>POST /api/sync</code> com cabeçalho <code>Authorization: Bearer TOKEN</code>. Exemplos:<br>
+  <code>{"action":"stock","id":"passion","value":0}</code> · <code>{"action":"price","id":"toky01","value":9990}</code> · <code>{"action":"promo","id":"vegas","promo":{"label":"10% OFF"}}</code><br>
+  Também aceita uma lista de operações em lote. Veja <code>INTEGRACAO.md</code>.</p></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);let D;
+$("#tk").value=localStorage.l1tk||"l1ma-dev-token";$("#tk").onchange=e=>localStorage.l1tk=e.target.value;
+const log=t=>{$("#log").textContent=`[${new Date().toLocaleTimeString()}] ${t}\n`+$("#log").textContent};
+async function load(){D=await (await fetch("/api/catalog")).json();render()}
+async function send(op){
+ const r=await fetch("/api/sync",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+$("#tk").value},body:JSON.stringify(op)});
+ const j=await r.json();log(JSON.stringify(op)+"\n  → "+(j.ok?"OK v"+j.version:"ERRO "+(j.error||JSON.stringify(j.errors))));await load();return j}
+function render(){
+ const c=D.config,low=c.lowStockThreshold??2;
+ $("#tb").innerHTML=`<tr><th></th><th>Modelo</th><th>Situação</th><th>Estoque</th><th>Preço</th><th>Promoção</th><th>Ações</th></tr>`+D.products.map(p=>`<tr style="${p.active===false?"opacity:.4":""}">
+  <td><img src="${p.photos?.length?`assets/${p.img}-0.jpg`:(p.image||"icon.svg")}"></td><td><b>${p.brand} ${p.name}</b><br><small>${p.id} · ${p.cat}</small></td>
+  <td>${p.stock===0?'<span class="pill out">ESGOTADO</span>':p.stock!=null&&p.stock<=low?'<span class="pill low">BAIXO</span>':'<span class="pill">OK</span>'}</td>
+  <td><div class="row"><input class="n" type="number" min="0" value="${p.stock??""}" placeholder="—" id="s-${p.id}"><button onclick="send({action:'stock',id:'${p.id}',value:$('#s-${p.id}').value===''?null:+$('#s-${p.id}').value})">OK</button><button class="r" onclick="send({action:'stock',id:'${p.id}',value:0})">Zerar</button></div></td>
+  <td><div class="row"><input class="p" type="number" value="${p.price??""}" placeholder="consulta" id="p-${p.id}"><button onclick="send({action:'price',id:'${p.id}',value:$('#p-${p.id}').value===''?null:+$('#p-${p.id}').value})">OK</button></div></td>
+  <td><div class="row"><input class="p" value="${p.promo?.label||""}" placeholder="ex.: 10% OFF" id="pr-${p.id}"><button class="y" onclick="send({action:'promo',id:'${p.id}',promo:$('#pr-${p.id}').value?{label:$('#pr-${p.id}').value}:null})">OK</button></div></td>
+  <td><div class="row"><button class="o" onclick="send({action:'active',id:'${p.id}',value:${p.active===false}})">${p.active===false?"Reativar":"Ocultar"}</button><button class="r" onclick="confirm('Remover ${p.name} definitivamente?')&&send({action:'remove',id:'${p.id}'})">Remover</button></div></td></tr>`).join("");
+ $("#cfW").value=c.whatsapp||"";$("#cfL").value=c.lowStockThreshold??2;$("#cfM").value=c.maxInstallments||21;$("#cfR").value=(c.installmentRates||[]).join(",");
+}
+function saveCfg(){const r=$("#cfR").value.trim();send({action:"config",config:{whatsapp:$("#cfW").value.replace(/\D/g,""),lowStockThreshold:+$("#cfL").value,maxInstallments:+$("#cfM").value,installmentRates:r?r.split(",").map(Number):null}})}
+function campaign(){if(!$("#cpT").value)return alert("Informe o título");send({action:"campaign",campaign:{title:$("#cpT").value,text:$("#cpX").value,until:$("#cpU").value?new Date($("#cpU").value).toISOString():null}})}
+function addProd(){const v=id=>$(id).value.trim();if(!v("#aId")||!v("#aName"))return alert("ID e nome são obrigatórios");
+ send({action:"upsert",product:{id:v("#aId"),cat:v("#aCat"),sub:v("#aSub")||"Moto",brand:v("#aBrand"),name:v("#aName"),price:v("#aPrice")?+v("#aPrice"):null,stock:v("#aStock")?+v("#aStock"):null,
+  image:v("#aImg")||"icon.svg",photos:[],desc:v("#aDesc"),installments:true,readyDelivery:true,feat:[],specs:v("#aSpecs")?v("#aSpecs").split("|").map(s=>s.split(":").map(x=>x.trim())):[]}})}
+load();
+</script>
+</body>
+</html>

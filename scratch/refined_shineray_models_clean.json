@@ -1,0 +1,4097 @@
+[
+  {
+    "id": "shineray-jet-50",
+    "name": "JET 50",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Ciclomotor",
+    "active": true,
+    "price": 11090,
+    "oldPrice": 12090,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-500x500-Principal.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/02-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/01-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-9.webp"
+    ],
+    "specs": [
+      [
+        "4 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "1 CV / 5.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-x.png"
+    ],
+    "video": "FlzFr5aDlDs"
+  },
+  {
+    "id": "shineray-phoenix-50-efi",
+    "name": "PHOENIX 50 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Ciclomotor",
+    "active": true,
+    "price": 9990,
+    "oldPrice": 10990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Phoenix-S-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Foto-Capa-PHOENIX-S-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-PARTIDA.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-RODAS.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-SUSPENSAO.webp"
+    ],
+    "specs": [
+      [
+        "6 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 8000 RPM",
+        "Potência"
+      ],
+      [
+        "Marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: Marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "rvPkg7DSvDY"
+  },
+  {
+    "id": "shineray-phoenix-50",
+    "name": "PHOENIX 50 S",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Ciclomotor",
+    "active": true,
+    "price": 8790,
+    "oldPrice": 9790,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/07/Phoenix-S.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/07/Galeria-01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/07/10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/07/Phoenix-S10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/07/Phoenix-S9.webp"
+    ],
+    "specs": [
+      [
+        "6 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "6 CV / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-01-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-02-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-03-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-04-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-05-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-06-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-07-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-08-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-09-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-10-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-11-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-12-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-13-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-14-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-15-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-16-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-17-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-18-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-19-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-20-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-21-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-22-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-23-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-24-scaled.webp"
+    ],
+    "video": "l6JdIPUgUuU"
+  },
+  {
+    "id": "shineray-denver-400-2",
+    "name": "DENVER 400",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 32890,
+    "oldPrice": 33890,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-Denver-400@1x_1.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/preto.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/preto-prata.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/preto-dourado.png"
+    ],
+    "specs": [
+      [
+        "3 cv/8500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "9 km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "tPsgm7BOY4Q"
+  },
+  {
+    "id": "shineray-sbm-600v",
+    "name": "SBM 600v",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 32890,
+    "oldPrice": 33890,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/Fotos.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/Galeria-SBM-600V.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/Item-de-Serie-Acessorios-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/SBM-600v-Cores-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/SBM-600v-Cores-2.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "7 CV / 10.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-x.webp"
+    ],
+    "video": "8JMnsvi_R70"
+  },
+  {
+    "id": "shineray-shi-400sc",
+    "name": "SHI 400sc",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 25990,
+    "oldPrice": 26990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Foto-Principal-SHI-400sc.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Cor-SHI-400sc-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-400sc-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-400sc-3-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-400sc-1-1.webp"
+    ],
+    "specs": [
+      [
+        "7 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 7000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "4L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-400sc-01-x.webp"
+    ],
+    "video": "o9GJ-vGV0NY"
+  },
+  {
+    "id": "shineray-sbm-600",
+    "name": "SBM 600",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 25490,
+    "oldPrice": 26490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600C-Home-Menu.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/Galeria-SBM-600C-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/Galeria-05-SBM-600C.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/Cores-SBM-600C-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/Cores-SBM-600C-4.webp"
+    ],
+    "specs": [
+      [
+        "4cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "1 CV / 10.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-02.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-06.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-07.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-08.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-09.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-11.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-12.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-13.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-14.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-15.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-16.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-17.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-18.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-19.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-20.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-21.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-22.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-23.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-24.webp"
+    ],
+    "video": "QhMXMzazk_k"
+  },
+  {
+    "id": "shineray-titanium",
+    "name": "TITANIUM",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 25490,
+    "oldPrice": 26490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Titanium-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-Titanium-04-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Titanium-3-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Titanium-2-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Titanium-1-4.webp"
+    ],
+    "specs": [
+      [
+        "2 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 8000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-x.webp"
+    ],
+    "video": "PcRuHFX2A80"
+  },
+  {
+    "id": "shineray-denver",
+    "name": "DENVER",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 25490,
+    "oldPrice": 26490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-1-8.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-2-8.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-3-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-4-6.webp"
+    ],
+    "specs": [
+      [
+        "2 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 8000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "7L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "LdAS55vDIKA"
+  },
+  {
+    "id": "shineray-iron",
+    "name": "IRON",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Custom",
+    "active": true,
+    "price": 21990,
+    "oldPrice": 22990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Iron.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-2-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-3-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-4-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-5-4.webp"
+    ],
+    "specs": [
+      [
+        "0 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "7 CV / 9000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "4L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-x.webp"
+    ],
+    "video": "nu_n-RPhO_k"
+  },
+  {
+    "id": "shineray-se2",
+    "name": "SE2",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Elétrica",
+    "active": true,
+    "price": 16990,
+    "oldPrice": 17990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Principal-SE2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/03-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/02-3-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/01-3-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SE2-Cor-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "0km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "6QhaF-cSaGU"
+  },
+  {
+    "id": "shineray-she-s",
+    "name": "SHE-S",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Elétrica",
+    "active": true,
+    "price": 16490,
+    "oldPrice": 17490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SHE-S.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SHE-S-Cores-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SHE-S-Cores-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SHE-S-Cores-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SHE-S-Cores-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "ziwWpwHtEqI"
+  },
+  {
+    "id": "shineray-se1",
+    "name": "SE1",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Elétrica",
+    "active": true,
+    "price": 15990,
+    "oldPrice": 16990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/SE1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/02-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/01-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Bateria-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Rodas-e-freios-1.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "9km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "X7AKNONR-zs"
+  },
+  {
+    "id": "shineray-sbm-600rc-v2",
+    "name": "SBM 600rc v2",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Esportiva",
+    "active": true,
+    "price": 49990,
+    "oldPrice": 50990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/SBM-600rc-v2-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-SBM-600rc2-v2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/Galeria-SBM-600rc-v2-3-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/Itens-de-Serie-SBM-600rc-v2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/Itens-de-Serie-SBM-600rc-v2-5.webp"
+    ],
+    "specs": [
+      [
+        "0cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 9.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "8L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_02.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_06.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_07.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_08.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_09.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_11.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_12.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_13.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_14.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_15.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_16.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_17.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_18.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_19.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_20.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_21.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_22.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_23.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-600rc_24.webp"
+    ],
+    "video": "k9Rj-0UDskw"
+  },
+  {
+    "id": "shineray-sbm-600rc",
+    "name": "SBM 600rc",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Esportiva",
+    "active": true,
+    "price": 49990,
+    "oldPrice": 50990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-600R-Home-e-Menu.png",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Banner-Principal-SBM-600R.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Cores-SBM-600R-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Cores-SBM-600R-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Motor-2.webp"
+    ],
+    "specs": [
+      [
+        "0cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "4 CV / 10.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "8L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-x.webp"
+    ],
+    "video": "HbhtExCZ38g"
+  },
+  {
+    "id": "shineray-sbm-400rr",
+    "name": "SBM 400rr",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Esportiva",
+    "active": true,
+    "price": 32890,
+    "oldPrice": 33890,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/Cor-SBM-400rr.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/Banner-SBM-400rr.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-Rodas-e-Freios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-Acessorios.webp"
+    ],
+    "specs": [
+      [
+        "0cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "6L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-x.webp"
+    ],
+    "video": "DcxNvsDr3Y0"
+  },
+  {
+    "id": "shineray-sbm-250s",
+    "name": "SBM 250s",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Esportiva",
+    "active": true,
+    "price": 22490,
+    "oldPrice": 23490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Home.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Amarelo.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-250s-3-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-250s-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-250s-1-1.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 9500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-x.webp"
+    ],
+    "video": "8Fw4Dun0ViU"
+  },
+  {
+    "id": "shineray-atv-1000",
+    "name": "ATV 1000",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 91990,
+    "oldPrice": 92990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-1000.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-3.webp"
+    ],
+    "specs": [
+      [
+        "8cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "7 cv / 7.250 rpm",
+        "Potência"
+      ],
+      [
+        "3 Nm / 6.250 rpm",
+        "Torque"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "jGQ4GyFxZi0"
+  },
+  {
+    "id": "shineray-atv-300",
+    "name": "ATV 300",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 39990,
+    "oldPrice": 40990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-300.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-3.webp"
+    ],
+    "specs": [
+      [
+        "5 cv / 7.000 rpm",
+        "Potência"
+      ],
+      [
+        "2 Nm / 5.500 rpm",
+        "Torque"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "4 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "ym2WInbRjpo"
+  },
+  {
+    "id": "shineray-atv-200-efi",
+    "name": "ATV 200 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 25490,
+    "oldPrice": 26490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-500x500-Principal.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-9-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-8-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-7-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-6-scaled.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "0 cv / 7.500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "Qjj0MFJ9x1g"
+  },
+  {
+    "id": "shineray-kart-200s",
+    "name": "KART 200s",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 24990,
+    "oldPrice": 25990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200s.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-1-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-3.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "0 cv / 7.500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "6 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "byB9IQ6x-Gs"
+  },
+  {
+    "id": "shineray-atv-250",
+    "name": "ATV 250",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 22990,
+    "oldPrice": 23990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/ATV-250.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Banner-Principal-ATV-250.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-ATV-250-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-ATV-250-9.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "2 cv / 7.500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "ohsdbOBB3D0"
+  },
+  {
+    "id": "shineray-atv-200",
+    "name": "ATV 200",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 22990,
+    "oldPrice": 23990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Banner-Principal-ATV-200.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200-COR-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200-COR-1-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie03-3.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "0 cv / 7.500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "33NMBWRSglA"
+  },
+  {
+    "id": "shineray-kart-125",
+    "name": "KART 125",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 16490,
+    "oldPrice": 17490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-125.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/9-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/2-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/1-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/1-1.webp"
+    ],
+    "specs": [
+      [
+        "0cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "2 cv / 7.500 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "cJuGKNGqzDc"
+  },
+  {
+    "id": "shineray-atv-125-efi",
+    "name": "ATV 125 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 14990,
+    "oldPrice": 15990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/ATV-125-EFI-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-9.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-8.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-7.webp"
+    ],
+    "specs": [
+      [
+        "0cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 cv / 8.000 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "nYn62ZHaVFY"
+  },
+  {
+    "id": "shineray-atv-125",
+    "name": "ATV 125",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 12990,
+    "oldPrice": 13990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/07/ATV-125.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/07/Itens-de-Serie-ATV-125-03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/07/Galeria-ATV-125-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/07/Galeria-ATV-125-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/07/Galeria-ATV-125-9.webp"
+    ],
+    "specs": [
+      [
+        "4cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 cv / 8.000 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "44d7zU3qcrc"
+  },
+  {
+    "id": "shineray-kart-200",
+    "name": "KART 200",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Off-Road",
+    "active": true,
+    "price": 9990,
+    "oldPrice": 10990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200-Cores-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/9.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/4.webp"
+    ],
+    "specs": [
+      [
+        "6cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 cv / 3.600 rpm",
+        "Potência"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "gvIMvuHDhjE"
+  },
+  {
+    "id": "shineray-pt4-pro-s",
+    "name": "PT4-PRO S",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 15990,
+    "oldPrice": 16990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/PT4-PRO-S.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT4-PRO-S04-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT4-PRO-S01-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/PT4-PRO-S-Galeria-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/PT4-PRO-S-Galeria-1.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5 km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "iDBczpjYtAQ"
+  },
+  {
+    "id": "shineray-pt3-triciclo",
+    "name": "PT3 TRICICLO",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 13590,
+    "oldPrice": 14590,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT3-Triciclo.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Galeria-pt3-triciclo-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Galeria-pt3-triciclo-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Galeria-pt3-triciclo-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/pt3-triciclo-Bateria.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "u9e1P_GsX7Q"
+  },
+  {
+    "id": "shineray-pt3s",
+    "name": "PT3S",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 12990,
+    "oldPrice": 13990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT3S.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie04-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT3s-7.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT3s-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT3s-5.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "qyTKRJ_2K_A"
+  },
+  {
+    "id": "shineray-pt3",
+    "name": "PT3",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 10990,
+    "oldPrice": 11990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT3-BATERIA-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT3-RODAS-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT3-PAINEL-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT3-MOTOR-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "0km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "2jwiDw1qyNc"
+  },
+  {
+    "id": "shineray-pt3-m1",
+    "name": "PT3 M1",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 10800,
+    "oldPrice": 11800,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/PT3-M1-Home.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Galeria-PT3-M1-01-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Itens-de-Serie-PT3-M1-4-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Itens-de-Serie-PT3-M1-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Itens-de-Serie-PT3-M1-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "2km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "dbR2YPP8TJA"
+  },
+  {
+    "id": "shineray-pt2n",
+    "name": "PT2N",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 10800,
+    "oldPrice": 11800,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/PT2N-Home.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Suspensao.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Rodas-e-freios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Motor.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Bateria.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "2km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "RHDRDOhn-9E"
+  },
+  {
+    "id": "shineray-pt4-pro",
+    "name": "PT4-PRO",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 9990,
+    "oldPrice": 10990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/500x500-Vers2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT4-PRO-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Itens-de-Serie-PT4-PRO-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Galeria-PT4-PRO-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/Galeria-PT4-PRO-1.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "kWN6Qfid-0A"
+  },
+  {
+    "id": "shineray-pt2",
+    "name": "PT2",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 9990,
+    "oldPrice": 10990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT2-7.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT2-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT2-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PT2-4.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "0km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "YUTK6v-M4ck"
+  },
+  {
+    "id": "shineray-pt2xs",
+    "name": "PT2XS",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 7290,
+    "oldPrice": 8290,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/500x500-PT2XS.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT2XS-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT2XS-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT2XS-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-PT2XS-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "7wZ3QL2aLaE"
+  },
+  {
+    "id": "shineray-pt1s",
+    "name": "PT1s",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 6990,
+    "oldPrice": 7990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/500x500-PT1s.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Cor-PT1s-1-preto.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Cor-PT1s-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-PT1s-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-PT1s-5.webp"
+    ],
+    "specs": [
+      [
+        "n",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "2km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "YK-lZ5YUfe0"
+  },
+  {
+    "id": "shineray-ptxr",
+    "name": "PTXR",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 6990,
+    "oldPrice": 7990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PTXR.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PTXR-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PTXR-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PTXR-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/COR-PTXR-1.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "ulW6TFQ19xE"
+  },
+  {
+    "id": "shineray-pt1",
+    "name": "PT1",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 6790,
+    "oldPrice": 7790,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT1-Cores-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT1-Cores-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT1-Cores-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/06/PT1-Cores-2.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "2km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "0m7D3MDRPoI"
+  },
+  {
+    "id": "shineray-pt-stand",
+    "name": "PT-STAND",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 5990,
+    "oldPrice": 6990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/10/PT-STAND.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/10/AnyConv.com__@oricardohenri-2-5-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/10/AnyConv.com__Itens-de-Serie04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/10/AnyConv.com__Itens-de-Serie05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/10/AnyConv.com__Itens-de-Serie03.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "jSX4jFugKm8"
+  },
+  {
+    "id": "shineray-ptxs",
+    "name": "PTXS",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Patinete",
+    "active": true,
+    "price": 5390,
+    "oldPrice": 6390,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/03/PTXS-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/03/Banner-Principal-PTXS.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/03/Galeria-PTXS-6-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/03/Galeria-PTXS-5-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/03/Galeria-PTXS-4-scaled.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "eq7vCZVmy70"
+  },
+  {
+    "id": "shineray-urban-150",
+    "name": "URBAN 150",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 20990,
+    "oldPrice": 21990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/URBAN-150-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-URBAN-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-URBAN-1-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/URBAN-150-ROXA.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Rodas-e-Freios.webp"
+    ],
+    "specs": [
+      [
+        "9 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 cv / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "Automático",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: Automático",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_02.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_06.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_07.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_08.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_09.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_11.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_12.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_13.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_14.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_15.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_16.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_17.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_18.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_19.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_20.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_21.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_22.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_23.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_24.webp"
+    ],
+    "video": "CP7pHieXSdo"
+  },
+  {
+    "id": "shineray-jet-125ss-efi",
+    "name": "JET 125 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 13490,
+    "oldPrice": 14490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/500x500-JET-125-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-serie-JET-125-EFI-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-JET-125-EFI-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-JET-125-EFI-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-JET-125-EFI-3.webp"
+    ],
+    "specs": [
+      [
+        "7 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 cv / 7.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-x.webp"
+    ],
+    "video": "XtXGbtz0WIs"
+  },
+  {
+    "id": "shineray-urban-lite",
+    "name": "URBAN LITE",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 12490,
+    "oldPrice": 13490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-LITE-MENU.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/10-1-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/09-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/08-2-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/07-1-scaled.webp"
+    ],
+    "specs": [
+      [
+        "8 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 cv / 7500 RPM",
+        "Potência"
+      ],
+      [
+        "CVT",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "8L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: CVT",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-x.webp"
+    ],
+    "video": "sH9StImEoEo"
+  },
+  {
+    "id": "shineray-rio-125-efi",
+    "name": "RIO 125 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 11990,
+    "oldPrice": 12990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2023/12/Home-RIO-125-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/12/Cor-RIO-125-EFI-preta.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/12/Itens-de-Serie-RIO-125-EFI-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/12/Itens-de-Serie-RIO-125-EFI-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/12/Itens-de-Serie-RIO-125-EFI-3.webp"
+    ],
+    "specs": [
+      [
+        "7 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "8 CV / 8000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "5EVzFzM7Yck"
+  },
+  {
+    "id": "shineray-jet-125",
+    "name": "JET 125",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 11490,
+    "oldPrice": 12490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-MENU.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-7.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-4.webp"
+    ],
+    "specs": [
+      [
+        "7 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 7.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-x.webp"
+    ],
+    "video": "bnt1FeZ1d5Y"
+  },
+  {
+    "id": "shineray-sh3",
+    "name": "SH3",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 10990,
+    "oldPrice": 11990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/02/SH3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/02/SH3-Cor-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/02/Galeria-SH3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/02/Galeria-SH3-9.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/02/Galeria-SH3-8.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "5km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "fEZpdOg6snM"
+  },
+  {
+    "id": "shineray-sh4",
+    "name": "SH4",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Scooter",
+    "active": true,
+    "price": 8990,
+    "oldPrice": 9990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/03/SH4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/03/sh4-Bateria.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/03/sh4-Rodas-e-Freios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/03/sh4-Painel-Digital.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/03/sh4-Acessorios.webp"
+    ],
+    "specs": [
+      [
+        "",
+        "Freios"
+      ],
+      [
+        "0km",
+        "Autonomia"
+      ],
+      [
+        "5km/h",
+        "Velocidade Máx."
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "sRBPs4a0HFA"
+  },
+  {
+    "id": "shineray-tlux-2",
+    "name": "TLUX",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 111990,
+    "oldPrice": 112990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/TLUX-Novo.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-Suspensao.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-Assessorios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-Cacamba.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/Itens-de-Serie-Freios.webp"
+    ],
+    "specs": [
+      [
+        "3cv",
+        "Potência"
+      ],
+      [
+        "4 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "L-h6D_mDj6w"
+  },
+  {
+    "id": "shineray-tlux",
+    "name": "TLUX",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 111990,
+    "oldPrice": 112990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/01/TLUX-Novo.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-Suspensao.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-Assessorios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-Cacamba.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/09/Itens-de-Serie-Freios-1.webp"
+    ],
+    "specs": [
+      [
+        "3cv",
+        "Potência"
+      ],
+      [
+        "4 litros",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão",
+      "Vídeo oficial de apresentação Shineray"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "L-h6D_mDj6w"
+  },
+  {
+    "id": "shineray-sbm-400",
+    "name": "SBM 400s",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 32890,
+    "oldPrice": 33890,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-400s-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-7.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-9.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-8.webp"
+    ],
+    "specs": [
+      [
+        "3cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "6 CV / 9.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SBM-400s-01-x.webp"
+    ],
+    "video": "3LWzW03VFsI"
+  },
+  {
+    "id": "shineray-250f",
+    "name": "250F",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 20590,
+    "oldPrice": 21590,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/250F.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-05-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-04-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-03-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/12/GALERIA-250F-1-1.webp"
+    ],
+    "specs": [
+      [
+        "2cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 9500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "1uazzlNGq-E"
+  },
+  {
+    "id": "shineray-jef-150s-efi",
+    "name": "JEF 150s EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 15990,
+    "oldPrice": 16990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150s-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/02/ITENS-DE-SERIE-JEF-150S-EFI-04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/02/ITENS-DE-SERIE-JEF-150S-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/02/07.webp"
+    ],
+    "specs": [
+      [
+        "9 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 7.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "ngexK-6wBKc"
+  },
+  {
+    "id": "shineray-jef-170",
+    "name": "JEF 170",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 15390,
+    "oldPrice": 16390,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/06/JEF-170-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/06/01-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/06/Itens-de-Serie-JEF-170-4-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/06/Itens-de-Serie-JEF-170-3-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/06/Itens-de-Serie-JEF-170-1-1.webp"
+    ],
+    "specs": [
+      [
+        "0 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 8.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "t2n1Wj24ZDA"
+  },
+  {
+    "id": "shineray-jef-150",
+    "name": "JEF 150",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 14790,
+    "oldPrice": 15790,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/JEF-150-Menu.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/Cor-JEF-150-05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/JEF-150-Rodas-e-Freios-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/JEF-150-Acessorios-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2023/08/JEF-150-Iluminacao-1.webp"
+    ],
+    "specs": [
+      [
+        "8 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 7.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-JEF-150-x-scaled.webp"
+    ],
+    "video": "lntfM4BTstE"
+  },
+  {
+    "id": "shineray-shi-170-cs",
+    "name": "SHI 170 CS",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 13490,
+    "oldPrice": 14490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-Menu-SHI-170.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-9-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-8-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-4.webp"
+    ],
+    "specs": [
+      [
+        "0 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "9 CV / 8.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-x.webp"
+    ],
+    "video": "6c1ze1DGwyY"
+  },
+  {
+    "id": "shineray-sbm-150",
+    "name": "SBM 150s",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 13490,
+    "oldPrice": 14490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-Home-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/01-5-scaled.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Rodas.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Acessorios-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Cor-SBM-150-Cor-2.webp"
+    ],
+    "specs": [
+      [
+        "5cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "4 CV / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-360-01-x.webp"
+    ],
+    "video": "Lqnio1Vw2zE"
+  },
+  {
+    "id": "shineray-free-150",
+    "name": "FREE 150",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Street",
+    "active": true,
+    "price": 12990,
+    "oldPrice": 13990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-EFI.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-Cinza.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie-Acessorios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-FREE-150-10-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-FREE-150-9-1.webp"
+    ],
+    "specs": [
+      [
+        "9 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "6 cv / 8.500 rpm",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "SEebxVqolME"
+  },
+  {
+    "id": "shineray-sbm-250t",
+    "name": "SBM 250t",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 21590,
+    "oldPrice": 22590,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/500X500.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/04-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/09-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/08-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/05-1.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "8CV / 9.000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-x.webp"
+    ],
+    "video": "72uChYjqbrU"
+  },
+  {
+    "id": "shineray-sbm-400ss-2",
+    "name": "SBM 400ss",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 21590,
+    "oldPrice": 22590,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-400ss-Home.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Cor-SBM-400ss-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Galeria-SBM-400ss-3-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Galeria-SBM-400ss-2-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/01/Galeria-SBM-400ss-1-1.webp"
+    ],
+    "specs": [
+      [
+        "8 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "5 CV / 9.500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "9L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/03/360-SBM-400ss-01-x.webp"
+    ],
+    "video": "dIkqpEDDjxU"
+  },
+  {
+    "id": "shineray-storm-200",
+    "name": "STORM 200 EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 21590,
+    "oldPrice": 22590,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-7.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-4.webp"
+    ],
+    "specs": [
+      [
+        "1cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "4 CV / 9000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "3L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-02.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-06.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-07.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-08.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-09.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-11.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-12.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-13.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-14.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-15.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-16.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-17.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-18.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-19.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-20.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-21.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-22.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-23.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-24.webp"
+    ],
+    "video": "qVYPuIwMrJ4"
+  },
+  {
+    "id": "shineray-shi-250",
+    "name": "SHI 250",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 21490,
+    "oldPrice": 22490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/04/Miniatura-SHI-250.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI250-Cores.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI-250.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI-COR-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI-COR-1.webp"
+    ],
+    "specs": [
+      [
+        "9cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 CV / 8000 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "8L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "dYrPSaA4fQI"
+  },
+  {
+    "id": "shineray-shi-175ss",
+    "name": "SHI 175ss",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 17990,
+    "oldPrice": 18990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Home.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Cores-6.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Galeria-SHI-175ss-6-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Cores-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/09/Itens-de-Serie-SHI-175ss-3.webp"
+    ],
+    "specs": [
+      [
+        "6 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 CV / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "2L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": null,
+    "video": "1Y598CuK7kg"
+  },
+  {
+    "id": "shineray-shi-175s-efi",
+    "name": "SHI 175s EFI",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 17990,
+    "oldPrice": 18990,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/SHI-175s-EFI-500x500-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Cores-SHI-175s-1.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Cores-SHI-175s-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie-SHI-175s-5.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie-SHI-175s-4.webp"
+    ],
+    "specs": [
+      [
+        "1 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 CV / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SHI-175s-EFI-x.webp"
+    ],
+    "video": "owWaam5AZCY"
+  },
+  {
+    "id": "shineray-shi-175",
+    "name": "SHI 175",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 16490,
+    "oldPrice": 17490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Automóveis\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Automóveis\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tMinitruck\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tTLUX\nDT",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-SHI-175.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-2.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-1.webp"
+    ],
+    "specs": [
+      [
+        "1 cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "3 CV / 8500 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "5L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-x.webp"
+    ],
+    "video": "iZZSooND1R0"
+  },
+  {
+    "id": "shineray-sbm-600t",
+    "name": "SBM 600t",
+    "brand": "Shineray",
+    "cat": "shineray",
+    "sub": "Trail",
+    "active": true,
+    "price": 16490,
+    "oldPrice": 17490,
+    "installments": true,
+    "readyDelivery": true,
+    "stock": 4,
+    "desc": "Motos\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFechar Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbrir Motos\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\tSBM 150s\nSBM 250s\nSBM 400s\nSBM 400ss\nSBM 400rr\nSBM 600v\n",
+    "photos": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Home-e-Menu-SBM-600-Trail.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/Itens-de-serie-Acessorios.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Cores-SBM-600-TRAIL-3.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Cores-SBM-600-TRAIL-4.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/10/Cores-SBM-600-TRAIL-2.webp"
+    ],
+    "specs": [
+      [
+        "4cc",
+        "Motor / Cilindrada"
+      ],
+      [
+        "6 CV /8.250 RPM",
+        "Potência"
+      ],
+      [
+        "marchas",
+        "Câmbio"
+      ],
+      [
+        "",
+        "Partida"
+      ],
+      [
+        "0L",
+        "Tanque"
+      ],
+      [
+        "",
+        "Freios"
+      ]
+    ],
+    "feat": [
+      "Câmbio: marchas",
+      "Garantia de fábrica Shineray do Brasil",
+      "Pronta entrega na L1MA Motors",
+      "Aceitamos sua moto usada como entrada",
+      "Financiamento facilitado em até 21x no cartão"
+    ],
+    "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
+    "rotation360": [
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-01.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-02.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-03.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-04.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-05.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-06.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-07.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-08.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-09.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-10.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-11.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-12.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-13.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-14.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-15.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-16.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-17.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-18.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-19.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-20.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-21.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-22.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-23.webp",
+      "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600-360-TRAIL-24.webp"
+    ],
+    "video": "bzc45jd7vL0"
+  }
+]

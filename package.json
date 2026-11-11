@@ -1,0 +1,20 @@
+{
+  "name": "catalogo-l1ma-motors",
+  "version": "1.0.0",
+  "description": "Catálogo digital ao vivo e em tempo real para a L1MA Motors Multimarcas e Concessionária Shineray",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "catalogo",
+    "shineray",
+    "motos",
+    "l1ma-motors",
+    "realtime",
+    "sse"
+  ],
+  "author": "L1MA Motors",
+  "license": "ISC"
+}

@@ -1,0 +1,403 @@
+// L1MA Motors — servidor do catálogo + API de integração + IA
+// Sem dependências: `node server.js`
+// Variáveis de ambiente:
+//   PORT=5173               porta HTTP
+//   SYNC_TOKEN=xxxx         token que o sistema central usa para enviar alterações
+//   GEMINI_API_KEY=xxxx     (opcional) ativa a IA generativa; sem ela a IA usa o motor local
+const http = require("http");
+const fs = require("fs");
+const path = require("path");
+
+const PORT = +process.env.PORT || 5173;
+const TOKEN = process.env.SYNC_TOKEN || "l1ma-dev-token";
+const GEMINI = process.env.GEMINI_API_KEY || "";
+const ROOT = __dirname;
+const PUB = path.join(ROOT, "public");
+const F = { cat: path.join(ROOT, "data/catalog.json"), cfg: path.join(ROOT, "data/config.json"), ev: path.join(ROOT, "data/events.json") };
+
+const read = (f, d) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return d; } };
+const write = (f, o) => fs.writeFileSync(f, JSON.stringify(o, null, 2));
+let catalog = read(F.cat, { version: 1, products: [] });
+let config = read(F.cfg, {});
+let events = read(F.ev, []);
+
+/* snapshot estático: permite abrir o catálogo sem servidor (file:// ou hospedagem estática) */
+function snapshot() { fs.writeFileSync(path.join(PUB, "catalog.js"), "window.CATALOG=" + JSON.stringify({ ...catalog, config }) + ";"); }
+snapshot();
+
+/* ---------- SSE ---------- */
+const clients = new Set();
+function broadcast(evts) {
+  const msg = `data: ${JSON.stringify({ version: catalog.version, events: evts })}\n\n`;
+  for (const c of clients) c.write(msg);
+}
+
+/* ---------- regras de sincronização ---------- */
+const CATS = ["ele", "semi", "off", "shineray"];
+function applyOp(op) {
+  const P = catalog.products;
+  const find = id => P.find(p => p.id === id);
+  const need = id => { const p = find(id); if (!p) throw new Error(`produto '${id}' não existe`); return p; };
+  const name = p => `${p.brand || ''} ${p.name || ''}`.trim();
+  switch (op.action) {
+    case "upsert": {
+      const d = op.product || op.data; if (!d?.id) throw new Error("product.id obrigatório");
+      if (d.cat && !CATS.includes(d.cat)) throw new Error("cat deve ser ele|semi|off|shineray");
+      const p = find(d.id);
+      if (p) { Object.assign(p, d); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
+      P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, ...d });
+      return { type: "new", id: d.id, text: `Novidade no catálogo: ${name(d)}` };
+    }
+    case "remove": {
+      const p = need(op.id); catalog.products = P.filter(x => x !== p);
+      return { type: "remove", id: op.id, text: `${name(p)} saiu do catálogo` };
+    }
+    // 1. VISIBILIDADE / MODELOS QUE APARECEM
+    case "active":
+    case "visibility": {
+      const p = need(op.id);
+      const isVisible = op.value !== undefined ? !!op.value : (op.active !== undefined ? !!op.active : true);
+      p.active = isVisible;
+      return { type: isVisible ? "new" : "remove", id: p.id, text: `${name(p)} ${isVisible ? "visível no catálogo" : "ocultado do catálogo"}` };
+    }
+    // 2. ESTOQUE (disponível, esgotado, quantidade)
+    case "stock": {
+      const p = need(op.id); const prev = p.stock;
+      let newStock = null;
+      if (op.inStock === false) {
+        newStock = 0;
+      } else if (op.inStock === true && (p.stock === 0 || p.stock === null)) {
+        newStock = op.value ?? op.stock ?? 3;
+      } else if (op.value !== undefined) {
+        newStock = op.value === null ? null : Math.max(0, +op.value);
+      } else if (op.stock !== undefined) {
+        newStock = op.stock === null ? null : Math.max(0, +op.stock);
+      }
+      p.stock = newStock;
+      if (op.readyDelivery !== undefined) p.readyDelivery = !!op.readyDelivery;
+
+      const low = config.lowStockThreshold ?? 2;
+      if (p.stock === 0) return { type: "soldout", id: p.id, text: `${name(p)} esgotado` };
+      if (prev === 0 && p.stock > 0) return { type: "restock", id: p.id, text: `${name(p)} de volta ao estoque!` };
+      if (p.stock !== null && p.stock <= low) return { type: "lowstock", id: p.id, text: `Últimas ${p.stock} unidade(s): ${name(p)}` };
+      return { type: "update", id: p.id, text: `Estoque de ${name(p)}: ${p.stock === null ? 'Pronta entrega' : p.stock + ' un'}` };
+    }
+    // 3. VALORES (preço, de/por, parcelas)
+    case "price": {
+      const p = need(op.id); const old = p.price;
+      const newPrice = op.price !== undefined ? (op.price === null ? null : +op.price) : (op.value === null ? null : +op.value);
+      p.price = newPrice;
+      if (op.oldPrice !== undefined) {
+        p.oldPrice = op.oldPrice === null ? null : +op.oldPrice;
+      } else if (old && p.price && p.price < old) {
+        p.oldPrice = old;
+      } else if (!op.keepOld && !p.promo) {
+        p.oldPrice = null;
+      }
+      if (op.installments !== undefined) p.installments = !!op.installments;
+      const isDrop = p.price && old && p.price < old;
+      const t = isDrop ? "pricedown" : "price";
+      return { type: t, id: p.id, text: isDrop ? `Baixou! ${name(p)} agora por R$ ${p.price.toLocaleString("pt-BR")}` : `Preço atualizado: ${name(p)} R$ ${p.price ? p.price.toLocaleString("pt-BR") : 'Sob consulta'}` };
+    }
+    // 4. PROMOÇÃO (se está ou não e até quanto)
+    case "promo": {
+      const p = need(op.id);
+      if (op.active === false || op.promo === null) {
+        p.promo = null;
+        if (p.oldPrice && !op.keepOldPrice) {
+          p.price = p.oldPrice;
+          p.oldPrice = null;
+        }
+        return { type: "update", id: p.id, text: `Promoção encerrada: ${name(p)}` };
+      }
+      const promoObj = typeof op.promo === 'object' && op.promo !== null ? op.promo : {};
+      const label = op.label || promoObj.label || (op.discount ? `R$ ${(+op.discount).toLocaleString("pt-BR")} OFF` : "Oferta Especial");
+      const until = op.until || promoObj.until || null;
+      const discount = op.discount || promoObj.discount || null;
+      p.promo = { label, until, discount: discount ? +discount : null, active: true };
+      if (op.price !== undefined) {
+        if (!p.oldPrice && p.price) p.oldPrice = p.price;
+        p.price = +op.price;
+      } else if (discount && p.price && !p.oldPrice) {
+        p.oldPrice = p.price;
+        p.price = Math.max(0, p.price - discount);
+      }
+      if (op.oldPrice !== undefined) p.oldPrice = +op.oldPrice;
+      const untilText = until ? ` (válido até ${until})` : '';
+      return { type: "promo", id: p.id, text: `Promoção: ${name(p)} — ${label}${untilText}` };
+    }
+    // 5. CARROSSEL (Hero)
+    case "hero": {
+      const p = need(op.id);
+      const isFeatured = op.featured !== undefined ? !!op.featured : (op.value !== undefined ? !!op.value : true);
+      p.featuredHero = isFeatured;
+      if (op.order !== undefined) p.heroOrder = +op.order;
+      return { type: "config", id: p.id, text: `${name(p)} ${isFeatured ? 'adicionado ao carrossel de destaque' : 'removido do carrossel'}` };
+    }
+    case "hero_list": {
+      const ids = Array.isArray(op.ids) ? op.ids : [];
+      P.forEach(p => {
+        const idx = ids.indexOf(p.id);
+        if (idx !== -1) {
+          p.featuredHero = true;
+          p.heroOrder = idx + 1;
+        } else {
+          p.featuredHero = false;
+        }
+      });
+      config.heroIds = ids;
+      write(F.cfg, config);
+      return { type: "config", text: `Carrossel atualizado com ${ids.length} modelos selecionados` };
+    }
+    case "config": { Object.assign(config, op.config || {}); write(F.cfg, config); return { type: "config", text: "Condições da loja atualizadas" }; }
+    case "campaign": { config.campaign = op.campaign || null; write(F.cfg, config); return { type: config.campaign ? "promo" : "config", text: config.campaign ? config.campaign.title : "Campanha encerrada" }; }
+    default: throw new Error(`ação desconhecida: ${op.action}`);
+  }
+}
+function sync(ops) {
+  const list = Array.isArray(ops) ? ops : [ops];
+  const out = [], errors = [];
+  for (const op of list) { try { out.push({ ...applyOp(op), at: new Date().toISOString() }); } catch (e) { errors.push({ op, error: e.message }); } }
+  if (out.length) {
+    catalog.version++; catalog.updatedAt = new Date().toISOString(); write(F.cat, catalog);
+    events = [...out, ...events].slice(0, 60); write(F.ev, events); snapshot(); broadcast(out);
+  }
+  return { ok: !errors.length, version: catalog.version, applied: out, errors };
+}
+
+/* ---------- IA ---------- */
+const brl = v => "R$ " + v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const live = () => catalog.products.filter(p => p.active !== false);
+const label = { ele: "Elétricas", semi: "Semi-novos", off: "Off-road", shineray: "Shineray L1MA Motors" };
+const status = p => p.stock === 0 ? "esgotado" : p.stock != null && p.stock <= (config.lowStockThreshold ?? 2) ? `últimas ${p.stock} unidades` : "disponível";
+const priceTxt = p => p.price ? brl(p.price) + (p.oldPrice ? ` (antes ${brl(p.oldPrice)})` : "") : "preço sob consulta";
+function parcela(v, n) { const r = config.installmentRates?.[n - 1]; return r != null ? v * (1 + r / 100) / n : v / n; }
+
+function localAI(msg) {
+  const m = norm(msg), L = live();
+  const mw = m.split(/[^a-z0-9]+/).filter(w => w.length >= 3 && !["tem","qual","das","dos","the","para","com","uma"].includes(w));
+  const pw = p => norm(`${p.name} ${p.id}`).split(/[^a-z0-9]+/).filter(w => w.length >= 2 && !["eletrica","cc"].includes(w));
+  const hit = L.filter(p => m.includes(norm(p.name)) || pw(p).some(w => mw.some(x => w.startsWith(x) || (w.length >= 3 && x.startsWith(w)))));
+  const cards = [];
+  const n = (m.match(/(\d{1,2})\s*x/) || [])[1];
+  if (/^(oi|ola|bom dia|boa tarde|boa noite|eai|hey)/.test(m)) return { text: "Olá! Sou a **L1MA IA**, assistente da L1MA Motors. Posso te mostrar modelos, preços, estoque, promoções e simular parcelas. O que você procura?", suggest: ["Mais barata", "Promoções", "Off-road", "Simular 12x Passion"] };
+  if (hit.length && n) {
+    const p = hit[0]; if (!p.price) return { text: `A ${p.brand} ${p.name} está com preço sob consulta. Fale com um consultor no WhatsApp.`, cards: [p.id] };
+    const k = Math.min(+n, config.maxInstallments || 21);
+    const v = parcela(p.price, k); const fee = config.installmentRates ? "com taxa da maquininha inclusa (estimativa)" : "valor base, sem a taxa da maquininha — o acréscimo é confirmado na loja";
+    return { text: `**${p.brand} ${p.name}** — ${brl(p.price)} à vista.\nEm **${k}x**: ${brl(v)} por mês (${fee}).`, cards: [p.id], suggest: ["Simular 21x " + p.name, "Tem estoque?"] };
+  }
+  if (/promo|oferta|desconto|baix/.test(m)) {
+    const pr = L.filter(p => p.promo || p.oldPrice);
+    const c = config.campaign ? `Campanha ativa: **${config.campaign.title}**. ` : "";
+    return pr.length ? { text: c + "Promoções ativas agora:\n" + pr.map(p => `• ${p.brand} ${p.name}: ${priceTxt(p)}${p.promo ? " — " + p.promo.label : ""}`).join("\n"), cards: pr.map(p => p.id) }
+      : { text: c + "No momento não há promoções cadastradas pelo sistema da loja. Assim que surgir uma, ela aparece aqui em tempo real!", suggest: ["Mais barata", "Disponíveis"] };
+  }
+  if (/estoque|disponiv|pronta|tem a|tem o/.test(m)) {
+    const list = hit.length ? hit : L;
+    return { text: list.map(p => `• ${p.brand} ${p.name}: ${status(p)}`).join("\n"), cards: hit.map(p => p.id) };
+  }
+  if (/barat|menor preco|economic|em conta/.test(m)) {
+    const s = L.filter(p => p.price && p.stock !== 0).sort((a, b) => a.price - b.price).slice(0, 3);
+    return { text: "As opções mais em conta hoje:\n" + s.map(p => `• ${p.brand} ${p.name} — ${brl(p.price)}`).join("\n"), cards: s.map(p => p.id) };
+  }
+  if (/car[ao]|top|melhor|potent/.test(m)) {
+    const s = L.filter(p => p.price).sort((a, b) => b.price - a.price).slice(0, 3);
+    return { text: "Nossos modelos top:\n" + s.map(p => `• ${p.brand} ${p.name} — ${brl(p.price)}`).join("\n"), cards: s.map(p => p.id) };
+  }
+  for (const [k, v] of Object.entries({ off: /off|quadri|trilha|kart|drift|atv/, ele: /eletric|scooter|bateria|autonomia/, semi: /semi|usad|seminov|troca/ })) {
+    if (v.test(m) && hit.length !== 1) {
+      const s = L.filter(p => p.cat === k);
+      if (!s.length) return { text: k === "semi" ? "Nosso estoque de semi-novos está chegando! Enquanto isso, avaliamos sua moto como entrada — use o formulário na aba Semi-novos." : "Nenhum modelo nessa categoria agora." };
+      return { text: `${label[k]} disponíveis:\n` + s.map(p => `• ${p.brand} ${p.name} — ${priceTxt(p)}`).join("\n"), cards: s.map(p => p.id) };
+    }
+  }
+  if (/infantil|crianca|filho/.test(m)) { const s = L.filter(p => p.sub === "Infantil" || ["kart", "drift"].includes(p.id)); return { text: "Para a criançada:\n" + s.map(p => `• ${p.brand} ${p.name} — ${priceTxt(p)}`).join("\n"), cards: s.map(p => p.id) }; }
+  if (hit.length) {
+    const p = hit[0];
+    return { text: `**${p.brand} ${p.name}** — ${priceTxt(p)} · ${status(p)}\n${p.desc}\n\n` + p.specs.map(s => `• ${s[1]}: ${s[0]}`).join("\n"), cards: [p.id], suggest: [`Simular 12x ${p.name}`, "Falar com consultor"] };
+  }
+  if (/parcel|cartao|vezes|financ|simul/.test(m)) return { text: `Parcelamos em até ${config.maxInstallments || 21}x no cartão (com acréscimo da taxa da maquininha). Diga o modelo e as parcelas, ex.: "12x Passion".`, suggest: ["12x Passion", "21x Toky01"] };
+  if (/whats|contato|telefone|endereco|loja|atendente|consultor|humano/.test(m)) return { text: "Claro! Toque em **Falar no WhatsApp** que um consultor da L1MA te atende.", action: "whatsapp" };
+  return { text: "Posso ajudar com modelos, preços, estoque, promoções e simulação de parcelas. Experimente perguntar: \"qual a mais barata?\" ou \"12x Toky01\".", suggest: ["Mais barata", "Off-road", "Promoções"] };
+}
+
+async function geminiAI(msg, history) {
+  const ctx = live().map(p => ({ id: p.id, categoria: label[p.cat], tipo: p.sub, marca: p.brand, nome: p.name, preco: p.price, precoAnterior: p.oldPrice, promo: p.promo, status: status(p), parcelavel21x: p.installments, specs: p.specs, destaques: p.feat }));
+  const sys = `Você é a "L1MA IA", assistente de vendas da concessionária L1MA Motors Multimarcas. Responda em português do Brasil, de forma curta, simpática e vendedora.
+Use SOMENTE os dados abaixo (atualizados em tempo real pelo sistema da loja). Nunca invente preços, estoque, garantias ou especificações. Se não souber, oriente a falar com um consultor no WhatsApp.
+Parcelamento: até ${config.maxInstallments || 21}x no cartão com acréscimo da taxa da maquininha${config.installmentRates ? "; taxas (% por nº de parcelas, 1x..): " + JSON.stringify(config.installmentRates) : " (taxas não informadas: mostre o valor base dividido e avise que há acréscimo)"}.
+Campanha: ${JSON.stringify(config.campaign)}.
+CATÁLOGO: ${JSON.stringify(ctx)}
+No final, se citar modelos, adicione uma linha "CARDS: id1,id2".`;
+  const contents = [...(history || []).slice(-8).map(h => ({ role: h.role === "ai" ? "model" : "user", parts: [{ text: h.text }] })), { role: "user", parts: [{ text: msg }] }];
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI}`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ systemInstruction: { parts: [{ text: sys }] }, contents, generationConfig: { temperature: .4, maxOutputTokens: 500 } })
+  });
+  const j = await r.json(); let text = j?.candidates?.[0]?.content?.parts?.[0]?.text; if (!text) throw new Error("sem resposta");
+  let cards = []; text = text.replace(/CARDS:\s*(.+)\s*$/i, (_, c) => { cards = c.split(",").map(s => s.trim()).filter(id => catalog.products.some(p => p.id === id)); return ""; }).trim();
+  return { text, cards, engine: "gemini" };
+}
+
+/* ---------- HTTP ---------- */
+const MIME = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".ico": "image/x-icon", ".webmanifest": "application/manifest+json" };
+const send = (res, code, obj) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" }); res.end(JSON.stringify(obj)); };
+const body = req => new Promise((ok, no) => { let b = ""; req.on("data", c => { b += c; if (b.length > 2e6) req.destroy(); }); req.on("end", () => { try { ok(b ? JSON.parse(b) : {}); } catch { no(new Error("JSON inválido")); } }); });
+
+function renderIndexHtml(req, modelId) {
+  let template = fs.readFileSync(path.join(PUB, "index.html"), "utf8");
+  const host = req.headers.host || "localhost:5173";
+  const proto = (req.headers["x-forwarded-proto"] || "http").split(",")[0].trim();
+
+  catalog = read(F.cat, catalog);
+  config = read(F.cfg, config);
+
+  const clean = s => String(s || "").replace(/[\t\r\n]+/g, " ").replace(/\s{2,}/g, " ").trim();
+  const esc = s => String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const pName = p => {
+    if (!p) return "";
+    const b = (p.brand || "").trim();
+    const n = (p.name || "").trim();
+    if (!b) return n;
+    if (n.toLowerCase().startsWith(b.toLowerCase())) return n;
+    return `${b} ${n}`;
+  };
+
+  const prod = modelId ? catalog.products.find(p => p.id === modelId || p.id.toLowerCase() === modelId.toLowerCase()) : null;
+
+  let title, desc, img, pageUrl;
+  if (prod) {
+    const fullModel = pName(prod);
+    const priceStr = prod.price ? `R$ ${prod.price.toLocaleString("pt-BR")}` : "Sob consulta";
+    const oldPriceStr = prod.oldPrice && prod.oldPrice > prod.price ? ` (De R$ ${prod.oldPrice.toLocaleString("pt-BR")})` : "";
+    const promoStr = prod.promo?.label ? ` • ${prod.promo.label}` : "";
+    title = `${fullModel} — ${priceStr}${oldPriceStr}${promoStr} | L1MA Motors`;
+
+    const parcelas = prod.installments ? ` | Em até ${config.maxInstallments || 21}x no cartão` : "";
+    const specsHighlight = prod.specs?.slice(0, 2).map(s => `${s[1]}: ${s[0]}`).join(" • ");
+    const introDesc = clean(prod.desc || "Confira fotos oficiais, ficha técnica e simulação de parcelas na L1MA Motors.");
+    desc = clean(`${priceStr}${parcelas}${specsHighlight ? ` • ${specsHighlight}` : ""}. ${introDesc}`).slice(0, 250);
+
+    const firstPhoto = prod.photos?.[0];
+    if (firstPhoto && typeof firstPhoto === "string" && firstPhoto.startsWith("http")) {
+      img = firstPhoto;
+    } else if (prod.img) {
+      img = `${proto}://${host}/assets/${prod.img}-0.jpg`;
+    } else {
+      img = `${proto}://${host}/assets/vegas-0.jpg`;
+    }
+    pageUrl = `${proto}://${host}/?m=${encodeURIComponent(prod.id)}`;
+  } else {
+    title = "L1MA Motors Multimarcas & Concessionária Shineray | Catálogo Oficial";
+    desc = "Linha completa de motos e ciclomotores Shineray, scooters elétricas e quadriciclos off-road. Pronta entrega e parcelamento em até 21x no cartão.";
+    img = `${proto}://${host}/assets/vegas-0.jpg`;
+    pageUrl = `${proto}://${host}/`;
+  }
+
+  const ogTags = `
+<!-- Open Graph / WhatsApp Preview Dinâmico -->
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${esc(pageUrl)}">
+<meta property="og:site_name" content="L1MA Motors">
+<meta property="og:type" content="product">
+<meta property="og:url" content="${esc(pageUrl)}">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:image" content="${esc(img)}">
+<meta property="og:image:secure_url" content="${esc(img)}">
+<meta property="og:image:alt" content="${esc(title)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${esc(img)}">
+`;
+
+  template = template.replace(/<title>.*?<\/title>/is, "");
+  template = template.replace(/<meta name="description".*?>/is, "");
+  template = template.replace("</head>", `${ogTags}\n</head>`);
+
+  return template;
+}
+
+http.createServer(async (req, res) => {
+  const url = new URL(req.url, "http://x");
+  const p = url.pathname;
+  if (req.method === "OPTIONS") { res.writeHead(204, { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type, Authorization", "Access-Control-Allow-Methods": "GET,POST,OPTIONS" }); return res.end(); }
+  try {
+    if (p === "/api/catalog") {
+      catalog = read(F.cat, catalog);
+      config = read(F.cfg, config);
+      return send(res, 200, { ...catalog, config: { ...config }, events: events.slice(0, 10) });
+    }
+    if (p === "/api/events") return send(res, 200, events);
+    if (p === "/api/stream") {
+      res.writeHead(200, { "Content-Type": "text/event-stream", "Cache-Control": "no-cache", Connection: "keep-alive", "Access-Control-Allow-Origin": "*" });
+      res.write(`retry: 3000\ndata: ${JSON.stringify({ hello: true, version: catalog.version })}\n\n`);
+      clients.add(res); const ka = setInterval(() => res.write(": ping\n\n"), 25000);
+      req.on("close", () => { clients.delete(res); clearInterval(ka); }); return;
+    }
+    if (p === "/api/sync" && req.method === "POST") {
+      const auth = req.headers.authorization || "";
+      const qToken = new URL(req.url, `http://${req.headers.host}`).searchParams.get("token");
+      const b = await body(req);
+      const bToken = b && (b.token || b.secret);
+      if (auth !== `Bearer ${TOKEN}` && qToken !== TOKEN && bToken !== TOKEN) {
+        return send(res, 401, { ok: false, error: "token inválido. Envie Header 'Authorization: Bearer <token>', query '?token=<token>' ou no corpo '{ token: ... }'" });
+      }
+      const ops = b.ops || b.operations || (Array.isArray(b) ? b : [b]);
+      return send(res, 200, sync(ops));
+    }
+    if (p === "/api/chat" && req.method === "POST") {
+      const { message, history } = await body(req);
+      if (!message) return send(res, 400, { error: "message obrigatório" });
+      if (GEMINI) { try { return send(res, 200, await geminiAI(String(message).slice(0, 500), history)); } catch (e) { console.warn("Gemini falhou, usando motor local:", e.message); } }
+      return send(res, 200, { ...localAI(String(message).slice(0, 500)), engine: "local" });
+    }
+    if (p.startsWith("/api/")) return send(res, 404, { error: "rota não encontrada" });
+
+    // Páginas com preview dinâmico para WhatsApp (Open Graph)
+    const isPrettyProduct = p.match(/^\/(?:moto|m|produto)\/([^\/]+)/i);
+    const modelParam = url.searchParams.get("m") || url.searchParams.get("p") || url.searchParams.get("moto") || url.searchParams.get("id");
+    const targetModelId = isPrettyProduct ? decodeURIComponent(isPrettyProduct[1]) : modelParam;
+
+    if (p === "/" || p === "/index.html" || isPrettyProduct) {
+      const html = renderIndexHtml(req, targetModelId);
+      res.writeHead(200, {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0"
+      });
+      return res.end(html);
+    }
+
+    // estáticos
+    let fp = path.normalize(path.join(PUB, p === "/admin" ? "admin.html" : decodeURIComponent(p)));
+    if (!fp.startsWith(PUB) || !fs.existsSync(fp) || fs.statSync(fp).isDirectory()) {
+      const html = renderIndexHtml(req, null);
+      res.writeHead(200, {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0"
+      });
+      return res.end(html);
+    }
+    const ext = path.extname(fp);
+    res.writeHead(200, {
+      "Content-Type": MIME[ext] || "application/octet-stream",
+      "Cache-Control": (ext === ".jpg" || ext === ".webp" || ext === ".png") ? "public, max-age=86400" : "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0"
+    });
+    fs.createReadStream(fp).pipe(res);
+  } catch (e) { send(res, 400, { ok: false, error: e.message }); }
+}).listen(PORT, "0.0.0.0", () => {
+  const nets = Object.values(require("os").networkInterfaces()).flat().filter(n => n.family === "IPv4" && !n.internal).map(n => n.address);
+  console.log(`\n  L1MA Motors rodando\n  Catálogo:  http://localhost:${PORT}\n  Celular:   ${nets.map(ip => `http://${ip}:${PORT}`).join("  ")}\n  Painel:    http://localhost:${PORT}/admin\n  Token:     ${TOKEN}\n  IA:        ${GEMINI ? "Gemini + local" : "motor local (defina GEMINI_API_KEY para IA generativa)"}\n`);
+});
