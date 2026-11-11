@@ -145,6 +145,8 @@ function renderAll(keepFilters) {
   const C = CATS[cat];
   $("#kick").textContent = C.kick; $("#ctitle").textContent = C.title; $("#cdesc").textContent = C.desc;
   $("#shinerayBanner")?.remove();
+  $$(".logo small").forEach(s => s.textContent = (cat === "shineray") ? "SHINERAY" : "MULTIMARCAS");
+  $$(".logo").forEach(a => a.dataset.go = (cat === "shineray") ? "shineray" : "ele");
   renderTop(); renderTabs(); renderHero(); renderCampaign(); renderTrust(); renderFilters(); renderList(); fillSimModels(keepFilters ? $("#sModel").value : null);
   if (cur && $("#modal").classList.contains("open") && !cmpView) { const p = byId(cur.id); p ? openModal(p.id, idx) : closeModal(); }
 }
@@ -263,11 +265,11 @@ function renderTrust() {
   const items = isShineray ? [
     ["store", "Concessionária Autorizada", "Shineray do Brasil"],
     ["shield", "Garantia de Fábrica", "Peças e serviços originais"],
-    ["card", `Até ${maxN()}x no cartão`, "Financiamento facilitado"],
-    ["zap", "Débito, crédito e Pix", "Pronta entrega"]
+    ["card", `Até ${maxN()}x no cartão`, "Simule suas parcelas"],
+    ["zap", "Financiamento Facilitado", "Em até 48x com aprovação rápida"]
   ] : [
     ["card", `Até ${maxN()}x no cartão`, "Simule suas parcelas"],
-    ["zap", "Débito, crédito e Pix", "Escolha como pagar"],
+    ["zap", "Financiamento Facilitado", "Em até 48x ou no boleto"],
     ["shield", "Garantia de 1 ano", "Em modelos selecionados"],
     ["store", "Multimarcas", [...new Set(P().map(p => p.brand).filter(b => !/el[ée]tric|quadri|kart|triciclo/i.test(b)))].slice(0, 3).join(", ")]
   ];
@@ -405,6 +407,22 @@ function setMediaMode(m) {
     }
   }
   if (m === "360") initSpin();
+  else if (spinTimer) toggleAutoSpin();
+}
+
+let spinTimer = null;
+function toggleAutoSpin() {
+  const btn = $("#btnAutoSpin");
+  if (spinTimer) {
+    clearInterval(spinTimer);
+    spinTimer = null;
+    if (btn) btn.classList.remove("on");
+  } else {
+    if (btn) btn.classList.add("on");
+    spinTimer = setInterval(() => {
+      setSpinFrame(spinIdx + 1);
+    }, 110);
+  }
 }
 
 function setSpinFrame(i) {
@@ -422,14 +440,16 @@ function setSpinFrame(i) {
 function initSpin() {
   const el = $("#spinViewer");
   if (!el || !cur?.rotation360?.length) return;
+  if (spinTimer) { clearInterval(spinTimer); spinTimer = null; }
   setSpinFrame(spinIdx);
   cur.rotation360.forEach(u => { const im = new Image(); im.src = u; });
   let startX = 0, startIdx = 0, dragging = false;
   el.onpointerdown = e => {
+    if (spinTimer) toggleAutoSpin();
     dragging = true;
     startX = e.clientX;
     startIdx = spinIdx;
-    el.setPointerCapture(e.pointerId);
+    try { el.setPointerCapture(e.pointerId); } catch {}
   };
   el.onpointermove = e => {
     if (!dragging) return;
@@ -442,7 +462,7 @@ function initSpin() {
     try { el.releasePointerCapture(e.pointerId); } catch {}
   };
   const sld = $("#spinRange");
-  if (sld) sld.oninput = () => setSpinFrame(+sld.value);
+  if (sld) sld.oninput = () => { if (spinTimer) toggleAutoSpin(); setSpinFrame(+sld.value); };
 }
 
 function openModal(id, keepIdx) {
@@ -473,9 +493,12 @@ function openModal(id, keepIdx) {
           <span class="spin-pill">${ic("spin360")} 360° Interativo</span>
           <img id="spinImg" src="${p.rotation360[0]}" alt="${esc(p.name)} em 360 graus">
           <span class="spin-tip">Arraste para girar a moto</span>
+          <button type="button" class="spin-nav p" data-spinstep="-1" aria-label="Girar anterior">${ic("left")}</button>
+          <button type="button" class="spin-nav n" data-spinstep="1" aria-label="Girar próximo">${ic("right")}</button>
         </div>
         <div class="viewer-360-ctrl">
           <div class="slider-row">
+            <button type="button" class="btn-auto-spin" id="btnAutoSpin">${ic("spin360")} Auto-Giro</button>
             <input type="range" id="spinRange" min="0" max="${p.rotation360.length - 1}" value="0" aria-label="Giro 360 graus">
             <span id="spinCount">1 / ${p.rotation360.length}</span>
           </div>
@@ -515,6 +538,8 @@ function openModal(id, keepIdx) {
 }
 $("#mbox").addEventListener("click", e => {
   if (!cur) return;
+  const auto = e.target.closest("#btnAutoSpin"); if (auto) return toggleAutoSpin();
+  const spinstep = e.target.closest("[data-spinstep]"); if (spinstep) { if (spinTimer) toggleAutoSpin(); return setSpinFrame(spinIdx + +spinstep.dataset.spinstep); }
   const mm = e.target.closest("[data-mm]"); if (mm) return setMediaMode(mm.dataset.mm);
   const t = e.target.closest("[data-i]"), s = e.target.closest(".mph [data-step]");
   if (t) { setMediaMode("photo"); show(+t.dataset.i); }
@@ -522,6 +547,7 @@ $("#mbox").addEventListener("click", e => {
   if (e.target.id === "mimg") { $("#zimg").src = im(cur, idx); $("#zoom").classList.add("open"); }
 });
 function closeModal() {
+  if (spinTimer) { clearInterval(spinTimer); spinTimer = null; }
   $("#modal").classList.remove("open");
   document.body.style.overflow = "";
   cur = null;

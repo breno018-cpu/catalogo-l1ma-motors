@@ -355,9 +355,13 @@ input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;bac
 .spin-pill svg{animation:spin 3.5s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .spin-tip{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(10,10,10,0.75);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:16px;white-space:nowrap;pointer-events:none;backdrop-filter:blur(4px);z-index:5}
+.spin-nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:#fff;box-shadow:0 4px 14px #0002;display:grid;place-items:center;cursor:pointer;border:0;color:var(--ink);transition:.2s;z-index:6}
+.spin-nav:hover{background:var(--c);color:#fff}.spin-nav.p{left:12px}.spin-nav.n{right:12px}
 .viewer-360-ctrl{margin-top:10px;display:flex;flex-direction:column;gap:6px}
 .viewer-360-ctrl .slider-row{display:flex;align-items:center;gap:12px}
 .viewer-360-ctrl span{font-size:11px;color:var(--mut);font-weight:700;white-space:nowrap}
+.btn-auto-spin{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:var(--soft);border:1px solid var(--line);border-radius:20px;font-size:11px;font-weight:700;color:var(--ink);cursor:pointer;transition:.2s;white-space:nowrap}
+.btn-auto-spin:hover,.btn-auto-spin.on{background:var(--c);color:#fff;border-color:var(--c)}
 
 /* ---------- video embed ---------- */
 .video-wrap{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:1;background:#000;display:flex;align-items:center;justify-content:center}
