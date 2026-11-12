@@ -317,22 +317,9 @@ function priceBlock(p) {
   if (!p.price) return `<div class="lbl">Valor</div><div class="q">Sob consulta</div><div class="inst">fale com um consultor</div>`;
   const diff = p.oldPrice && p.oldPrice > p.price ? p.oldPrice - p.price : 0;
   if (diff > 0) {
-    const isEle = p.cat === 'ele';
-    const tagText = isEle ? 'DESCONTO DE INAUGURAÇÃO' : 'OFERTA ESPECIAL';
-    return `
-      <div class="discount-callout">
-        <span class="disc-flag">${ic("flame")} ${tagText}</span>
-        <span class="disc-saved">ECONOMIZE R$ ${brl0(diff)}</span>
-      </div>
-      <div class="old-price-wrap">
-        <span class="old-price">Preço comum: <s>R$ ${brl0(p.oldPrice)}</s></span>
-      </div>
-      <div class="v-wrap">
-        <span class="v-lbl">Por apenas:</span>
-        <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
-      </div>
-      <div class="inst">${p.installments ? `ou em até <b>${maxN()}x</b> no cartão` : "consulte condições"}</div>
-    `;
+    return `<div class="old-price-wrap"><span class="old-price">De <s>R$ ${brl0(p.oldPrice)}</s></span><span class="disc-pill">-R$ ${brl0(diff)}</span></div>
+     <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
+     <div class="inst">${p.installments ? `em até <b>${maxN()}x</b> no cartão` : "consulte condições"}</div>`;
   }
   return `<div class="lbl">À vista</div><div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
    <div class="inst">${p.installments ? `em até <b>${maxN()}x</b> no cartão` : "consulte condições"}</div>`;
@@ -355,7 +342,7 @@ function renderList() {
     const nameWithBrand = esc(pName(p));
     const diff = p.oldPrice && p.oldPrice > p.price ? p.oldPrice - p.price : 0;
     const promoBadge = diff > 0
-      ? `<span class="bdg promo inau-badge">${ic("flame")} R$ ${brl0(diff)} OFF · INAUGURAÇÃO</span>`
+      ? `<span class="bdg promo">-R$ ${brl0(diff)}</span>`
       : p.promo?.label
         ? `<span class="bdg promo">${esc(p.promo.label)}${p.promo.until ? ` · até ${esc(p.promo.until)}` : ''}</span>`
         : "";
@@ -375,7 +362,7 @@ function renderList() {
       <h3 class="disp">${nameWithBrand}</h3>
       ${highlight ? `<div class="card-feature">${highlight}</div>` : ''}
       <div class="pr">
-        <div style="width:100%">${priceBlock(p)}</div>
+        <div>${priceBlock(p)}</div>
       </div>
      </div>
     </article>`;
@@ -552,32 +539,15 @@ function openModal(id, keepIdx) {
    <div class="det"><div class="brand">${esc(p.brand)} · ${esc(p.sub)}</div><h2 class="disp">${esc(pName(p))}</h2>
     <div class="tagrow">
       ${out ? `<span class="bdg" style="background:#d10000;color:#fff">${ic("box")}Esgotado</span>` : ""}
-      ${diff > 0 ? `<span class="bdg promo inau-badge">${ic("flame")} R$ ${brl0(diff)} OFF · INAUGURAÇÃO</span>` : p.promo ? `<span class="bdg promo">${ic("tag")}${esc(p.promo.label)}${p.promo.until ? ` · Válido até ${esc(p.promo.until)}` : ''}</span>` : ""}
+      ${p.promo?.label ? `<span class="bdg promo">${ic("tag")}${esc(p.promo.label)}${p.promo.until ? ` · Válido até ${esc(p.promo.until)}` : ''}</span>` : (diff > 0 ? `<span class="bdg promo">-R$ ${brl0(diff)}</span>` : "")}
       ${p.rotation360?.length ? `<span class="bdg spin360">${ic("spin360")}Giro 360°</span>` : ""}
       ${p.video ? `<span class="bdg vid">${ic("play")}Vídeo Oficial</span>` : ""}
       ${isLow(p) ? `<span class="bdg low">${ic("alert")}Últimas ${p.stock} unidades</span>` : ""}
     </div>
-    ${diff > 0 ? `
-      <div class="modal-inauguration-banner">
-        <div class="mib-icon">${ic("flame")}</div>
-        <div class="mib-content">
-          <div class="mib-title">DESCONTO EXCLUSIVO DE INAUGURAÇÃO</div>
-          <div class="mib-sub">Você economiza <strong>R$ ${brl0(diff)},00</strong> neste modelo com a condição especial de inauguração da L1MA Motors!</div>
-        </div>
-      </div>` : ""}
     <p class="desc">${esc(p.desc)}</p>
     <div class="pbox">${p.price ? `
-      ${diff > 0 ? `
-        <div class="modal-price-inauguration">
-          <div class="mpi-top">
-            <span class="mpi-old">Preço comum de tabela: <s>R$ ${brl0(p.oldPrice)},00</s></span>
-            <span class="mpi-badge">${ic("flame")} ECONOMIA DE R$ ${brl0(diff)},00</span>
-          </div>
-          <div class="mpi-main">
-            <span class="mpi-label">Valor com desconto:</span>
-            <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
-          </div>
-        </div>` : `<span class="brand">À vista</span><div class="v">R$ ${brl0(p.price)}<small>,00</small></div>`}
+      ${p.oldPrice && p.oldPrice > p.price ? `<div class="old-price-wrap" style="margin-bottom:6px"><span class="old-price" style="font-size:14px">De <s>R$ ${brl0(p.oldPrice)},00</s></span><span class="disc-pill" style="font-size:11px;padding:3px 8px">-R$ ${brl0(p.oldPrice - p.price)}</span></div>` : `<span class="brand">À vista</span>`}
+      <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
       ${p.installments ? `<span style="font-size:13px">ou em até <b>${maxN()}x no cartão</b></span>` : `<span style="font-size:13px;color:var(--mut)">Consulte as condições de pagamento.</span>`}
       <div class="ms">${ic("card")} Simular em <select id="mPar" aria-label="Parcelas">${Array.from({ length: maxN() }, (_, i) => `<option value="${i + 1}" ${i === 11 ? "selected" : ""}>${i + 1}x</option>`).join("")}</select><b id="mParV"></b></div>
       <span style="font-size:11px;color:var(--mut);margin-top:6px">${hasRates() ? "Valor estimado com a taxa da maquininha." : esc(cfg().installmentNote || "")}</span>`
