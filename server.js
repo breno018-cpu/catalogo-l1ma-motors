@@ -46,6 +46,16 @@ function broadcast(evts) {
 
 /* ---------- regras de sincronização ---------- */
 const CATS = ["ele", "semi", "off", "shineray"];
+const parseNum = v => {
+  if (v === null || v === undefined) return null;
+  if (typeof v === 'number') return isNaN(v) ? null : v;
+  const s = String(v).replace(/[^\d.,-]/g, '').trim();
+  if (!s) return null;
+  if (s.includes(',') && s.includes('.')) return parseFloat(s.replace(/\./g, '').replace(',', '.'));
+  if (s.includes(',')) return parseFloat(s.replace(',', '.'));
+  return parseFloat(s);
+};
+
 function applyOp(op) {
   const P = catalog.products;
   const find = id => P.find(p => p.id === id);
@@ -58,13 +68,21 @@ function applyOp(op) {
       const d = op.product || op.data || { ...op };
       delete d.action;
       if (!d?.id) throw new Error("product.id (ou id) obrigatório");
-      if (d.cat && !CATS.includes(d.cat)) throw new Error("cat deve ser ele|semi|off|shineray");
+      d.id = String(d.id).trim();
+      if (d.cat) {
+        const c = String(d.cat).toLowerCase().trim();
+        d.cat = CATS.includes(c) ? c : "ele";
+      }
+      if (d.price !== undefined) d.price = parseNum(d.price);
+      if (d.oldPrice !== undefined) d.oldPrice = parseNum(d.oldPrice);
+      if (d.stock !== undefined) d.stock = d.stock === null ? null : Math.max(0, +d.stock);
       const p = find(d.id);
       if (p) { Object.assign(p, d); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
       P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, sortOrder: d.sortOrder ?? (P.length + 1), ...d });
       return { type: "new", id: d.id, text: `Novidade no catálogo: ${name(d)}` };
     }
-    case "remove": {
+    case "remove":
+    case "delete": {
       const p = need(op.id); catalog.products = P.filter(x => x !== p);
       return { type: "remove", id: op.id, text: `${name(p)} saiu do catálogo` };
     }
@@ -109,7 +127,7 @@ function applyOp(op) {
       if (op.inStock === false) {
         newStock = 0;
       } else if (op.inStock === true && (p.stock === 0 || p.stock === null)) {
-        newStock = op.value ?? op.stock ?? 3;
+        newStock = parseNum(op.value ?? op.stock) ?? 3;
       } else if (op.value !== undefined) {
         newStock = op.value === null ? null : Math.max(0, +op.value);
       } else if (op.stock !== undefined) {
@@ -127,10 +145,11 @@ function applyOp(op) {
     // 3. VALORES (preço, de/por, parcelas)
     case "price": {
       const p = need(op.id); const old = p.price;
-      const newPrice = op.price !== undefined ? (op.price === null ? null : +op.price) : (op.value === null ? null : +op.value);
+      const rawNew = op.price !== undefined ? op.price : op.value;
+      const newPrice = parseNum(rawNew);
       p.price = newPrice;
       if (op.oldPrice !== undefined) {
-        p.oldPrice = op.oldPrice === null ? null : +op.oldPrice;
+        p.oldPrice = parseNum(op.oldPrice);
       } else if (old && p.price && p.price < old) {
         p.oldPrice = old;
       } else if (!op.keepOld && !p.promo) {
@@ -153,18 +172,18 @@ function applyOp(op) {
         return { type: "update", id: p.id, text: `Promoção encerrada: ${name(p)}` };
       }
       const promoObj = typeof op.promo === 'object' && op.promo !== null ? op.promo : {};
-      const label = op.label || promoObj.label || (op.discount ? `R$ ${(+op.discount).toLocaleString("pt-BR")} OFF` : "Oferta Especial");
+      const discVal = parseNum(op.discount || promoObj.discount);
+      const label = op.label || promoObj.label || (discVal ? `R$ ${discVal.toLocaleString("pt-BR")} OFF` : "Oferta Especial");
       const until = op.until || promoObj.until || null;
-      const discount = op.discount || promoObj.discount || null;
-      p.promo = { label, until, discount: discount ? +discount : null, active: true };
+      p.promo = { label, until, discount: discVal, active: true };
       if (op.price !== undefined) {
         if (!p.oldPrice && p.price) p.oldPrice = p.price;
-        p.price = +op.price;
-      } else if (discount && p.price && !p.oldPrice) {
+        p.price = parseNum(op.price);
+      } else if (discVal && p.price && !p.oldPrice) {
         p.oldPrice = p.price;
-        p.price = Math.max(0, p.price - discount);
+        p.price = Math.max(0, p.price - discVal);
       }
-      if (op.oldPrice !== undefined) p.oldPrice = +op.oldPrice;
+      if (op.oldPrice !== undefined) p.oldPrice = parseNum(op.oldPrice);
       const untilText = until ? ` (válido até ${until})` : '';
       return { type: "promo", id: p.id, text: `Promoção: ${name(p)} — ${label}${untilText}` };
     }
@@ -287,7 +306,7 @@ No final, se citar modelos, adicione uma linha "CARDS: id1,id2".`;
 
 /* ---------- HTTP ---------- */
 const MIME = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".ico": "image/x-icon", ".webmanifest": "application/manifest+json" };
-const send = (res, code, obj) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" }); res.end(JSON.stringify(obj)); };
+const send = (res, code, obj) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type, Authorization", "Access-Control-Allow-Methods": "GET,POST,OPTIONS" }); res.end(JSON.stringify(obj)); };
 const body = req => new Promise((ok, no) => { let b = ""; req.on("data", c => { b += c; if (b.length > 2e6) req.destroy(); }); req.on("end", () => { try { ok(b ? JSON.parse(b) : {}); } catch { no(new Error("JSON inválido")); } }); });
 
 function renderIndexHtml(req, modelId) {

@@ -1,5 +1,47 @@
 [
   {
+    "type": "update",
+    "id": "passion",
+    "text": "Posição de GOAT Passion atualizada para #1",
+    "at": "2026-11-12T14:57:14.744Z"
+  },
+  {
+    "type": "update",
+    "id": "passion",
+    "text": "Estoque de GOAT Passion: 5 un",
+    "at": "2026-11-12T14:57:14.738Z"
+  },
+  {
+    "type": "update",
+    "id": "passion",
+    "text": "Descrição de GOAT Passion atualizada",
+    "at": "2026-11-12T14:57:14.738Z"
+  },
+  {
+    "type": "update",
+    "id": "atv-200",
+    "text": "MXF MXF 200 foi atualizado",
+    "at": "2026-11-12T14:42:56.227Z"
+  },
+  {
+    "type": "update",
+    "id": "kart",
+    "text": "Kart elétrico Kart para manobras foi atualizado",
+    "at": "2026-11-12T14:42:44.089Z"
+  },
+  {
+    "type": "update",
+    "id": "drift",
+    "text": "Triciclo elétrico Triciclo de Drift foi atualizado",
+    "at": "2026-11-12T14:42:29.837Z"
+  },
+  {
+    "type": "update",
+    "id": "quad-125",
+    "text": "Quadriciclo MXF 125 cc foi atualizado",
+    "at": "2026-11-12T14:42:09.623Z"
+  },
+  {
     "type": "remove",
     "id": "shineray-sh4",
     "text": "Shineray SH4 saiu do catálogo",
@@ -315,47 +357,5 @@
     "id": "shineray-urban-lite",
     "text": "Shineray URBAN LITE foi atualizado",
     "at": "2026-11-11T20:35:27.905Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-jet-125ss-efi",
-    "text": "Shineray JET 125 foi atualizado",
-    "at": "2026-11-11T20:35:16.752Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-urban-150",
-    "text": "Shineray URBAN 150 EFI foi atualizado",
-    "at": "2026-11-11T20:35:03.891Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-ptxs",
-    "text": "Shineray PTXS ocultado do catálogo",
-    "at": "2026-11-11T20:34:46.805Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt-stand",
-    "text": "Shineray PT-STAND ocultado do catálogo",
-    "at": "2026-11-11T20:34:45.748Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt1",
-    "text": "Shineray PT1 ocultado do catálogo",
-    "at": "2026-11-11T20:34:44.723Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-ptxr",
-    "text": "Shineray PTXR ocultado do catálogo",
-    "at": "2026-11-11T20:34:42.604Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt1s",
-    "text": "Shineray PT1s ocultado do catálogo",
-    "at": "2026-11-11T20:34:41.468Z"
   }
 ]

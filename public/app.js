@@ -100,9 +100,9 @@ function connect() {
 }
 function fx(ev) {
   const c = ev.id && $(`.card[data-id="${CSS.escape(ev.id)}"]`); if (!c) return;
-  if (ev.type === "soldout" || ev.type === "promo" || ev.type === "new") { c.querySelectorAll(".stamp").forEach(s => { s.classList.remove("anim"); void s.offsetWidth; s.classList.add("anim"); }); c.classList.add("shake"); }
-  if (ev.type === "pricedown" || ev.type === "price") c.querySelector(".v")?.classList.add("bump");
-  c.classList.add("flash"); setTimeout(() => c.classList.remove("flash", "shake"), 1800);
+  if (ev.type === "soldout") {
+    c.querySelectorAll(".stamp.sold").forEach(s => { s.classList.remove("anim"); void s.offsetWidth; s.classList.add("anim"); });
+  }
 }
 
 /* ---------------- navegação / tabs ---------------- */
@@ -324,7 +324,7 @@ function priceBlock(p) {
   if (!p.price) return `<div class="lbl">Valor</div><div class="q">Sob consulta</div><div class="inst">fale com um consultor</div>`;
   const diff = p.oldPrice && p.oldPrice > p.price ? p.oldPrice - p.price : 0;
   if (diff > 0) {
-    return `<div class="old-price-wrap"><span class="old-price">De <s>R$ ${brl0(p.oldPrice)}</s></span></div>
+    return `<div class="old-price-wrap"><span class="old-price">De <s>R$ ${brl0(p.oldPrice)},00</s></span><span class="disc-val">(-R$ ${brl0(diff)})</span></div>
      <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
      <div class="inst">${p.installments ? `em até <b>${maxN()}x</b> no cartão` : "consulte condições"}</div>`;
   }
@@ -518,7 +518,7 @@ function openModal(id, keepIdx) {
     ${modeBar}
     <div id="galPhoto">
       <div class="mph ${out ? "out" : ""}"><img id="mimg" src="${im(p, idx)}" alt="">
-        ${out ? `<span class="stamp sold ${wasOpen ? "" : "anim"}" style="font-size:36px">Esgotado</span>` : p.promo ? `<span class="stamp promo anim" style="font-size:22px">Oferta</span>` : ""}
+        ${out ? `<span class="stamp sold ${wasOpen ? "" : "anim"}" style="font-size:36px">Esgotado</span>` : ""}
         ${p.photos.length > 1 ? `<button class="nav p" data-step="-1" aria-label="Anterior">${ic("left")}</button><button class="nav n" data-step="1" aria-label="Próxima">${ic("right")}</button>` : ""}<span class="cnt" id="mcnt"></span></div>
       <div class="thumbs" id="mth">${p.photos.map((l, i) => `<button data-i="${i}" aria-label="Foto ${i + 1}"><img src="${im(p, i)}" alt="" loading="lazy"></button>`).join("")}</div>
     </div>
@@ -550,7 +550,7 @@ function openModal(id, keepIdx) {
     </div>
     <p class="desc">${esc(p.desc)}</p>
     <div class="pbox">${p.price ? `
-      ${p.oldPrice && p.oldPrice > p.price ? `<div class="old-price-wrap" style="margin-bottom:6px"><span class="old-price" style="font-size:13px">De <s>R$ ${brl0(p.oldPrice)},00</s></span></div>` : `<span class="brand">À vista</span>`}
+      ${p.oldPrice && p.oldPrice > p.price ? `<div class="old-price-wrap" style="margin-bottom:6px"><span class="old-price" style="font-size:13px">De <s>R$ ${brl0(p.oldPrice)},00</s></span><span class="disc-val" style="font-size:12px;margin-left:6px">(-R$ ${brl0(p.oldPrice - p.price)})</span></div>` : `<span class="brand">À vista</span>`}
       <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
       ${p.installments ? `<span class="pbox-inst">ou em até <b>${maxN()}x no cartão</b></span>` : `<span class="pbox-inst" style="color:var(--mut)">Consulte as condições de pagamento.</span>`}
       <div class="ms"><div class="ms-left">${ic("card")} Simular em <select id="mPar" aria-label="Parcelas">${Array.from({ length: maxN() }, (_, i) => `<option value="${i + 1}" ${i === 11 ? "selected" : ""}>${i + 1}x</option>`).join("")}</select></div><b id="mParV"></b></div>

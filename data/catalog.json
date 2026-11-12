@@ -1,6 +1,6 @@
 {
-  "version": 106,
-  "updatedAt": "2026-11-12T13:26:06.779Z",
+  "version": 112,
+  "updatedAt": "2026-11-12T14:57:14.744Z",
   "products": [
     {
       "id": "passion",
@@ -12,13 +12,13 @@
       "price": 7990,
       "oldPrice": 8990,
       "installments": true,
-      "stock": null,
+      "stock": 5,
       "readyDelivery": true,
       "badge": null,
       "promo": {
         "label": "R$ 1.000 OFF"
       },
-      "desc": "O charme do design retrô com a praticidade da mobilidade elétrica. Um visual cheio de personalidade para acompanhar o seu dia.",
+      "desc": "Scooter elétrica GOAT Passion 1.000W com excelente autonomia.",
       "img": "passion",
       "photos": [
         "Passion verde",
@@ -367,7 +367,7 @@
       "cat": "off",
       "sub": "Quadriciclo",
       "brand": "MXF",
-      "name": "ATV 200",
+      "name": "MXF 200",
       "price": 26990,
       "oldPrice": 27990,
       "installments": false,
@@ -414,7 +414,9 @@
       ],
       "disc": "Consulte a loja para condições de pagamento, garantia e disponibilidade.",
       "sortOrder": 7,
-      "rotation360": null
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas"
     },
     {
       "id": "quad-125",
@@ -422,7 +424,7 @@
       "cat": "off",
       "sub": "Quadriciclo",
       "brand": "Quadriciclo",
-      "name": "125 cc",
+      "name": "MXF 125 cc",
       "price": 16990,
       "oldPrice": 17990,
       "installments": false,
@@ -469,12 +471,14 @@
       ],
       "disc": "Consulte a loja para condições de pagamento, garantia e disponibilidade.",
       "sortOrder": 8,
-      "rotation360": null
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas"
     },
     {
       "id": "kart",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Kart",
       "brand": "Kart elétrico",
       "name": "Kart para manobras",
@@ -513,17 +517,19 @@
       ],
       "disc": "Consulte a loja para idade indicada, limite de peso, condições de uso e disponibilidade. Uso com supervisão de um adulto, equipamentos de proteção e em local apropriado.",
       "sortOrder": 9,
-      "rotation360": null
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas"
     },
     {
       "id": "drift",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Drift",
       "brand": "Triciclo elétrico",
       "name": "Triciclo de Drift",
-      "price": null,
-      "oldPrice": null,
+      "price": 2990,
+      "oldPrice": 3990,
       "installments": false,
       "stock": null,
       "readyDelivery": false,
@@ -554,7 +560,9 @@
       ],
       "disc": "Consulte a idade mínima e as condições de uso indicadas pelo fabricante. Use equipamentos de proteção e em local apropriado; crianças devem estar sob supervisão de um adulto.",
       "sortOrder": 10,
-      "rotation360": null
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas"
     },
     {
       "id": "shineray-jet-125ss-efi",
