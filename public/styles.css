@@ -148,26 +148,7 @@ header{position:sticky;top:0;z-index:60;background:#ffffffeb;backdrop-filter:sat
   display:block;
   margin-top:4px;
 }
-.photo-frame .seal{
-  position:absolute;
-  top:-16px;
-  right:-16px;
-  width:98px;
-  height:98px;
-  border-radius:50%;
-  background:#fff;
-  color:var(--ink);
-  display:grid;
-  place-items:center;
-  text-align:center;
-  font-weight:900;
-  font-size:10px;
-  line-height:1.15;
-  box-shadow:0 14px 34px rgba(0,0,0,0.4);
-  padding:8px;
-  border:2.5px solid #f35540;
-  z-index:4;
-}
+.photo-frame .seal{display:none!important}
 .photo-frame .seal b{font-size:24px;color:#f35540;display:block}
 .hnav{position:absolute;bottom:30px;left:56px;display:flex;gap:6px;z-index:5}
 .hnav button{width:28px;height:21px;padding:8px 0;background:none;position:relative}

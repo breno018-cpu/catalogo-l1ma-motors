@@ -214,7 +214,6 @@ function renderHero() {
     const tag = diff > 0 ? `🎉 PROMOÇÃO DE INAUGURAÇÃO · R$ ${brl0(diff)} OFF` : p.promo ? p.promo.label.toUpperCase() : isLow(p) ? "ÚLTIMAS UNIDADES" : "DESTAQUE L1MA";
     const offer = p.price ? `<div class="offer"><div><div class="old">${diff > 0 ? `Preço comum: <s>R$ ${brl0(p.oldPrice)},00</s>` : "à vista"}</div><div class="now">R$ ${brl0(p.price)}<small>,00</small></div></div>
       ${p.installments ? `<div class="par">ou em até<b>${maxN()}x</b>no cartão*</div>` : ""}</div>` : `<div class="offer"><div class="now" style="font-size:30px">Preço sob consulta</div></div>`;
-    const seal = [p.specs?.[0]?.[0] || "", (p.specs?.[0]?.[1] || "").toUpperCase()];
     const classTitle = catLabels[p.cat] || `L<em>1</em>MA MOTORS ${(CATS[p.cat]?.name || "MULTIMARCAS").toUpperCase()}`;
     const classSub = fullModelTitle;
     return `<div class="slide ${i ? "" : "on"}"><div class="bgc"></div>
@@ -230,7 +229,6 @@ function renderHero() {
             <span class="photo-class">${classTitle}</span>
             <span class="photo-sub">${classSub}</span>
           </div>
-          <div class="seal"><div><b>${esc(seal[0])}</b>${esc(seal[1])}</div></div>
         </div>
       </div></div>`;
   }).join("") + (S.length > 1 ? `<div class="hnav">${S.map((_, i) => `<button class="${i ? "" : "on"}" data-slide="${i}" aria-label="Slide ${i + 1}"></button>`).join("")}</div>
