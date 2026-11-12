@@ -23,10 +23,10 @@ const im = (p, i = 0) => {
 };
 
 const CATS = {
+  shineray: { name: "Shineray", ic: "store", kick: "CONCESSIONÁRIA AUTORIZADA", title: "L1MA Motors Shineray", desc: "Concessionária autorizada Shineray do Brasil. Pronta entrega, garantia de fábrica e facilidade de pagamento com as melhores taxas.", promo: "Condições Especiais Shineray" },
   ele: { name: "Elétricas", ic: "zap", kick: "L1MA MOTORS ELÉTRICAS", title: "L1MA Motors Elétricas", desc: "Economia, silêncio e zero combustível. Scooters elétricas e modelos infantis." },
   semi: { name: "Semi-novos", ic: "key", kick: "L1MA MOTORS SEMI-NOVOS", title: "L1MA Motors Semi-novos", desc: "Motos selecionadas e com procedência. Também avaliamos a sua na troca." },
-  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos, kart e drift para trilha, fazenda e lazer." },
-  shineray: { name: "Shineray L1MA", hidden: true, ic: "store", kick: "L1MA MOTORS SHINERAY", title: "L1MA Motors Shineray", desc: "Concessionária autorizada Shineray do Brasil. Pronta entrega, garantia de fábrica e facilidade de pagamento com as melhores taxas.", promo: "Condições Especiais Shineray" }
+  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos, kart e drift para trilha, fazenda e lazer." }
 };
 
 let offline = false, DATA = { products: [], config: {} }, cat = "ele", sub = "all", q = "", sort = "", cmpList = [];
@@ -108,20 +108,9 @@ function fx(ev) {
 /* ---------------- navegação / tabs ---------------- */
 function count(k) { return P().filter(p => p.cat === k).length; }
 function renderTabs() {
-  if (cat === "shineray") {
-    $("#tabs").innerHTML = "";
-    $("#tabs").style.display = "none";
-    $("#bnav").innerHTML = `
-      <button class="on" data-go="shineray">${ic("store")}Shineray</button>
-      <a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>
-      <a class="rp" data-wa href="${wa(GEN)}" target="_blank" rel="noopener">${ic("wa")}WhatsApp</a>
-      <button data-go="ele">${ic("arrow")}Catálogo Geral</button>
-    `;
-    return;
-  }
   $("#tabs").style.display = "";
-  $("#tabs").innerHTML = Object.entries(CATS).filter(([_, v]) => !v.hidden).map(([k, v]) => `<button class="tab ${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}<em>${count(k) || "em breve"}</em></button>`).join("");
-  $("#bnav").innerHTML = Object.entries(CATS).filter(([_, v]) => !v.hidden).map(([k, v]) => `<button class="${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}</button>`).join("") + `<a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>`;
+  $("#tabs").innerHTML = Object.entries(CATS).map(([k, v]) => `<button class="tab ${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}<em>${count(k) || "em breve"}</em></button>`).join("");
+  $("#bnav").innerHTML = Object.entries(CATS).map(([k, v]) => `<button class="${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}</button>`).join("") + `<a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>`;
 }
 document.addEventListener("click", e => {
   const sim = e.target.closest('.bnav-sim');
