@@ -177,11 +177,18 @@ header{position:sticky;top:0;z-index:60;background:#ffffffeb;backdrop-filter:sat
 .harr button{width:46px;height:46px;border-radius:50%;background:#ffffff22;border:1px solid #ffffff44;color:#fff;display:grid;place-items:center}
 .harr button:hover{background:#fff;color:var(--ink)}
 /* ---------- campaign / trust ---------- */
-.promo{margin:22px auto 0;border-radius:22px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 30px;position:relative;overflow:hidden}
+.promo{margin:22px auto 0;border-radius:22px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 32px;position:relative;overflow:hidden;border:1.5px solid rgba(255,255,255,0.12);box-shadow:0 12px 35px -10px rgba(0,0,0,0.3)}
+.promo.inau-promo{background:linear-gradient(135deg,#16181b 0%,#231616 100%);border-color:rgba(225,6,0,0.4);box-shadow:0 16px 40px -12px rgba(225,6,0,0.25)}
 .promo::before{content:"";position:absolute;left:-60px;top:0;bottom:0;width:240px;background:var(--cg);transform:skewX(-20deg)}
-.promo .pt{position:relative;display:flex;align-items:center;gap:18px}
-.promo .pt .ico{width:52px;height:52px;border-radius:14px;background:#fff;color:var(--c);display:grid;place-items:center;font-size:24px;flex:0 0 52px}
-.promo .pt b{font-size:24px;display:block}.promo .pt span{opacity:.75;font-size:13px}
+.promo .pt{position:relative;display:flex;align-items:center;gap:18px;z-index:2}
+.promo .pt .ico{width:54px;height:54px;border-radius:14px;background:#fff;color:var(--c);display:grid;place-items:center;font-size:26px;flex:0 0 54px;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+.promo .pt .ico.flame-glow{background:linear-gradient(135deg,#e10600,#ff5252);color:#fff;box-shadow:0 6px 18px rgba(225,6,0,0.5)}
+.promo .pt b{font-size:24px;display:block;letter-spacing:-0.3px}.promo .pt span{opacity:.85;font-size:13.5px;line-height:1.4}
+.promo-tag-top{display:inline-block;font-size:10px;font-weight:900;letter-spacing:1.5px;color:#ff6b6b;text-transform:uppercase;margin-bottom:4px}
+.promo-actions{position:relative;z-index:2;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.promo-pill-highlight{background:linear-gradient(135deg,#e10600,#ff3838);color:#fff;font-size:12px;font-weight:900;padding:8px 16px;border-radius:30px;letter-spacing:1px;box-shadow:0 4px 14px rgba(225,6,0,0.4);white-space:nowrap}
+.btn-promo-hero{background:#fff;color:var(--ink);font-weight:800;font-size:13px;padding:10px 20px;border-radius:30px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:.25s var(--ease);box-shadow:0 4px 14px rgba(0,0,0,0.15);white-space:nowrap}
+.btn-promo-hero:hover{background:var(--c);color:#fff;transform:translateY(-2px)}
 .cd{display:flex;gap:8px;position:relative}
 .cd div{background:#ffffff12;border:1px solid #ffffff22;border-radius:12px;padding:10px 12px;text-align:center;min-width:62px}
 .cd b{font-size:24px;font-weight:900;display:block;font-variant-numeric:tabular-nums}
@@ -220,6 +227,8 @@ select{border:1.5px solid var(--line);border-radius:30px;padding:10px 14px;font-
 .badges{position:absolute;top:10px;left:10px;display:flex;gap:5px;flex-wrap:wrap;z-index:2}
 .bdg{font-size:10px;font-weight:800;letter-spacing:1px;padding:4px 8px;border-radius:6px;text-transform:uppercase;background:#ffffffea;color:var(--ink);box-shadow:0 2px 6px rgba(0,0,0,0.08);backdrop-filter:blur(4px);display:inline-flex;gap:4px;align-items:center}
 .bdg.promo{background:#e10600;color:#fff}
+.bdg.promo.inau-badge{background:linear-gradient(135deg,#e10600,#ff3b30);box-shadow:0 3px 10px rgba(225,6,0,0.4);animation:pulse-badge 2s infinite ease-in-out;font-size:10px;padding:5px 9px}
+@keyframes pulse-badge{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
 .card .quick{position:absolute;left:10px;right:10px;bottom:10px;z-index:2;background:rgba(10,10,10,0.9);color:#fff;padding:9px;border-radius:10px;font-weight:700;font-size:12px;transform:translateY(130%);transition:.3s var(--ease);display:flex;justify-content:center;gap:6px;align-items:center;backdrop-filter:blur(6px)}
 .card .bd{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
 .brand{font-size:11px;letter-spacing:2px;color:var(--mut);font-weight:800;text-transform:uppercase}
@@ -227,15 +236,36 @@ select{border:1.5px solid var(--line);border-radius:30px;padding:10px 14px;font-
 .card-feature{font-size:12px;font-weight:600;color:#6b7280;margin-bottom:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .specs-row{display:none}
 .pr{margin-top:auto;display:flex;justify-content:space-between;align-items:end;gap:10px}
+.discount-callout{display:flex;align-items:center;justify-content:space-between;gap:6px;background:#fff1f0;border:1px solid #ffccc7;padding:5px 8px;border-radius:8px;margin-bottom:6px}
+.disc-flag{font-size:10px;font-weight:800;color:#cf1322;text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:4px}
+.disc-flag svg{width:12px;height:12px;fill:currentColor}
+.disc-saved{font-size:10px;font-weight:900;background:#cf1322;color:#fff;padding:2px 6px;border-radius:4px;letter-spacing:.3px}
 .old-price-wrap{display:flex;align-items:center;gap:6px;margin-bottom:2px}
 .old-price{font-size:12px;color:#8c939d;line-height:1.2}
 .old-price s{color:#8c939d;font-weight:700;text-decoration:line-through;text-decoration-color:#e10600;text-decoration-thickness:1.5px}
+.v-wrap{display:flex;align-items:baseline;gap:6px}
+.v-lbl{font-size:11px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
 .disc-pill{background:#e10600;color:#fff;font-size:10px;font-weight:900;padding:2px 6px;border-radius:5px;letter-spacing:0.5px;text-transform:uppercase;line-height:1.3;display:inline-flex;align-items:center}
 .pr .lbl{font-size:11px;color:var(--mut)}
 .pr .v{font-size:24px;font-weight:900;letter-spacing:-0.5px;color:var(--ink);line-height:1.1}
 .pr .v small{font-size:14px}
 .pr .q{font-size:18px;font-weight:800;color:var(--c)}
 .pr .inst{font-size:12px;color:var(--mut);margin-top:2px}.pr .inst b{color:var(--ink)}
+
+/* Modal Inauguration Highlight */
+.modal-inauguration-banner{display:flex;align-items:center;gap:12px;background:linear-gradient(135deg,#fff2f0,#fff);border:1.5px solid #ffccc7;border-left:4px solid #e10600;padding:12px 14px;border-radius:12px;margin:12px 0 16px;box-shadow:0 3px 10px rgba(225,6,0,0.06)}
+.mib-icon{width:36px;height:36px;border-radius:50%;background:#e10600;color:#fff;display:grid;place-items:center;font-size:18px;flex-shrink:0;box-shadow:0 3px 8px rgba(225,6,0,0.3)}
+.mib-icon svg{width:18px;height:18px}
+.mib-title{font-size:11px;font-weight:900;color:#cf1322;letter-spacing:1px;text-transform:uppercase}
+.mib-sub{font-size:12.5px;color:#434343;line-height:1.4;margin-top:2px}
+.mib-sub strong{color:#cf1322;font-weight:800}
+.modal-price-inauguration{background:#fafafa;border:1.5px solid #f0f0f0;border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.mpi-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.mpi-old{font-size:13px;color:#8c939d}
+.mpi-old s{text-decoration:line-through;text-decoration-color:#e10600;text-decoration-thickness:2px;font-weight:700}
+.mpi-badge{background:#e10600;color:#fff;font-size:11px;font-weight:900;padding:3px 8px;border-radius:6px;letter-spacing:.5px}
+.mpi-main{display:flex;align-items:baseline;gap:8px}
+.mpi-label{font-size:12px;font-weight:700;color:var(--mut);text-transform:uppercase}
 .dots{display:flex;gap:4px}.dots i{width:16px;height:16px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #ccc}
 .cmp{display:none}
 
