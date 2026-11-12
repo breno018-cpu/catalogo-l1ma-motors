@@ -1,6 +1,30 @@
 [
   {
     "type": "update",
+    "id": "shineray-sbm-250s",
+    "text": "Shineray SBM 250s foi atualizado",
+    "at": "2026-11-11T21:08:09.775Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-phoenix-plus-50",
+    "text": "Shineray PHOENIX + 50 saiu do catálogo",
+    "at": "2026-11-11T21:06:22.597Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-worker-cross-150",
+    "text": "Shineray WORKER CROSS 150 saiu do catálogo",
+    "at": "2026-11-11T21:06:18.111Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-worker-125",
+    "text": "Shineray WORKER 125 saiu do catálogo",
+    "at": "2026-11-11T21:06:14.253Z"
+  },
+  {
+    "type": "update",
     "text": "Ordem de 3 modelos atualizada",
     "at": "2026-11-11T20:50:30.729Z"
   },
@@ -333,29 +357,5 @@
     "id": "shineray-atv-1000",
     "text": "Shineray ATV 1000 ocultado do catálogo",
     "at": "2026-11-11T20:33:56.426Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-sbm-400rr",
-    "text": "Shineray SBM 400rr ocultado do catálogo",
-    "at": "2026-11-11T20:33:52.868Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-sbm-600rc",
-    "text": "Shineray SBM 600rc ocultado do catálogo",
-    "at": "2026-11-11T20:33:51.395Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-sbm-600rc-v2",
-    "text": "Shineray SBM 600rc v2 ocultado do catálogo",
-    "at": "2026-11-11T20:33:49.308Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-se1",
-    "text": "Shineray SE1 ocultado do catálogo",
-    "at": "2026-11-11T20:33:46.816Z"
   }
 ]

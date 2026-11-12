@@ -1,6 +1,6 @@
 {
-  "version": 83,
-  "updatedAt": "2026-11-11T20:50:30.729Z",
+  "version": 87,
+  "updatedAt": "2026-11-11T21:08:09.775Z",
   "products": [
     {
       "id": "passion",
@@ -557,118 +557,6 @@
       "rotation360": null
     },
     {
-      "id": "shineray-worker-125",
-      "name": "WORKER 125",
-      "brand": "Shineray",
-      "cat": "shineray",
-      "sub": "Custom",
-      "active": true,
-      "price": 8490,
-      "oldPrice": 9490,
-      "installments": true,
-      "readyDelivery": true,
-      "stock": 5,
-      "desc": "A clássica café racer 125cc da Shineray, pronta entrega com garantia de fábrica na L1MA Motors.",
-      "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/01/WORKER-125.png",
-        "https://www.shineray.com.br/wp-content/uploads/2024/01/Worker125.webp"
-      ],
-      "specs": [
-        [
-          "123,67 cc",
-          "Motor OHC Monocilíndrico 4T"
-        ],
-        [
-          "7,2 CV / 7.500 RPM",
-          "Potência máxima"
-        ],
-        [
-          "4 marchas",
-          "Câmbio"
-        ],
-        [
-          "Elétrica e Pedal",
-          "Partida"
-        ],
-        [
-          "14 Litros",
-          "Tanque de combustível"
-        ],
-        [
-          "Disco dianteiro",
-          "Freio dianteiro"
-        ]
-      ],
-      "feat": [
-        "Estilo retrô café racer autêntico",
-        "Tanque de 14L com autonomia de até 450 km",
-        "Partida elétrica e no pedal",
-        "Painel com marcador de marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors"
-      ],
-      "disc": "Valores sujeitos a alteração. Frete e emplacamento conforme condições locais.",
-      "sortOrder": 1,
-      "featuredHero": true,
-      "heroOrder": 1,
-      "rotation360": null
-    },
-    {
-      "id": "shineray-worker-cross-150",
-      "name": "WORKER CROSS 150",
-      "brand": "Shineray",
-      "cat": "shineray",
-      "sub": "Trail",
-      "active": true,
-      "price": 8990,
-      "oldPrice": 9990,
-      "installments": true,
-      "readyDelivery": true,
-      "stock": 4,
-      "desc": "Espírito Scrambler aventureiro pronto para qualquer terreno. Suspensão dianteira reforçada com sanfonas protetoras, pneus de uso misto com cravos, protetor de motor e cárter e tanque de 14L.",
-      "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/01/Worker-150.png",
-        "https://www.shineray.com.br/wp-content/uploads/2024/01/Recorte-Worker-Cross-Vermelha-e-Azul-Direita.webp"
-      ],
-      "specs": [
-        [
-          "144,8 cc",
-          "Motor Monocilíndrico 4T"
-        ],
-        [
-          "8,6 CV / 7.500 RPM",
-          "Potência máxima"
-        ],
-        [
-          "4 marchas",
-          "Câmbio"
-        ],
-        [
-          "Elétrica e Pedal",
-          "Partida"
-        ],
-        [
-          "14 Litros",
-          "Tanque de combustível"
-        ],
-        [
-          "Uso Misto",
-          "Pneus Scrambler com cravos"
-        ]
-      ],
-      "feat": [
-        "Estilo Scrambler aventureiro",
-        "Suspensão elevada e reforçada",
-        "Pneus de uso misto com cravos",
-        "Protetor de motor e cárter integrado",
-        "Tanque com grande autonomia de 14L",
-        "Garantia de fábrica Shineray do Brasil"
-      ],
-      "disc": "Valores sujeitos a alteração. Frete e emplacamento conforme condições locais.",
-      "sortOrder": 2,
-      "rotation360": null
-    },
-    {
       "id": "shineray-jet-125ss-efi",
       "name": "JET 125",
       "brand": "Shineray",
@@ -888,59 +776,6 @@
       ],
       "video": "rvPkg7DSvDY",
       "sortOrder": 5
-    },
-    {
-      "id": "shineray-phoenix-plus-50",
-      "name": "PHOENIX + 50",
-      "brand": "Shineray",
-      "cat": "shineray",
-      "sub": "Ciclomotor",
-      "active": true,
-      "price": 7990,
-      "oldPrice": 8690,
-      "installments": true,
-      "readyDelivery": true,
-      "stock": 4,
-      "desc": "O ciclomotor mais tradicional e econômico do mercado brasileiro. Partida elétrica e pedal, rodas de liga leve, painel intuitivo e consumo de até 40 km/l para você rodar sem gastar quase nada.",
-      "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2023/08/Phoenix-S-EFI.webp"
-      ],
-      "specs": [
-        [
-          "49 cc",
-          "Motor Monocilíndrico 4T"
-        ],
-        [
-          "3,5 CV / 7.500 RPM",
-          "Potência máxima"
-        ],
-        [
-          "4 marchas semiautomático",
-          "Câmbio"
-        ],
-        [
-          "Elétrica e Pedal",
-          "Partida"
-        ],
-        [
-          "3,8 Litros",
-          "Tanque"
-        ],
-        [
-          "Liga leve",
-          "Rodas"
-        ]
-      ],
-      "feat": [
-        "Consumo de até 40 km/litro",
-        "Câmbio semiautomático sem embreagem",
-        "Partida elétrica e a pedal",
-        "Rodas de liga leve",
-        "Garantia de fábrica Shineray do Brasil"
-      ],
-      "disc": "Valores sujeitos a alteração pela montadora. Frete e taxas conforme região.",
-      "sortOrder": 6,
-      "rotation360": null
     },
     {
       "id": "shineray-jet-50",
@@ -2371,7 +2206,7 @@
       "cat": "shineray",
       "sub": "Esportiva",
       "active": true,
-      "price": 22490,
+      "price": 27990,
       "oldPrice": null,
       "installments": true,
       "readyDelivery": true,
@@ -2398,16 +2233,8 @@
           "Câmbio"
         ],
         [
-          "",
-          "Partida"
-        ],
-        [
           "5L",
           "Tanque"
-        ],
-        [
-          "",
-          "Freios"
         ]
       ],
       "feat": [
@@ -2445,7 +2272,9 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/03/SBM-250s-Novo-360-24.webp"
       ],
       "video": "8Fw4Dun0ViU",
-      "sortOrder": 30
+      "sortOrder": 30,
+      "store_id": "all",
+      "store_name": "Todas as Lojas"
     },
     {
       "id": "shineray-sbm-250t",
