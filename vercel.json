@@ -6,12 +6,12 @@
     }
   },
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/index.js" },
-    { "source": "/moto/:path*", "destination": "/api/index.js" },
-    { "source": "/m/:path*", "destination": "/api/index.js" },
-    { "source": "/produto/:path*", "destination": "/api/index.js" },
-    { "source": "/admin", "destination": "/api/index.js" },
-    { "source": "/index.html", "destination": "/api/index.js" },
-    { "source": "/", "destination": "/api/index.js" }
+    { "source": "/api/:path*", "destination": "/api/index.js?_route=/api/:path*" },
+    { "source": "/moto/:path*", "destination": "/api/index.js?_route=/moto/:path*" },
+    { "source": "/m/:path*", "destination": "/api/index.js?_route=/m/:path*" },
+    { "source": "/produto/:path*", "destination": "/api/index.js?_route=/produto/:path*" },
+    { "source": "/admin", "destination": "/api/index.js?_route=/admin" },
+    { "source": "/index.html", "destination": "/api/index.js?_route=/" },
+    { "source": "/", "destination": "/api/index.js?_route=/" }
   ]
 }

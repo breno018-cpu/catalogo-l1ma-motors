@@ -91,7 +91,7 @@ function toast(text, type = "info", id) {
 
 /* ---------------- dados + tempo real ---------------- */
 async function load() {
-  try { const r = await fetch("/api/catalog", { cache: "no-store" }); if (!r.ok) throw 0; DATA = await r.json(); }
+  try { const r = await fetch("/api/catalog?v=" + Date.now(), { cache: "no-store" }); if (!r.ok) throw 0; DATA = await r.json(); }
   catch (e) { if (!window.CATALOG) throw e; DATA = structuredClone(window.CATALOG); offline = true; }
   DATA.products.forEach(p => { p.specs ||= []; p.feat ||= []; if (!p.photos?.length) { p.photos = [p.name]; p._ext = true; } });
   setWaLinks();

@@ -2,6 +2,24 @@
   {
     "type": "update",
     "id": "kart",
+    "text": "Kart Elétrico para Manobras movido para o catálogo Off-road",
+    "at": "2026-11-12T20:27:19.535Z"
+  },
+  {
+    "type": "update",
+    "id": "kart",
+    "text": "Kart Elétrico para Manobras foi atualizado",
+    "at": "2026-11-12T20:11:45.495Z"
+  },
+  {
+    "type": "update",
+    "id": "drift",
+    "text": "Triciclo Elétrico de Drift foi atualizado",
+    "at": "2026-11-12T20:11:39.202Z"
+  },
+  {
+    "type": "update",
+    "id": "kart",
     "text": "Kart Elétrico para Manobras foi atualizado",
     "at": "2026-11-12T19:18:19.901Z"
   },
@@ -339,23 +357,5 @@
     "id": "shineray-jef-150s-efi",
     "text": "Shineray JEF 150 foi atualizado",
     "at": "2026-11-11T20:36:54.490Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-250f",
-    "text": "Shineray FLASH 250 foi atualizado",
-    "at": "2026-11-11T20:36:37.684Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-sbm-400",
-    "text": "Shineray SBM 400s foi atualizado",
-    "at": "2026-11-11T20:36:23.095Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-tlux",
-    "text": "Shineray TLUX saiu do catálogo",
-    "at": "2026-11-11T20:36:15.247Z"
   }
 ]

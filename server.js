@@ -15,14 +15,37 @@ const ROOT = __dirname;
 const PUB = path.join(ROOT, "public");
 const F = { cat: path.join(ROOT, "data/catalog.json"), cfg: path.join(ROOT, "data/config.json"), ev: path.join(ROOT, "data/events.json") };
 
-const read = (f, d) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return d; } };
-const write = (f, o) => {
+const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+
+const getStoragePath = f => {
+  if (!isServerless) return f;
+  const tmpPath = path.join("/tmp", path.basename(f));
+  if (fs.existsSync(tmpPath)) return tmpPath;
+  return f;
+};
+
+const read = (f, d) => {
   try {
-    fs.writeFileSync(f, JSON.stringify(o, null, 2));
-  } catch (err) {
-    // Ambiente serverless (Vercel/Lambda) com sistema de arquivos somente leitura
+    const target = getStoragePath(f);
+    return JSON.parse(fs.readFileSync(target, "utf8"));
+  } catch {
+    return d;
   }
 };
+
+const write = (f, o) => {
+  const content = JSON.stringify(o, null, 2);
+  try {
+    fs.writeFileSync(f, content);
+  } catch (err) {}
+  if (isServerless) {
+    try {
+      const tmpPath = path.join("/tmp", path.basename(f));
+      fs.writeFileSync(tmpPath, content);
+    } catch (err) {}
+  }
+};
+
 let catalog = read(F.cat, { version: 1, products: [] });
 let config = read(F.cfg, {});
 let events = read(F.ev, []);
@@ -31,8 +54,11 @@ let events = read(F.ev, []);
 function snapshot() {
   try {
     fs.writeFileSync(path.join(PUB, "catalog.js"), "window.CATALOG=" + JSON.stringify({ ...catalog, config }) + ";");
-  } catch (err) {
-    // Silencia em ambiente somente leitura
+  } catch (err) {}
+  if (isServerless) {
+    try {
+      fs.writeFileSync(path.join("/tmp", "catalog.js"), "window.CATALOG=" + JSON.stringify({ ...catalog, config }) + ";");
+    } catch (err) {}
   }
 }
 snapshot();
@@ -473,8 +499,16 @@ function renderIndexHtml(req, modelId) {
 }
 
 async function requestHandler(req, res) {
-  const url = new URL(req.url, `http://${req.headers.host || "localhost"}`);
-  const p = url.pathname;
+  const host = req.headers.host || "localhost:5173";
+  const url = new URL(req.url, `http://${host}`);
+  
+  // Extrai rota original protegendo contra rewrites serverless
+  const routeParam = url.searchParams.get("_route");
+  let p = routeParam || req.headers["x-matched-path"] || req.headers["x-vercel-matched-path"] || url.pathname;
+  if (p && p.includes("?")) p = p.split("?")[0];
+  if (p.startsWith("/api/index")) {
+    p = routeParam || req.headers["x-matched-path"] || p;
+  }
   if (req.method === "OPTIONS") { res.writeHead(204, { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type, Authorization", "Access-Control-Allow-Methods": "GET,POST,OPTIONS" }); return res.end(); }
   try {
     if (p === "/api/catalog") {
@@ -551,7 +585,11 @@ async function requestHandler(req, res) {
       ? path.normalize(path.join(PUB, decodeURIComponent(assetSubMatch[1])))
       : path.normalize(path.join(PUB, p === "/admin" ? "admin.html" : decodeURIComponent(p)));
 
-    if (!fp.startsWith(PUB) || !fs.existsSync(fp) || fs.statSync(fp).isDirectory()) {
+    if (p === "/catalog.js" && isServerless && fs.existsSync("/tmp/catalog.js")) {
+      fp = "/tmp/catalog.js";
+    }
+
+    if ((!fp.startsWith(PUB) && fp !== "/tmp/catalog.js") || !fs.existsSync(fp) || fs.statSync(fp).isDirectory()) {
       const ext = path.extname(p);
       if (ext === ".jpg" || ext === ".jpeg" || ext === ".webp" || ext === ".png" || ext === ".svg") {
         res.writeHead(404, { "Content-Type": "image/svg+xml", "Cache-Control": "no-store" });

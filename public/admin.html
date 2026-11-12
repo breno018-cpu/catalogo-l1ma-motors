@@ -71,7 +71,7 @@ code{background:#f0f1f3;padding:2px 6px;border-radius:5px;font-size:12px}
 const $=s=>document.querySelector(s);let D;
 $("#tk").value=localStorage.l1tk||"l1ma-dev-token";$("#tk").onchange=e=>localStorage.l1tk=e.target.value;
 const log=t=>{$("#log").textContent=`[${new Date().toLocaleTimeString()}] ${t}\n`+$("#log").textContent};
-async function load(){D=await (await fetch("/api/catalog")).json();render()}
+async function load(){D=await (await fetch("/api/catalog?v="+Date.now(),{cache:"no-store"})).json();render()}
 async function send(op){
  const r=await fetch("/api/sync",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+$("#tk").value},body:JSON.stringify(op)});
  const j=await r.json();log(JSON.stringify(op)+"\n  → "+(j.ok?"OK v"+j.version:"ERRO "+(j.error||JSON.stringify(j.errors))));await load();return j}
