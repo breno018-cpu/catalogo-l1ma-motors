@@ -23,10 +23,10 @@ const im = (p, i = 0) => {
 };
 
 const CATS = {
-  shineray: { name: "Shineray", ic: "store", kick: "CONCESSIONÁRIA AUTORIZADA", title: "L1MA Motors Shineray", desc: "Concessionária autorizada Shineray do Brasil. Pronta entrega, garantia de fábrica e facilidade de pagamento com as melhores taxas.", promo: "Condições Especiais Shineray" },
   ele: { name: "Elétricas", ic: "zap", kick: "L1MA MOTORS ELÉTRICAS", title: "L1MA Motors Elétricas", desc: "Economia, silêncio e zero combustível. Scooters elétricas e modelos infantis." },
   semi: { name: "Semi-novos", ic: "key", kick: "L1MA MOTORS SEMI-NOVOS", title: "L1MA Motors Semi-novos", desc: "Motos selecionadas e com procedência. Também avaliamos a sua na troca." },
-  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos, kart e drift para trilha, fazenda e lazer." }
+  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos, kart e drift para trilha, fazenda e lazer." },
+  shineray: { name: "Shineray L1MA", hidden: true, ic: "store", kick: "L1MA MOTORS SHINERAY", title: "L1MA Motors Shineray", desc: "Concessionária autorizada Shineray do Brasil. Pronta entrega, garantia de fábrica e facilidade de pagamento com as melhores taxas.", promo: "Condições Especiais Shineray" }
 };
 
 let offline = false, DATA = { products: [], config: {} }, cat = "ele", sub = "all", q = "", sort = "", cmpList = [];
@@ -108,15 +108,31 @@ function fx(ev) {
 /* ---------------- navegação / tabs ---------------- */
 function count(k) { return P().filter(p => p.cat === k).length; }
 function renderTabs() {
+  if (cat === "shineray") {
+    $("#tabs").innerHTML = "";
+    $("#tabs").style.display = "none";
+    $("#bnav").innerHTML = `
+      <button class="on" data-go="shineray">${ic("store")}Shineray</button>
+      <a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>
+      <a class="rp" data-wa href="${wa(GEN)}" target="_blank" rel="noopener">${ic("wa")}WhatsApp</a>
+    `;
+    return;
+  }
   $("#tabs").style.display = "";
-  $("#tabs").innerHTML = Object.entries(CATS).map(([k, v]) => `<button class="tab ${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}<em>${count(k) || "em breve"}</em></button>`).join("");
-  $("#bnav").innerHTML = Object.entries(CATS).map(([k, v]) => `<button class="${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}</button>`).join("") + `<a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>`;
+  $("#tabs").innerHTML = Object.entries(CATS).filter(([_, v]) => !v.hidden).map(([k, v]) => `<button class="tab ${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}<em>${count(k) || "em breve"}</em></button>`).join("");
+  $("#bnav").innerHTML = Object.entries(CATS).filter(([_, v]) => !v.hidden).map(([k, v]) => `<button class="${k === cat ? "on" : ""}" data-go="${k}">${ic(v.ic)}${v.name}</button>`).join("") + `<a href="#simulador" class="bnav-sim">${ic("calc")}Simular</a>`;
 }
 document.addEventListener("click", e => {
   const sim = e.target.closest('.bnav-sim');
   if (sim) {
     e.preventDefault();
     openSim();
+    return;
+  }
+  const ash = e.target.closest('a[href*="shineray"]');
+  if (ash && !ash.target) {
+    e.preventDefault();
+    setCat("shineray", true);
     return;
   }
   const g = e.target.closest("[data-go]"); if (!g) return;
@@ -145,9 +161,11 @@ function renderTop() {
   const L = P(), pr = L.filter(p => p.price && !isOut(p));
   const min = pr.length ? Math.min(...pr.filter(p => p.cat === cat || (!CATS[cat]?.hidden && p.cat === "ele")).map(p => p.price)) : null;
   const storeLbl = cat === "shineray" ? "<b>SHINERAY L1MA MOTORS</b> · CONCESSIONÁRIA AUTORIZADA" : "<b>L1MA</b> MOTORS MULTIMARCAS";
-  const inauBanner = cat === "ele" 
-    ? "<b>🔥 MEGA INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODAS AS ELÉTRICAS!" 
-    : "<b>🎉 PROMOÇÃO DE INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODOS OS MODELOS!";
+  const inauBanner = cat === "shineray"
+    ? "<b>🔥 PROMOÇÃO EXCLUSIVA SHINERAY:</b> R$ 1.800 DE DESCONTO EM TODAS AS MOTOS!"
+    : (cat === "ele" 
+      ? "<b>🔥 MEGA INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODAS AS ELÉTRICAS!" 
+      : "<b>🎉 PROMOÇÃO DE INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODOS OS MODELOS!");
   const items = [["store", storeLbl], ["tag", inauBanner], min ? ["zap", `${cat === "shineray" ? "Motos Shineray" : "Elétricas"} a partir de R$ ${brl0(min)}`] : null, ["card", `Até ${maxN()}x no cartão`], ["key", "Avaliamos sua moto na troca"],
     ...L.filter(p => p.promo && (p.cat === cat || (!CATS[cat]?.hidden && p.cat !== "shineray"))).map(p => ["tag", `${esc(p.brand)} ${esc(p.name)}: ${esc(p.promo.label)}`])].filter(Boolean);
   const h = items.map(([i, t]) => `<span>${ic(i)}${t}</span>`).join("");
@@ -709,7 +727,8 @@ function route() {
   const pathMatch = path.match(/\/(?:moto|m|produto)\/([^\/]+)/i);
   const targetId = mParam || (pathMatch ? decodeURIComponent(pathMatch[1]).toLowerCase() : null) || h;
 
-  if (targetId === "shineray" || path.includes("shineray") || h === "shineray") {
+  const catParam = (urlP.get("cat") || urlP.get("c") || "").toLowerCase();
+  if (targetId === "shineray" || path.includes("shineray") || h === "shineray" || catParam === "shineray") {
     setCat("shineray");
     return;
   }
@@ -723,11 +742,15 @@ function route() {
     }, 80);
     return;
   }
-  setCat(CATS[h] ? h : "ele");
+  setCat(CATS[h] && !CATS[h].hidden ? h : "ele");
 }
 window.addEventListener("hashchange", () => {
   const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
-  if (CATS[h] && h !== cat) {
+  if (h === "shineray") {
+    setCat("shineray");
+    return;
+  }
+  if (CATS[h] && !CATS[h].hidden && h !== cat) {
     setCat(h);
   } else {
     const p = byId(h);
