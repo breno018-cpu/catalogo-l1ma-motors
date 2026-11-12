@@ -478,7 +478,7 @@
     {
       "id": "kart",
       "active": true,
-      "cat": "ele",
+      "cat": "off",
       "sub": "Kart",
       "brand": "Kart elétrico",
       "name": "Kart para manobras",
@@ -524,7 +524,7 @@
     {
       "id": "drift",
       "active": true,
-      "cat": "ele",
+      "cat": "off",
       "sub": "Drift",
       "brand": "Triciclo elétrico",
       "name": "Triciclo de Drift",

@@ -69,14 +69,16 @@ function applyOp(op) {
       delete d.action;
       if (!d?.id) throw new Error("product.id (ou id) obrigatório");
       d.id = String(d.id).trim();
+      const p = find(d.id);
       if (d.cat) {
         const c = String(d.cat).toLowerCase().trim();
-        d.cat = CATS.includes(c) ? c : "ele";
+        d.cat = CATS.includes(c) ? c : (p ? p.cat : "ele");
+      } else if (!p) {
+        d.cat = "ele";
       }
       if (d.price !== undefined) d.price = parseNum(d.price);
       if (d.oldPrice !== undefined) d.oldPrice = parseNum(d.oldPrice);
       if (d.stock !== undefined) d.stock = d.stock === null ? null : Math.max(0, +d.stock);
-      const p = find(d.id);
       if (p) { Object.assign(p, d); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
       P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, sortOrder: d.sortOrder ?? (P.length + 1), ...d });
       return { type: "new", id: d.id, text: `Novidade no catálogo: ${name(d)}` };
