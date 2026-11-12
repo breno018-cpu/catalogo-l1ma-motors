@@ -46,6 +46,24 @@ function broadcast(evts) {
 
 /* ---------- regras de sincronização ---------- */
 const CATS = ["ele", "semi", "off", "shineray"];
+const CAT_NAMES = {
+  ele: "Elétricas",
+  semi: "Semi-novos",
+  off: "Off-road",
+  shineray: "Shineray"
+};
+
+const normalizeCat = c => {
+  if (!c) return null;
+  const s = String(c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  if (s === "ele" || s.startsWith("eletric") || s.includes("scooter") || s.includes("patinete") || s.includes("moto eletrica")) return "ele";
+  if (s === "off" || s.startsWith("off") || s.includes("quadri") || s.includes("kart") || s.includes("drift") || s.includes("trilha") || s.includes("atv")) return "off";
+  if (s === "semi" || s.startsWith("semi") || s.includes("usad") || s.includes("troca")) return "semi";
+  if (s === "shineray" || s.includes("shine")) return "shineray";
+  if (CATS.includes(s)) return s;
+  return null;
+};
+
 const parseNum = v => {
   if (v === null || v === undefined) return null;
   if (typeof v === 'number') return isNaN(v) ? null : v;
@@ -70,30 +88,53 @@ function applyOp(op) {
   };
   switch (op.action) {
     case "upsert":
+    case "update":
     case "create":
     case "add": {
       const d = op.product || op.data || { ...op };
       delete d.action;
-      if (!d?.id) throw new Error("product.id (ou id) obrigatório");
-      d.id = String(d.id).trim();
+      const targetId = d?.id || op.id;
+      if (!targetId) throw new Error("product.id (ou id) obrigatório");
+      d.id = String(targetId).trim();
       const p = find(d.id);
-      if (d.cat) {
-        const c = String(d.cat).toLowerCase().trim();
-        d.cat = CATS.includes(c) ? c : (p ? p.cat : "ele");
+      const rawCat = d.cat ?? d.category ?? d.catalog ?? d.catalogo ?? op.cat ?? op.category ?? op.catalog ?? op.catalogo;
+      if (rawCat) {
+        const norm = normalizeCat(rawCat);
+        d.cat = norm || (p ? p.cat : "ele");
       } else if (!p) {
         d.cat = "ele";
       }
+      delete d.category;
+      delete d.catalog;
+      delete d.catalogo;
       if (d.price !== undefined) d.price = parseNum(d.price);
       if (d.oldPrice !== undefined) d.oldPrice = parseNum(d.oldPrice);
       if (d.stock !== undefined) d.stock = d.stock === null ? null : Math.max(0, +d.stock);
-      if (p) { Object.assign(p, d); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
+      if (p) { Object.assign(p, d); snapshot(); return { type: "update", id: d.id, text: `${name(p)} foi atualizado` }; }
       P.push({ active: true, photos: [], specs: [], feat: [], stock: null, oldPrice: null, promo: null, sortOrder: d.sortOrder ?? (P.length + 1), ...d });
+      snapshot();
       return { type: "new", id: d.id, text: `Novidade no catálogo: ${name(d)}` };
     }
     case "remove":
     case "delete": {
       const p = need(op.id); catalog.products = P.filter(x => x !== p);
+      snapshot();
       return { type: "remove", id: op.id, text: `${name(p)} saiu do catálogo` };
+    }
+    // DEFINIÇÃO / MUDANÇA DE CATÁLOGO (CATEGORIA)
+    case "cat":
+    case "category":
+    case "catalog":
+    case "catalogo":
+    case "move": {
+      const p = need(op.id);
+      const rawCat = op.cat ?? op.category ?? op.catalog ?? op.catalogo ?? op.value ?? op.to;
+      if (!rawCat) throw new Error("cat ou category é obrigatório ('ele' / Elétricas, 'semi' / Semi-novos, 'off' / Off-road, 'shineray' / Shineray)");
+      const targetCat = normalizeCat(rawCat);
+      if (!targetCat) throw new Error(`catálogo '${rawCat}' inválido. Escolha: 'ele' (Elétricas), 'semi' (Semi-novos), 'off' (Off-road) ou 'shineray' (Shineray)`);
+      p.cat = targetCat;
+      snapshot();
+      return { type: "update", id: p.id, text: `${name(p)} movido para o catálogo ${CAT_NAMES[p.cat] || p.cat}` };
     }
     // ORDENAÇÃO DOS MODELOS
     case "order": {

@@ -1,6 +1,36 @@
 [
   {
     "type": "update",
+    "id": "kart",
+    "text": "Kart Elétrico para Manobras foi atualizado",
+    "at": "2026-11-12T19:18:19.901Z"
+  },
+  {
+    "type": "update",
+    "id": "kart",
+    "text": "Kart Elétrico para Manobras movido para o catálogo Off-road",
+    "at": "2026-11-12T19:17:41.617Z"
+  },
+  {
+    "type": "update",
+    "id": "drift",
+    "text": "Triciclo Elétrico de Drift foi atualizado",
+    "at": "2026-11-12T19:13:21.924Z"
+  },
+  {
+    "type": "update",
+    "id": "kart",
+    "text": "Kart Elétrico para Manobras foi atualizado",
+    "at": "2026-11-12T19:13:12.174Z"
+  },
+  {
+    "type": "update",
+    "id": "foston-1000",
+    "text": "Foston Elétrica 1.000 W foi atualizado",
+    "at": "2026-11-12T19:05:37.760Z"
+  },
+  {
+    "type": "update",
     "id": "passion",
     "text": "Posição de GOAT Passion atualizada para #1",
     "at": "2026-11-12T14:57:14.744Z"
@@ -327,35 +357,5 @@
     "id": "shineray-tlux",
     "text": "Shineray TLUX saiu do catálogo",
     "at": "2026-11-11T20:36:15.247Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-sh4",
-    "text": "Shineray SH4 ocultado do catálogo",
-    "at": "2026-11-11T20:36:12.304Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-sh3",
-    "text": "Shineray SH3 ocultado do catálogo",
-    "at": "2026-11-11T20:36:08.942Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-jet-125",
-    "text": "Shineray NEW JET 125 foi atualizado",
-    "at": "2026-11-11T20:36:06.517Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-rio-125-efi",
-    "text": "Shineray RIO 125 EFI foi atualizado",
-    "at": "2026-11-11T20:35:45.492Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-urban-lite",
-    "text": "Shineray URBAN LITE foi atualizado",
-    "at": "2026-11-11T20:35:27.905Z"
   }
 ]

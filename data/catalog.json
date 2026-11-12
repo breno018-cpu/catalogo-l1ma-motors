@@ -1,6 +1,6 @@
 {
-  "version": 114,
-  "updatedAt": "2026-11-12T19:13:12.174Z",
+  "version": 117,
+  "updatedAt": "2026-11-12T19:18:19.901Z",
   "products": [
     {
       "id": "passion",
@@ -489,7 +489,7 @@
     {
       "id": "kart",
       "active": true,
-      "cat": "ele",
+      "cat": "off",
       "sub": "Kart",
       "brand": "L1MA MOTORS",
       "name": "Kart Elétrico para Manobras",
@@ -551,8 +551,8 @@
       "desc": "A felicidade do seu filho e a diversão da família! Com motor de 1.000 W, visual azul camuflado e capacidade de até 140 kg, o Triciclo de Drift convida a compartilhar momentos de lazer e emoção em cada curva.",
       "img": "drift",
       "photos": [
-        "/assets/drift-0.jpg",
-        "/assets/drift-1.jpg"
+        "http://localhost:5173/assets/drift-0.jpg",
+        "http://localhost:5173/assets/drift-1.jpg"
       ],
       "colors": null,
       "specs": [
@@ -576,7 +576,8 @@
       "rotation360": null,
       "store_id": "all",
       "store_name": "Todas as Lojas",
-      "image": "/assets/drift-0.jpg"
+      "image": "/assets/drift-0.jpg",
+      "autoSyncStock": true
     },
     {
       "id": "shineray-jet-125ss-efi",

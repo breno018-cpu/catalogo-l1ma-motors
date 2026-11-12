@@ -77,8 +77,14 @@ async function send(op){
  const j=await r.json();log(JSON.stringify(op)+"\n  → "+(j.ok?"OK v"+j.version:"ERRO "+(j.error||JSON.stringify(j.errors))));await load();return j}
 function render(){
  const c=D.config,low=c.lowStockThreshold??2;
- $("#tb").innerHTML=`<tr><th></th><th>Modelo</th><th>Situação</th><th>Estoque</th><th>Preço</th><th>Promoção</th><th>Ações</th></tr>`+D.products.map(p=>`<tr style="${p.active===false?"opacity:.4":""}">
-  <td><img src="${p.photos?.length?`assets/${p.img}-0.jpg`:(p.image||"icon.svg")}"></td><td><b>${p.brand} ${p.name}</b><br><small>${p.id} · ${p.cat}</small></td>
+ $("#tb").innerHTML=`<tr><th></th><th>Modelo</th><th>Catálogo</th><th>Situação</th><th>Estoque</th><th>Preço</th><th>Promoção</th><th>Ações</th></tr>`+D.products.map(p=>`<tr style="${p.active===false?"opacity:.4":""}">
+  <td><img src="${p.image||(p.photos?.[0]||"icon.svg")}"></td><td><b>${p.brand} ${p.name}</b><br><small>${p.id}</small></td>
+  <td><select style="width:115px;padding:5px 6px;font-size:12px;border-radius:6px" onchange="send({action:'category',id:'${p.id}',cat:this.value})">
+    <option value="ele" ${p.cat==='ele'?'selected':''}>⚡ Elétricas</option>
+    <option value="semi" ${p.cat==='semi'?'selected':''}>🔑 Semi-novos</option>
+    <option value="off" ${p.cat==='off'?'selected':''}>🏔️ Off-road</option>
+    <option value="shineray" ${p.cat==='shineray'?'selected':''}>🔴 Shineray</option>
+  </select></td>
   <td>${p.stock===0?'<span class="pill out">ESGOTADO</span>':p.stock!=null&&p.stock<=low?'<span class="pill low">BAIXO</span>':'<span class="pill">OK</span>'}</td>
   <td><div class="row"><input class="n" type="number" min="0" value="${p.stock??""}" placeholder="—" id="s-${p.id}"><button onclick="send({action:'stock',id:'${p.id}',value:$('#s-${p.id}').value===''?null:+$('#s-${p.id}').value})">OK</button><button class="r" onclick="send({action:'stock',id:'${p.id}',value:0})">Zerar</button></div></td>
   <td><div class="row"><input class="p" type="number" value="${p.price??""}" placeholder="consulta" id="p-${p.id}"><button onclick="send({action:'price',id:'${p.id}',value:$('#p-${p.id}').value===''?null:+$('#p-${p.id}').value})">OK</button></div></td>
