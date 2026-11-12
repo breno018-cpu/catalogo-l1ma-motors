@@ -576,7 +576,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "A cub mais vendida do Brasil agora com injeção eletrônica EFI e painel 100% digital. Máxima economia e praticidade para o dia a dia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2023/08/500x500-JET-125-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-serie-JET-125-EFI-2-1.webp",
@@ -586,28 +586,37 @@
       ],
       "specs": [
         [
-          "7 cc",
+          "125 cc (123,7 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 cv / 7.500 RPM",
+          "7,5 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Semi-automático 4 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "3,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Injeção eletrônica EFI",
+        "Painel 100% digital completo",
+        "Rodas de liga leve aro 17\" e 14\"",
+        "Freio a disco dianteiro com CBS",
+        "Tomada USB para carregamento de celular",
+        "Partida elétrica e a pedal"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -651,7 +660,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Confortável e econômica, a New Jet 125 entrega agilidade no trânsito urbano com embreagem semi-automática sem necessidade de manete.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-MENU.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-7.webp",
@@ -661,28 +670,36 @@
       ],
       "specs": [
         [
-          "7 cc",
+          "125 cc (123,7 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 7.500 RPM",
+          "7,5 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Semi-automático 4 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "3,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Câmbio semi-automático de 4 marchas",
+        "Painel digital completo",
+        "Porta-objetos sob o banco",
+        "Freio dianteiro a disco com sistema CBS",
+        "Entrada USB integrada"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -726,7 +743,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "O ciclomotor mais tradicional da Shineray, agora atualizado com injeção eletrônica EFI, consumo ultrabaixo e partida elétrica.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Phoenix-S-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Foto-Capa-PHOENIX-S-EFI.webp",
@@ -736,28 +753,36 @@
       ],
       "specs": [
         [
-          "6 cc",
+          "50 cc (49,5 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 8000 RPM",
+          "2,9 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "Marchas",
+          "Semi-automático 4 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro",
+          "Freios"
+        ],
+        [
+          "3,5 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: Marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Injeção eletrônica EFI",
+        "Ciclomotor super econômico (faz mais de 45 km/l)",
+        "Freio dianteiro a disco",
+        "Partida elétrica e pedal",
+        "Painel digital e iluminação em LED"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -797,7 +822,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Ideal para trajetos curtos na cidade com máxima economia de combustível e facilidade de pilotagem.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-500x500-Principal.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/02-scaled.webp",
@@ -807,28 +832,36 @@
       ],
       "specs": [
         [
-          "4 cc",
+          "50 cc (49,4 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "1 CV / 5.000 RPM",
+          "2,7 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Semi-automático 4 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro",
+          "Freios"
+        ],
+        [
+          "3,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Super econômica e silenciosa",
+        "Partida elétrica e a pedal",
+        "Embreagem centrífuga automática",
+        "Freio dianteiro a disco",
+        "Rodas de liga leve"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -867,7 +900,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Trail de alta performance com suspensão invertida, excelente altura do solo e motor com torque forte para cidade e estrada de terra.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Home.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Cores-6.webp",
@@ -877,28 +910,36 @@
       ],
       "specs": [
         [
-          "6 cc",
+          "175 cc (173,6 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "3 CV / 8500 RPM",
+          "13,3 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "2L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "12,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Suspensão dianteira invertida de longo curso",
+        "Freios a disco nas duas rodas com CBS",
+        "Painel 100% digital e iluminação Full LED",
+        "Design trail esportivo agressivo",
+        "Porta USB integrada"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -917,7 +958,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "A trail mais robusta e versátil da categoria, perfeita para encarar qualquer tipo de terreno com conforto e tanque de grande capacidade.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-SHI-175.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-3.webp",
@@ -927,28 +968,36 @@
       ],
       "specs": [
         [
-          "1 cc",
+          "175 cc (173,6 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "3 CV / 8500 RPM",
+          "13,3 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Tanque de 15 litros com autonomia superior a 400 km",
+        "Freios a disco dianteiro e traseiro",
+        "Protetores de mão de fábrica",
+        "Bagageiro traseiro reforçado",
+        "Painel digital completo"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -992,7 +1041,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Street moderna com ciclística ágil e motor 170 cc de aceleração rápida, ideal para o trânsito do dia a dia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-Menu-SHI-170.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-9-1.webp",
@@ -1002,28 +1051,36 @@
       ],
       "specs": [
         [
-          "0 cc",
+          "170 cc (169 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 8.000 RPM",
+          "12,9 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Estilo naked urbano moderno",
+        "Painel digital em LCD",
+        "Rodas de liga leve aro 17\"",
+        "Freios combinados CBS",
+        "Farol esportivo com DRL em LED"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1067,7 +1124,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Trail média completa para turismo e aventura, com arrefecimento líquido, câmbio de 6 marchas e freios ABS.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/04/Miniatura-SHI-250.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI250-Cores.webp",
@@ -1077,28 +1134,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "3 CV / 8000 RPM",
+          "23,0 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "8L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "18,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor 250 cc 4 válvulas com arrefecimento a líquido",
+        "Câmbio de 6 marchas para viagens longas",
+        "Freios ABS de dois canais",
+        "Painel TFT colorido de alta definição",
+        "Tanque de 18 litros para viagens"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1117,7 +1182,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Street de visual esportivo e arrojado, perfeita para o trabalho ou locomoção diária com conforto e estilo.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150s-EFI.webp",
@@ -1127,28 +1192,36 @@
       ],
       "specs": [
         [
-          "9 cc",
+          "150 cc (149 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 7.500 RPM",
+          "10,5 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "2L",
+          "Elétrica e pedal",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "12,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Injeção eletrônica EFI",
+        "Painel digital moderno",
+        "Carenagem aerodinâmica",
+        "Farol esportivo em LED",
+        "Excelente autonomia e baixo custo de manutenção"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1167,7 +1240,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Mais potência e acelerações vigorosas para a cidade, mantendo a ergonomia e facilidade de pilotagem.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/06/JEF-170-500x500-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/06/01-scaled.webp",
@@ -1177,28 +1250,36 @@
       ],
       "specs": [
         [
-          "0 cc",
+          "170 cc (169 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 8.000 RPM",
+          "12,9 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "2L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "12,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor 170 cc com torque elevado em baixas rotações",
+        "Freios a disco nas duas rodas",
+        "Iluminação em LED com luz de posição diurna",
+        "Painel digital multifunções",
+        "Assento em dois níveis"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1217,7 +1298,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Scooter urbana moderna, fácil de pilotar, com transmissão CVT automática e piso plano para máximo conforto.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2023/12/Home-RIO-125-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/12/Cor-RIO-125-EFI-preta.webp",
@@ -1227,28 +1308,36 @@
       ],
       "specs": [
         [
-          "7 cc",
+          "125 cc (123,7 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "8 CV / 8000 RPM",
+          "8,0 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Automático CVT",
           "Câmbio"
         ],
         [
-          "2L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "5,2 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Transmissão 100% automática CVT (só acelerar e frear)",
+        "Injeção eletrônica EFI",
+        "Espaço sob o assento para capacete",
+        "Ganchos para bolsas e piso plano",
+        "Conexão USB para recarga rápida"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1267,7 +1356,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "A utilitária urbana ideal para o trabalho diário, com mecânica confiável, peças acessíveis e grande durabilidade.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-Cinza.webp",
@@ -1277,36 +1366,36 @@
       ],
       "specs": [
         [
-          "9 cc",
+          "150 cc (149 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "6 cv / 8.500 rpm",
+          "11,6 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica e pedal",
           "Partida"
         ],
         [
-          "2L",
-          "Tanque"
+          "Disco dianteiro / Tambor traseiro (CBS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "12,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Excelente custo-benefício para trabalho e entregas",
+        "Partida elétrica e a pedal",
+        "Freio a disco dianteiro com CBS",
+        "Chassi reforçado e suspensão resistente",
+        "Baixíssimo consumo de combustível"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1325,7 +1414,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Maxi-scooter premium com acabamento refinado, chave presencial e tanque de 13,5 litros para cidade e rodovia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/01/URBAN-150-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-URBAN-2-1.webp",
@@ -1335,28 +1424,36 @@
       ],
       "specs": [
         [
-          "9 cc",
+          "150 cc (149,6 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 cv / 8500 RPM",
+          "12,9 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "Automático",
+          "Automático CVT",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica (Smart Key)",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (ABS/CBS)",
+          "Freios"
+        ],
+        [
+          "13,5 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: Automático",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Sistema de chave presencial Smart Key",
+        "Painel digital TFT colorido",
+        "Para-brisa ajustável",
+        "Iluminação Full LED",
+        "Compartimento amplo sob o banco"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1400,7 +1497,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Scooter compacta e ágil para quem busca praticidade, peso leve e pilotagem descomplicada no dia a dia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-LITE-MENU.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/10-1-scaled.webp",
@@ -1410,28 +1507,36 @@
       ],
       "specs": [
         [
-          "8 cc",
+          "125 cc (124,8 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 cv / 7500 RPM",
+          "8,5 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "CVT",
+          "Automático CVT",
           "Câmbio"
         ],
         [
-          "8L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro / Tambor traseiro",
+          "Freios"
+        ],
+        [
+          "6,8 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: CVT",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Peso leve e fácil manobrabilidade",
+        "Câmbio automático tipo CVT",
+        "Design retrô moderno",
+        "Porta-luvas e gancho frontal",
+        "Painel digital moderno"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1475,7 +1580,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Custom clássica com assento baixo, guidão largo e o som encorpado do motor de 250 cc.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-1-8.webp",
@@ -1485,28 +1590,36 @@
       ],
       "specs": [
         [
-          "2 cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 8000 RPM",
+          "19,0 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "7L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro",
+          "Freios"
+        ],
+        [
+          "14,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Estilo Custom Bobber autêntico",
+        "Escapamento duplo cromado",
+        "Posição de pilotagem confortável e relaxada",
+        "Farol redondo clássico",
+        "Pneus largos de perfil alto"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1525,7 +1638,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Estilo minimalista e agressivo com acabamentos em preto fosco para quem quer presença por onde passa.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Iron.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-2-4.webp",
@@ -1535,28 +1648,36 @@
       ],
       "specs": [
         [
-          "0 cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "7 CV / 9000 RPM",
+          "17,0 cv a 9.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "4L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro",
+          "Freios"
+        ],
+        [
+          "14,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Visual Dark Custom em preto fosco",
+        "Rodas raiadas personalizadas",
+        "Painel minimalista",
+        "Freios a disco nas duas rodas",
+        "Excelente estabilidade em curvas"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1600,7 +1721,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Custom sofisticada para pegar a estrada com elegância, conforto térmico e excelente dirigibilidade.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Titanium-500x500-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-Titanium-04-3.webp",
@@ -1610,28 +1731,36 @@
       ],
       "specs": [
         [
-          "2 cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 8000 RPM",
+          "19,0 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro",
+          "Freios"
+        ],
+        [
+          "13,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Design cruiser premium",
+        "Acabamentos metálicos escovados",
+        "Banco ergonômico bipartido",
+        "Lanterna traseira em LED",
+        "Câmbio preciso de 5 velocidades"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1675,7 +1804,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Scrambler potente e clássica com motor 400 cc refrigerado a ar e óleo, com grande torque em todas as marchas.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Foto-Principal-SHI-400sc.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cor-SHI-400sc-2.webp",
@@ -1685,28 +1814,36 @@
       ],
       "specs": [
         [
-          "7 cc",
+          "400 cc (397 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 7000 RPM",
+          "27,5 cv a 7.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "4L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro duplo e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "14,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Estilo Scrambler com vocação mista",
+        "Freios ABS de fábrica com disco duplo dianteiro",
+        "Suspensão de curso longo para pisos irregulares",
+        "Pneus de uso misto",
+        "Painel digital em LCD"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1725,7 +1862,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Naked de 4 cilindros em linha com alta potência de 81 cv e acelerações de tirar o fôlego.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600C-Home-Menu.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Galeria-SBM-600C-10.webp",
@@ -1735,36 +1872,36 @@
       ],
       "specs": [
         [
-          "4cc",
+          "600 cc (594 cc - 4 Cilindros)",
           "Motor / Cilindrada"
         ],
         [
-          "1 CV / 10.500 RPM",
+          "81,0 cv a 10.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "5L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "15,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor 4 cilindros em linha com ronco esportivo inconfundível",
+        "Arrefecimento líquido",
+        "Freios ABS com pinças radiais",
+        "Painel TFT colorido com conectividade",
+        "Iluminação Full LED"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1808,7 +1945,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Superesportiva carenada com motor 4 cilindros de 84 cv, desenvolvida para velocidade e precisão em curvas.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-600R-Home-e-Menu.png",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Banner-Principal-SBM-600R.webp",
@@ -1818,36 +1955,36 @@
       ],
       "specs": [
         [
-          "0cc",
+          "600 cc (594 cc - 4 Cilindros)",
           "Motor / Cilindrada"
         ],
         [
-          "4 CV / 10.500 RPM",
+          "84,0 cv a 10.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "8L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "18,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Carenagem integral aerodinâmica de corrida",
+        "Semiguidões esportivos para postura de pista",
+        "Suspensão dianteira invertida ajustável",
+        "Embreagem assistida e deslizante",
+        "Freios ABS esportivos de alta resposta"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -1891,7 +2028,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Evolução esportiva com 85 cv e entrega de potência imediata para pilotos exigentes.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/08/SBM-600rc-v2-500x500-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-SBM-600rc2-v2.webp",
@@ -1901,36 +2038,36 @@
       ],
       "specs": [
         [
-          "0cc",
+          "600 cc (594 cc - 4 Cilindros)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 9.000 RPM",
+          "85,0 cv a 9.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "8L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "18,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Versão especial com calibração esportiva aprimorada",
+        "Chassi tubular em treliça de alta rigidez",
+        "Painel digital TFT com múltiplos modos de exibição",
+        "Escape esportivo de fluxo direto",
+        "Embreagem deslizante"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -1949,7 +2086,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Maxi-trail 4 cilindros feita para cruzar estados com máximo conforto, proteção aerodinâmica e força de sobra.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Home-e-Menu-SBM-600-Trail.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Itens-de-serie-Acessorios.webp",
@@ -1959,36 +2096,36 @@
       ],
       "specs": [
         [
-          "4cc",
+          "600 cc (594 cc - 4 Cilindros)",
           "Motor / Cilindrada"
         ],
         [
-          "6 CV /8.250 RPM",
+          "76,0 cv a 8.250 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "0L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "20,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Crossover Adventure para viagens de longa distância",
+        "Tanque de 20 litros com autonomia estendida",
+        "Para-brisa alto de proteção contra vento",
+        "Protetores de carenagem e motor",
+        "Posição de pilotagem ergonômica para turismo"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2007,7 +2144,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Muscle bike de 4 cilindros com postura agressiva e arranque potente.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/12/Fotos.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/12/Galeria-SBM-600V.webp",
@@ -2017,36 +2154,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "600 cc (594 cc - 4 Cilindros)",
           "Motor / Cilindrada"
         ],
         [
-          "7 CV / 10.500 RPM",
+          "77,0 cv a 10.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "5L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "15,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Visual Power Cruiser esportivo",
+        "Guidão estilo drag bar",
+        "Pneu traseiro largo de alta tração",
+        "Painel digital integrado",
+        "Farol em LED com assinatura luminosa"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -2090,7 +2227,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Naked bicilíndrica com excelente relação peso-potência, ágil na cidade e veloz na rodovia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-400s-500x500-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-7.webp",
@@ -2100,28 +2237,36 @@
       ],
       "specs": [
         [
-          "3cc",
+          "400 cc (378 cc - Bicilíndrico)",
           "Motor / Cilindrada"
         ],
         [
-          "6 CV / 9.000 RPM",
+          "36,0 cv a 9.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor bicilíndrico em linha com arrefecimento líquido",
+        "Câmbio de 6 marchas",
+        "Freios ABS de canal duplo",
+        "Painel digital TFT",
+        "Suspensão invertida dianteira"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2140,7 +2285,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Esportiva carenada de 400 cc desenvolvida para quem quer desempenho de pista com custo de manutenção inteligente.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-500x500-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/07/Cor-SBM-400rr.webp",
@@ -2150,32 +2295,36 @@
       ],
       "specs": [
         [
-          "0cc",
+          "400 cc (378 cc - Bicilíndrico)",
           "Motor / Cilindrada"
         ],
         [
-          "marchas",
+          "38,0 cv a 9.500 rpm",
+          "Potência"
+        ],
+        [
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "6L",
-          "Tanque"
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "16,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Carenagem de competição completa",
+        "Semiguidões baixos para postura esportiva",
+        "Embreagem assistida e deslizante",
+        "Freios ABS com discos ventilados",
+        "Iluminação dianteira Dual LED"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -2219,7 +2368,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Esportiva leve com ciclística precisa e excelente arrancada, ideal para pilotos que querem subir de categoria.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Home.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Amarelo.webp",
@@ -2229,28 +2378,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 9500 RPM",
+          "25,0 cv a 9.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor 250 cc 4 válvulas arrefecido a líquido",
+        "Câmbio de 6 marchas",
+        "Freios ABS",
+        "Suspensão monochoque traseira",
+        "Painel digital com indicador de marcha"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -2296,7 +2453,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Trail técnica e ágil com motor forte de 28 cv para superar qualquer obstáculo na terra ou no asfalto.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/500X500.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/04-2.webp",
@@ -2306,28 +2463,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "8CV / 9.000 RPM",
+          "28,0 cv a 9.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "13,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Suspensão de longo curso para trilhas e asfalto",
+        "Motor 250 cc com cabeçote DOHC",
+        "Rodas raiadas com aros de alta resistência",
+        "Protetores de quadro e motor",
+        "Assento plano tipo rally"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
@@ -2371,7 +2536,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Naked acessível e de presença marcante com motor 250 cc para pilotagem dinâmica no dia a dia.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/12/250F.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-05-1.webp",
@@ -2381,28 +2546,36 @@
       ],
       "specs": [
         [
-          "2cc",
+          "250 cc (223 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 CV / 9500 RPM",
+          "19,0 cv a 9.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Design Streetfighter esportivo",
+        "Suspensão traseira monoshock",
+        "Farol com máscara esportiva",
+        "Freios a disco em ambas as rodas",
+        "Rodas de liga leve aro 17\""
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2421,7 +2594,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Quadriciclo leve perfeito para lazer na fazenda, chácara ou praia, com marcha ré e condução segura.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/07/ATV-125.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/07/Itens-de-Serie-ATV-125-03.webp",
@@ -2431,32 +2604,36 @@
       ],
       "specs": [
         [
-          "4cc",
+          "125 cc (124 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "3 cv / 8.000 rpm",
+          "7,3 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "",
+          "Automático com ré (F-N-R)",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Tambor dianteiro / Disco traseiro",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "3,5 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Câmbio automático com marcha ré",
+        "Protetores de para-choque dianteiro",
+        "Limitador de velocidade para segurança de jovens",
+        "Chave de segurança com cordão de desligamento",
+        "Pneus off-road lameiros de alta tração"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2475,7 +2652,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Versão moderna com injeção eletrônica EFI, freios a disco e maior facilidade de manutenção para trilhas e lazer.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/12/ATV-125-EFI-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-10.webp",
@@ -2485,32 +2662,36 @@
       ],
       "specs": [
         [
-          "0cc",
+          "125 cc (124 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "3 cv / 8.000 rpm",
+          "7,3 cv a 8.000 rpm",
           "Potência"
         ],
         [
-          "",
+          "Automático com ré (F-N-R)",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Disco dianteiro e traseiro",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "3,5 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Injeção eletrônica EFI para partida instantânea em qualquer clima",
+        "Freios a disco nas quatro rodas",
+        "Faróis em LED de alta luminosidade",
+        "Câmbio automático com marcha ré (F-N-R)",
+        "Bagageiros dianteiro e traseiro reforçados"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2529,7 +2710,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Quadriciclo adulto robusto e confortável para trilhas médias, trabalhos rurais e diversão em família.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/06/Banner-Principal-ATV-200.webp",
@@ -2539,24 +2720,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "200 cc (169 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "0 cv / 7.500 rpm",
+          "10,0 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "5 litros",
+          "Automático CVT com ré (F-N-R)",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro",
+          "Freios"
+        ],
+        [
+          "5,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Câmbio CVT automático com alavanca de marcha ré",
+        "Suspensão dianteira independente de braço duplo",
+        "Bagageiros dianteiro e traseiro para carga",
+        "Faróis duplos para trilhas noturnas",
+        "Painel digital integrado"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2575,7 +2768,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Quadriciclo 200 cc equipado com injeção eletrônica, oferecendo mais torque, economia e partida imediata.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-500x500-Principal.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-9-scaled.webp",
@@ -2585,32 +2778,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "200 cc (169 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "0 cv / 7.500 rpm",
+          "10,0 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "",
+          "Automático CVT com ré (F-N-R)",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Disco dianteiro e traseiro",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "5,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Injeção eletrônica EFI de alto rendimento",
+        "Câmbio automático CVT",
+        "Estrutura tubular de alta resistência",
+        "Engate traseiro para reboque",
+        "Amortecedores hidráulicos pressurizados"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2629,7 +2826,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Quadriciclo esportivo de alta performance para quem busca emoção pura em dunas, pistas de terra e trilhas radicais.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/05/ATV-250.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Banner-Principal-ATV-250.webp",
@@ -2639,32 +2836,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "250 cc (249 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "2 cv / 7.500 rpm",
+          "16,2 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "",
+          "Manual 4 marchas + Ré",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Disco dianteiro e traseiro",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "5,5 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Motor 250 cc forte refrigerado a água",
+        "Câmbio manual de 4 marchas com marcha ré",
+        "Chassi esportivo reforçado para saltos e curvas",
+        "Nervuras e proteções de pedaleira (nerf bars)",
+        "Pneus de alta performance para terra e areia"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2683,7 +2884,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Quadriciclo utilitário e recreativo para uso severo no campo, com reduzida e suspensão independente.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-300.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-1.webp",
@@ -2693,32 +2894,36 @@
       ],
       "specs": [
         [
-          "5 cv / 7.000 rpm",
+          "300 cc (275 cc)",
+          "Motor / Cilindrada"
+        ],
+        [
+          "20,5 cv a 7.000 rpm",
           "Potência"
         ],
         [
-          "2 Nm / 5.500 rpm",
-          "Torque"
+          "Automático CVT (L-H-N-R)",
+          "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "4 litros",
-          "Tanque"
+          "Disco dianteiro e traseiro",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "14,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Câmbio CVT com reduzida (Low/High/Neutral/Reverse)",
+        "Arrefecimento a líquido com radiador protegido",
+        "Capacidade de reboque de carga pesada",
+        "Suspensão independente nas 4 rodas (IRS)",
+        "Painel digital LCD com horímetro"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2737,7 +2942,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "O monstro off-road da Shineray: motor V-Twin de 1.000 cc com 87 cv, tração 4x4 com reduzida e guincho de fábrica.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-1000.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-1.webp",
@@ -2747,36 +2952,36 @@
       ],
       "specs": [
         [
-          "8cc",
+          "1.000 cc (976 cc - V-Twin)",
           "Motor / Cilindrada"
         ],
         [
-          "7 cv / 7.250 rpm",
+          "87,0 cv a 7.250 rpm",
           "Potência"
         ],
         [
-          "3 Nm / 6.250 rpm",
-          "Torque"
+          "Automático CVT (L-H-N-R-P) com 4x4",
+          "Câmbio"
         ],
         [
-          "",
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Disco hidráulico nas 4 rodas com ABS",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "25,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Motor V-Twin de 87 cv com força bruta",
+        "Tração 4x4 com bloqueio de diferencial eletrônico",
+        "Direção elétrica progressiva (EPS)",
+        "Guincho elétrico frontal de fábrica",
+        "Engate traseiro e capacidade de carga superior a 400 kg"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2795,7 +3000,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Mini Buggy Kart para 2 ocupantes com gaiola protetora e cinto de 4 pontos, diversão com segurança garantida.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-125.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/9-1.webp",
@@ -2805,32 +3010,36 @@
       ],
       "specs": [
         [
-          "0cc",
+          "125 cc (124 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "2 cv / 7.500 rpm",
+          "8,2 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "",
+          "Automático com ré (F-N-R)",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "5 litros",
-          "Tanque"
+          "Disco traseiro hidráulico",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "3,5 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Chassi tubular com gaiola de proteção completa (roll cage)",
+        "Cintos de segurança de 4 pontos",
+        "Bancos concha individuais para piloto e copiloto",
+        "Marcha ré para fácil manobra",
+        "Suspensão de duplo braço articulado"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2849,7 +3058,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Kart off-road resistente e divertido com mecânica simples e motor 4 tempos para acelerar em pistas de terra.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200-Cores-2.webp",
@@ -2859,24 +3068,36 @@
       ],
       "specs": [
         [
-          "6cc",
+          "200 cc (196 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "9 cv / 3.600 rpm",
+          "6,9 cv a 3.600 rpm",
           "Potência"
         ],
         [
-          "3 litros",
+          "Automático centrífugo",
+          "Câmbio"
+        ],
+        [
+          "Manual retrátil e elétrica",
+          "Partida"
+        ],
+        [
+          "Disco traseiro hidráulico ventilado",
+          "Freios"
+        ],
+        [
+          "3,6 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Motor 4 tempos industrial de altíssima durabilidade",
+        "Transmissão automática direta",
+        "Gaiola de aço reforçada anti-capotamento",
+        "Volante esportivo ergonômico",
+        "Ideal para circuitos de terra e lazer infantil/juvenil"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2895,7 +3116,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil. Alto desempenho, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Buggy kart de dois lugares para trilhas fechadas, equipado com faróis auxiliares, marcha ré e suspensão aprimorada.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200s.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-4.webp",
@@ -2905,32 +3126,36 @@
       ],
       "specs": [
         [
-          "9cc",
+          "200 cc (196 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "0 cv / 7.500 rpm",
+          "10,0 cv a 7.500 rpm",
           "Potência"
         ],
         [
-          "",
+          "Automático com marcha ré",
+          "Câmbio"
+        ],
+        [
+          "Elétrica",
           "Partida"
         ],
         [
-          "6 litros",
-          "Tanque"
+          "Disco traseiro hidráulico ventilado",
+          "Freios"
         ],
         [
-          "",
-          "Freios"
+          "6,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Motor 200 cc de alta rotação com 10 cv",
+        "Câmbio automático com marcha ré integrada",
+        "Iluminação dianteira auxiliar no teto da gaiola",
+        "Amortecedores esportivos com regulagem de pré-carga",
+        "Assentos esportivos duplos com cinto de segurança"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2949,7 +3174,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Custom Bobber imponente com motor 400 cc, visual retrô limpo e excelente torque em baixas rotações.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-Denver-400@1x_1.png",
@@ -2959,24 +3184,36 @@
       ],
       "specs": [
         [
-          "3 cv/8500 rpm",
+          "400 cc (397 cc)",
+          "Motor / Cilindrada"
+        ],
+        [
+          "28,0 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "5L",
-          "Tanque"
+          "Manual 5 marchas",
+          "Câmbio"
         ],
         [
-          "9 km/h",
-          "Velocidade Máx."
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "15,0 litros",
+          "Tanque"
         ]
       ],
       "feat": [
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão",
-        "Vídeo oficial de apresentação Shineray"
+        "Estilo Bobber de média cilindrada com acabamento premium",
+        "Motor bicilíndrico com escapamento duplo",
+        "Freios a disco com ABS de canal duplo",
+        "Pneus largos clássicos tipo balão",
+        "Iluminação Full LED moderna"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -2995,7 +3232,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Naked 150 cc topo de linha com refrigeração líquida e 13,4 cv, muito acima das 150 cc convencionais.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-Home-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/01-5-scaled.webp",
@@ -3005,28 +3242,36 @@
       ],
       "specs": [
         [
-          "5cc",
+          "150 cc (149 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "4 CV / 8500 RPM",
+          "13,4 cv a 8.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 5 marchas",
           "Câmbio"
         ],
         [
-          "5L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS)",
+          "Freios"
+        ],
+        [
+          "13,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Motor 150 cc com arrefecimento a líquido e 4 válvulas",
+        "Câmbio de 5 marchas esportivo",
+        "Freios a disco com sistema CBS",
+        "Painel digital TFT",
+        "Quadro tubular treliçado à mostra"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -3045,7 +3290,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Trail bicilíndrica moderna projetada para expedições e turismo de aventura com máxima comodidade.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-400ss-Home.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Cor-SBM-400ss-2.webp",
@@ -3055,28 +3300,36 @@
       ],
       "specs": [
         [
-          "8 cc",
+          "400 cc (378 cc - Bicilíndrico)",
           "Motor / Cilindrada"
         ],
         [
-          "5 CV / 9.500 RPM",
+          "38,0 cv a 9.500 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "9L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco duplo dianteiro e traseiro (ABS)",
+          "Freios"
+        ],
+        [
+          "19,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Crossover Adventure bicilíndrica com 38 cv",
+        "Tanque de 19 litros para autonomia superior a 450 km",
+        "Para-brisa alto ajustável",
+        "Painel TFT colorido de alta definição",
+        "Protetores de motor e carenagem de fábrica"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
@@ -3095,7 +3348,7 @@
       "installments": true,
       "readyDelivery": true,
       "stock": 4,
-      "desc": "Modelo oficial Shineray do Brasil com alta qualidade, garantia de fábrica e pronta entrega na L1MA Motors.",
+      "desc": "Trail versátil e moderna de 200 cc com 6 marchas, suspensão invertida e injeção eletrônica, perfeita para terra e asfalto.",
       "photos": [
         "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-5.webp",
@@ -3105,28 +3358,36 @@
       ],
       "specs": [
         [
-          "1cc",
+          "200 cc (198 cc)",
           "Motor / Cilindrada"
         ],
         [
-          "4 CV / 9000 RPM",
+          "18,4 cv a 9.000 rpm",
           "Potência"
         ],
         [
-          "marchas",
+          "Manual 6 marchas",
           "Câmbio"
         ],
         [
-          "3L",
+          "Elétrica",
+          "Partida"
+        ],
+        [
+          "Disco dianteiro e traseiro (CBS/ABS)",
+          "Freios"
+        ],
+        [
+          "13,0 litros",
           "Tanque"
         ]
       ],
       "feat": [
-        "Câmbio: marchas",
-        "Garantia de fábrica Shineray do Brasil",
-        "Pronta entrega na L1MA Motors",
-        "Aceitamos sua moto usada como entrada",
-        "Financiamento facilitado em até 21x no cartão"
+        "Injeção eletrônica EFI e refrigeração líquida",
+        "Câmbio de 6 marchas",
+        "Suspensão dianteira invertida de longo curso",
+        "Painel 100% digital com tomada USB",
+        "Farol Full LED com luz diurna DRL"
       ],
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": [
