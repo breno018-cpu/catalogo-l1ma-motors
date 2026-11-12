@@ -362,7 +362,8 @@ function renderList() {
       <h3 class="disp">${nameWithBrand}</h3>
       ${highlight ? `<div class="card-feature">${highlight}</div>` : ''}
       <div class="pr">
-        <div>${priceBlock(p)}</div>
+        <div class="pr-l">${priceBlock(p)}</div>
+        <div class="pr-r"><span class="card-btn-action">${out ? `${ic("bell")} Avise-me` : `Ver detalhes ${ic("arrow")}`}</span></div>
       </div>
      </div>
     </article>`;
@@ -497,6 +498,7 @@ function initSpin() {
 
 function openModal(id, keepIdx) {
   const p = byId(id); if (!p) return;
+  const diff = p.oldPrice && p.oldPrice > p.price ? p.oldPrice - p.price : 0;
   const wasOpen = $("#modal").classList.contains("open") && cur?.id === id;
   cur = p; cmpView = false; idx = keepIdx || 0; curMedia = "photo"; spinIdx = 0;
   const out = isOut(p);
@@ -509,6 +511,7 @@ function openModal(id, keepIdx) {
     </div>` : "";
 
   $("#mbox").innerHTML = `
+   <button type="button" class="mbox-close-btn" id="mboxCloseBtn" aria-label="Fechar">${ic("x")}</button>
    <div class="gal">
     ${modeBar}
     <div id="galPhoto">
@@ -567,6 +570,7 @@ function openModal(id, keepIdx) {
   history.replaceState(null, "", "?m=" + encodeURIComponent(id));
 }
 $("#mbox").addEventListener("click", e => {
+  if (e.target.closest("#mboxCloseBtn")) return closeModal();
   if (!cur) return;
   const auto = e.target.closest("#btnAutoSpin"); if (auto) return toggleAutoSpin();
   const spinstep = e.target.closest("[data-spinstep]"); if (spinstep) { if (spinTimer) toggleAutoSpin(); return setSpinFrame(spinIdx + +spinstep.dataset.spinstep); }
