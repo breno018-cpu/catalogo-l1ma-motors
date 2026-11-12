@@ -1,6 +1,6 @@
 {
-  "version": 112,
-  "updatedAt": "2026-11-12T14:57:14.744Z",
+  "version": 113,
+  "updatedAt": "2026-11-12T19:05:37.761Z",
   "products": [
     {
       "id": "passion",
@@ -256,8 +256,8 @@
       "sub": "Scooter",
       "brand": "L1MA MOTORS",
       "name": "Foston Elétrica 1.000 W",
-      "price": null,
-      "oldPrice": null,
+      "price": 5400,
+      "oldPrice": 8990,
       "installments": false,
       "stock": null,
       "readyDelivery": false,
@@ -300,7 +300,10 @@
       ],
       "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para modelo, garantia e disponibilidade.",
       "sortOrder": 5,
-      "rotation360": null
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas",
+      "autoSyncStock": true
     },
     {
       "id": "foston-x1",

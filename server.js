@@ -453,11 +453,12 @@ async function requestHandler(req, res) {
     if (p.startsWith("/api/")) return send(res, 404, { error: "rota não encontrada" });
 
     // Páginas com preview dinâmico para WhatsApp (Open Graph)
-    const isPrettyProduct = p.match(/^\/(?:moto|m|produto)\/([^\/]+)/i);
+    const isStaticFile = /\.(?:jpg|jpeg|png|webp|svg|gif|ico|css|js|map|json|webmanifest)$/i.test(p);
+    const isPrettyProduct = !isStaticFile && p.match(/^\/(?:moto|m|produto)\/([^\/]+)/i);
     const modelParam = url.searchParams.get("m") || url.searchParams.get("p") || url.searchParams.get("moto") || url.searchParams.get("id");
     const targetModelId = isPrettyProduct ? decodeURIComponent(isPrettyProduct[1]) : modelParam;
 
-    if (p === "/" || p === "/index.html" || isPrettyProduct) {
+    if (!isStaticFile && (p === "/" || p === "/index.html" || isPrettyProduct)) {
       const html = renderIndexHtml(req, targetModelId);
       res.writeHead(200, {
         "Content-Type": "text/html; charset=utf-8",
@@ -469,8 +470,17 @@ async function requestHandler(req, res) {
     }
 
     // estáticos
-    let fp = path.normalize(path.join(PUB, p === "/admin" ? "admin.html" : decodeURIComponent(p)));
+    const assetSubMatch = p.match(/(?:\/moto|\/m|\/produto)?(\/assets\/.*|\/icons\.js|\/catalog\.js|\/app\.js|\/styles\.css|\/icon\.svg|\/manifest\.webmanifest)/i);
+    let fp = assetSubMatch 
+      ? path.normalize(path.join(PUB, decodeURIComponent(assetSubMatch[1])))
+      : path.normalize(path.join(PUB, p === "/admin" ? "admin.html" : decodeURIComponent(p)));
+
     if (!fp.startsWith(PUB) || !fs.existsSync(fp) || fs.statSync(fp).isDirectory()) {
+      const ext = path.extname(p);
+      if (ext === ".jpg" || ext === ".jpeg" || ext === ".webp" || ext === ".png" || ext === ".svg") {
+        res.writeHead(404, { "Content-Type": "image/svg+xml", "Cache-Control": "no-store" });
+        return res.end('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="#f0f0f0"/><text x="50" y="55" font-size="12" text-anchor="middle" fill="#999">L1MA</text></svg>');
+      }
       const html = renderIndexHtml(req, null);
       res.writeHead(200, {
         "Content-Type": "text/html; charset=utf-8",
@@ -483,9 +493,9 @@ async function requestHandler(req, res) {
     const ext = path.extname(fp);
     res.writeHead(200, {
       "Content-Type": MIME[ext] || "application/octet-stream",
-      "Cache-Control": (ext === ".jpg" || ext === ".webp" || ext === ".png") ? "public, max-age=86400" : "no-cache, no-store, must-revalidate",
-      "Pragma": "no-cache",
-      "Expires": "0"
+      "Cache-Control": (ext === ".jpg" || ext === ".webp" || ext === ".png") ? "public, max-age=604800, immutable" : "no-cache, no-store, must-revalidate",
+      "Pragma": (ext === ".jpg" || ext === ".webp" || ext === ".png") ? "public" : "no-cache",
+      "Expires": (ext === ".jpg" || ext === ".webp" || ext === ".png") ? new Date(Date.now() + 604800000).toUTCString() : "0"
     });
     fs.createReadStream(fp).pipe(res);
   } catch (e) { send(res, 500, { ok: false, error: e.message }); }

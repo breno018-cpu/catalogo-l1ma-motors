@@ -12,14 +12,14 @@ const pName = p => {
   return `${b} ${n}`;
 };
 const im = (p, i = 0) => {
-  if (!p) return "icon.svg";
-  if (p._ext) return p.image || "icon.svg";
+  if (!p) return "/icon.svg";
+  if (p._ext) return p.image || "/icon.svg";
   const ph = p.photos?.[i];
-  if (ph && typeof ph === "string" && (ph.startsWith("http") || ph.startsWith("assets/") || ph.startsWith("data:") || ph.endsWith(".webp") || ph.endsWith(".png") || ph.endsWith(".jpg"))) {
-    return ph;
+  if (ph && typeof ph === "string" && (ph.startsWith("http") || ph.startsWith("assets/") || ph.startsWith("/assets/") || ph.startsWith("data:") || ph.endsWith(".webp") || ph.endsWith(".png") || ph.endsWith(".jpg"))) {
+    return ph.startsWith("http") || ph.startsWith("data:") || ph.startsWith("/") ? ph : `/${ph}`;
   }
-  if (p.img) return `assets/${p.img}-${i}.jpg`;
-  return "icon.svg";
+  if (p.img) return `/assets/${p.img}-${i}.jpg`;
+  return "/icon.svg";
 };
 
 const CATS = {
@@ -203,7 +203,7 @@ function renderHero() {
       <div class="hbtns" style="margin-top:24px"><a href="#catalogo" class="btn w">Avaliar minha moto ${ic("arrow")}</a></div></div>
       <div class="vis">
         <div class="photo-frame">
-          <div class="photo-sq"><img src="assets/vegas-1.jpg" alt="L1MA Motors"></div>
+          <div class="photo-sq"><img src="/assets/vegas-1.jpg" alt="L1MA Motors"></div>
           <div class="photo-caption"><span class="photo-class">${currentCatLabel}</span><span class="photo-sub">SHOWROOM OFICIAL</span></div>
         </div>
       </div></div>`; return;
@@ -347,7 +347,7 @@ function renderList() {
     const nameWithBrand = esc(pName(p));
     return `<article class="card ${out ? "out" : ""}" style="animation-delay:${Math.min(i, 8) * 40}ms" data-id="${p.id}" tabindex="0">
      <div class="ph">
-      <img src="${im(p)}" alt="${esc(p.photos?.[0] || nameWithBrand)}" loading="lazy">
+      <img src="${im(p)}" alt="${esc(p.photos?.[0] || nameWithBrand)}" loading="lazy" onerror="if(!this.dataset.er){this.dataset.er=1;this.src='/icon.svg';}">
       <div class="badges">
         <span class="bdg">${subLabel}</span>
         ${isLow(p) ? `<span class="bdg alert">Últimas ${p.stock} un!</span>` : ""}
@@ -595,7 +595,9 @@ function closeModal() {
 function show(i) {
   if (!cur) return; idx = (i + cur.photos.length) % cur.photos.length;
   const m = $("#mimg"), want = im(cur, idx), pre = new Image(); m.style.opacity = .35;
-  pre.onload = pre.onerror = () => { if (cur && im(cur, idx) === want) { m.src = want; m.alt = cur.photos[idx]; m.style.opacity = 1; } }; pre.src = want;
+  pre.onload = () => { if (cur && im(cur, idx) === want) { m.src = want; m.alt = cur.photos[idx] || ""; m.style.opacity = 1; } };
+  pre.onerror = () => { if (cur && im(cur, idx) === want) { m.src = want; m.style.opacity = 1; } };
+  pre.src = want;
   $("#mcnt").textContent = `${idx + 1} / ${cur.photos.length}`;
   [...$("#mth").children].forEach((b, j) => b.classList.toggle("on", j === idx));
   const th = $("#mth").children[idx]; if (th) $("#mth").scrollTo({ left: th.offsetLeft - $("#mth").clientWidth / 2 + th.clientWidth / 2, behavior: "smooth" });
