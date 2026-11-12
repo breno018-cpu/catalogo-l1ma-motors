@@ -193,7 +193,7 @@ function renderHero() {
   $("#hero").innerHTML = S.map((p, i) => {
     const fullModelTitle = esc(pName(p));
     const diff = p.oldPrice && p.oldPrice > p.price ? p.oldPrice - p.price : 0;
-    const tag = diff > 0 ? "🎉 PROMOÇÃO DE INAUGURAÇÃO · R$ 1.000 OFF" : p.promo ? p.promo.label.toUpperCase() : isLow(p) ? "ÚLTIMAS UNIDADES" : "DESTAQUE L1MA";
+    const tag = diff > 0 ? `🎉 PROMOÇÃO DE INAUGURAÇÃO · R$ ${brl0(diff)} OFF` : p.promo ? p.promo.label.toUpperCase() : isLow(p) ? "ÚLTIMAS UNIDADES" : "DESTAQUE L1MA";
     const offer = p.price ? `<div class="offer"><div><div class="old">${diff > 0 ? `Preço comum: <s>R$ ${brl0(p.oldPrice)}</s> <span class="disc-pill" style="font-size:12px;padding:3px 8px">-R$ ${brl0(diff)} INAUGURAÇÃO</span>` : "à vista"}</div><div class="now">R$ ${brl0(p.price)}<small>,00</small></div></div>
       ${p.installments ? `<div class="par">ou em até<b>${maxN()}x</b>no cartão*</div>` : ""}</div>` : `<div class="offer"><div class="now" style="font-size:30px">Preço sob consulta</div></div>`;
     const seal = diff > 0 ? [`-R$ ${brl0(diff)}`, "INAUGURAÇÃO"] : p.promo ? ["%", "OFERTA"] : [p.specs?.[0]?.[0] || "", (p.specs?.[0]?.[1] || "").toUpperCase()];
