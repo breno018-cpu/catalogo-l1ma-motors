@@ -426,7 +426,10 @@ function renderIndexHtml(req, modelId) {
     if (!img) {
       img = `${proto}://${host}/assets/passion-0.jpg`;
     }
-    pageUrl = `${proto}://${host}/moto/${encodeURIComponent(prod.id)}`;
+    const isPretty = req.url.includes("/moto/") || req.url.includes("/m/") || req.url.includes("/produto/");
+    pageUrl = isPretty
+      ? `${proto}://${host}/moto/${encodeURIComponent(prod.id)}`
+      : `${proto}://${host}/?m=${encodeURIComponent(prod.id)}`;
   } else {
     title = "L1MA Motors Multimarcas | Catálogo Oficial";
     desc = "Linha completa de motos elétricas, semi-novos e off-road. Pronta entrega e parcelamento em até 21x no cartão. Simule suas parcelas online!";
