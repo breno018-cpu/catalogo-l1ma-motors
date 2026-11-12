@@ -462,7 +462,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
  .tabs{display:none}
  .hcta .btn.o,.hcta .btn.k{display:none}
  .hcta{margin-left:auto;display:flex;align-items:center;gap:8px}
- .btn-hdr-wa{display:inline-flex;width:42px;height:42px;border-radius:50%;background:#25d366;color:#fff;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(37,211,102,0.35);font-size:22px;min-height:42px}
+ .btn-hdr-wa{display:none!important}
  .logo{font-size:21px}
 
  .bnav{display:flex;justify-content:space-around;position:fixed;left:0;right:0;bottom:0;width:100%;max-width:100vw;z-index:80;background:#fffffffa;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line);padding:5px 2px calc(5px + var(--sab));box-sizing:border-box}
