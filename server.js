@@ -321,7 +321,7 @@ const body = req => new Promise((ok, no) => { let b = ""; req.on("data", c => { 
 function renderIndexHtml(req, modelId) {
   let template = fs.readFileSync(path.join(PUB, "index.html"), "utf8");
   const host = req.headers.host || "localhost:5173";
-  const proto = (req.headers["x-forwarded-proto"] || "http").split(",")[0].trim();
+  const proto = (req.headers["x-forwarded-proto"] || (host.startsWith("localhost") ? "http" : "https")).split(",")[0].trim();
 
   catalog = read(F.cat, catalog);
   config = read(F.cfg, config);
@@ -332,17 +332,58 @@ function renderIndexHtml(req, modelId) {
     if (!p) return "";
     const b = (p.brand || "").trim();
     const n = (p.name || "").trim();
-    if (!b) return n;
+    if (!b || b === "L1MA MOTORS") return n;
     if (n.toLowerCase().startsWith(b.toLowerCase())) return n;
     return `${b} ${n}`;
   };
 
-  // Sempre exibe o Catálogo Oficial no preview de compartilhamento (Open Graph / WhatsApp / Telegram)
-  // Mesmo que o link tenha ID de moto, não exibe a moto individual, mas sim o Catálogo Oficial completo
-  const title = "L1MA Motors Multimarcas | Catálogo Oficial";
-  const desc = "Catálogo Oficial L1MA Motors — Elétricas, Semi-novos e Off-Road. Pronta entrega e parcelamento em até 21x no cartão. Acesse o catálogo completo!";
-  const img = `${proto}://${host}/assets/vegas-0.jpg`;
-  const pageUrl = `${proto}://${host}/`;
+  const cleanId = (modelId || "").trim().toLowerCase();
+  const prod = cleanId ? catalog.products.find(p => {
+    const pid = (p.id || "").toLowerCase();
+    const pname = (p.name || "").toLowerCase();
+    const pidClean = pid.replace(/[^a-z0-9]/g, "");
+    const qClean = cleanId.replace(/[^a-z0-9]/g, "");
+    return pid === cleanId ||
+      pidClean === qClean ||
+      (qClean.length >= 3 && pidClean.includes(qClean)) ||
+      (pidClean.length >= 3 && qClean.includes(pidClean)) ||
+      pname.includes(cleanId) ||
+      (cleanId === "tokyo01" && pid === "toky01");
+  }) : null;
+
+  let title, desc, img, pageUrl;
+  if (prod) {
+    const fullModel = pName(prod);
+    const priceStr = prod.price ? `R$ ${prod.price.toLocaleString("pt-BR")},00` : "Sob consulta";
+    const oldPriceStr = prod.oldPrice && prod.oldPrice > prod.price ? ` (De R$ ${prod.oldPrice.toLocaleString("pt-BR")},00)` : "";
+    title = `${fullModel} — ${priceStr}${oldPriceStr} | L1MA Motors`;
+
+    const parcelas = prod.installments ? ` | Em até ${config.maxInstallments || 21}x no cartão` : "";
+    const specsHighlight = prod.specs?.slice(0, 2).map(s => `${s[1]}: ${s[0]}`).join(" • ");
+    const introDesc = clean(prod.desc || "Confira fotos oficiais, ficha técnica e simulação de parcelas na L1MA Motors.");
+    desc = clean(`${priceStr}${parcelas}${specsHighlight ? ` • ${specsHighlight}` : ""}. ${introDesc}`).slice(0, 250);
+
+    const firstPhoto = prod.photos?.[0];
+    if (firstPhoto && typeof firstPhoto === "string") {
+      if (firstPhoto.startsWith("http://") || firstPhoto.startsWith("https://")) {
+        img = firstPhoto;
+      } else if (firstPhoto.startsWith("assets/")) {
+        img = `${proto}://${host}/${firstPhoto}`;
+      }
+    }
+    if (!img && prod.img) {
+      img = `${proto}://${host}/assets/${prod.img}-0.jpg`;
+    }
+    if (!img) {
+      img = `${proto}://${host}/assets/passion-0.jpg`;
+    }
+    pageUrl = `${proto}://${host}/?m=${encodeURIComponent(prod.id)}`;
+  } else {
+    title = "L1MA Motors Multimarcas | Catálogo Oficial";
+    desc = "Linha completa de motos elétricas, semi-novos e off-road. Pronta entrega e parcelamento em até 21x no cartão. Simule suas parcelas online!";
+    img = `${proto}://${host}/assets/passion-0.jpg`;
+    pageUrl = `${proto}://${host}/`;
+  }
 
   const ogTags = `
 <!-- Open Graph / WhatsApp Preview Dinâmico -->
