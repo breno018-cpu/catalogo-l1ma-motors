@@ -571,7 +571,7 @@ function openModal(id, keepIdx) {
   $("#mPar")?.addEventListener("change", upd); upd();
   $("#mShare").onclick = shareIt;
   show(idx); if (!wasOpen) openBox();
-  history.replaceState(null, "", "?m=" + encodeURIComponent(id));
+  history.replaceState(null, "", location.pathname.startsWith("/m") || location.pathname.startsWith("/moto") ? "/" : "#" + cat);
 }
 $("#mbox").addEventListener("click", e => {
   if (e.target.closest("#mboxCloseBtn")) return closeModal();
@@ -613,18 +613,36 @@ addEventListener("keydown", e => {
 let tx = null, ty = null;
 $("#modal").addEventListener("touchstart", e => { const t = e.touches[0]; tx = e.target.closest(".mph") ? t.clientX : null; ty = t.clientY; }, { passive: true });
 $("#modal").addEventListener("touchend", e => { if (tx === null) return; const t = e.changedTouches[0], dx = t.clientX - tx; if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(t.clientY - ty)) show(idx + (dx < 0 ? 1 : -1)); tx = null; });
-function shareIt() {
-  if (!cur) return;
-  const u = `${location.origin}/?m=${encodeURIComponent(cur.id)}`;
-  const text = `${cur.brand} ${cur.name}${cur.price ? ` — R$ ${brl0(cur.price)},00` : ""}\nConfira fotos e simulação na L1MA Motors:\n${u}`;
+async function shareIt() {
+  const u = location.origin + "/";
+  const title = "L1MA Motors Multimarcas | Catálogo Oficial";
+  const text = "L1MA Motors Multimarcas — Catálogo Oficial\nMotos elétricas, semi-novos e off-road com parcelamento em até 21x no cartão!";
+
+  // Compartilhamento via Web Share API com anexo de imagem direta (quando suportado pelo celular)
+  try {
+    if (navigator.share && navigator.canShare) {
+      const res = await fetch("assets/vegas-0.jpg");
+      const blob = await res.blob();
+      const file = new File([blob], "catalogo-l1ma-motors.jpg", { type: "image/jpeg" });
+      if (navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title,
+          text: `${text}\n${u}`
+        });
+        return;
+      }
+    }
+  } catch (err) {}
+
   if (navigator.share) {
-    navigator.share({ title: `${cur.brand} ${cur.name} | L1MA Motors`, text, url: u }).catch(() => {});
+    navigator.share({ title, text, url: u }).catch(() => {});
   } else if (navigator.clipboard) {
     navigator.clipboard.writeText(u).then(() => {
-      toast("Link copiado! Ao colar no WhatsApp a foto e o preço aparecem automaticamente.", "new", cur.id);
+      toast("Link copiado! No WhatsApp a imagem e o texto aparecem automaticamente.", "new");
     });
   } else {
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/?text=${encodeURIComponent(text + "\n" + u)}`, "_blank");
   }
 }
 
@@ -728,11 +746,8 @@ function route() {
   const p = byId(targetId);
   if (p) {
     setCat(p.cat);
-    setTimeout(() => {
-      openModal(p.id);
-      const card = $(`.card[data-id="${CSS.escape(p.id)}"]`);
-      if (card) card.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, 80);
+    // Ao enviar ou acessar link que tenha a moto, não exibe a moto diretamente em popup, mas sim o catálogo
+    history.replaceState(null, "", "/" + (p.cat === "ele" ? "" : "#" + p.cat));
     return;
   }
   setCat(CATS[h] && !CATS[h].hidden ? h : "ele");

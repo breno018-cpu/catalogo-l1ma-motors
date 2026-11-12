@@ -337,36 +337,12 @@ function renderIndexHtml(req, modelId) {
     return `${b} ${n}`;
   };
 
-  const prod = modelId ? catalog.products.find(p => p.id === modelId || p.id.toLowerCase() === modelId.toLowerCase()) : null;
-
-  let title, desc, img, pageUrl;
-  if (prod) {
-    const fullModel = pName(prod);
-    const priceStr = prod.price ? `R$ ${prod.price.toLocaleString("pt-BR")}` : "Sob consulta";
-    const oldPriceStr = prod.oldPrice && prod.oldPrice > prod.price ? ` (De R$ ${prod.oldPrice.toLocaleString("pt-BR")})` : "";
-    const promoStr = prod.promo?.label ? ` • ${prod.promo.label}` : "";
-    title = `${fullModel} — ${priceStr}${oldPriceStr}${promoStr} | L1MA Motors`;
-
-    const parcelas = prod.installments ? ` | Em até ${config.maxInstallments || 21}x no cartão` : "";
-    const specsHighlight = prod.specs?.slice(0, 2).map(s => `${s[1]}: ${s[0]}`).join(" • ");
-    const introDesc = clean(prod.desc || "Confira fotos oficiais, ficha técnica e simulação de parcelas na L1MA Motors.");
-    desc = clean(`${priceStr}${parcelas}${specsHighlight ? ` • ${specsHighlight}` : ""}. ${introDesc}`).slice(0, 250);
-
-    const firstPhoto = prod.photos?.[0];
-    if (firstPhoto && typeof firstPhoto === "string" && firstPhoto.startsWith("http")) {
-      img = firstPhoto;
-    } else if (prod.img) {
-      img = `${proto}://${host}/assets/${prod.img}-0.jpg`;
-    } else {
-      img = `${proto}://${host}/assets/vegas-0.jpg`;
-    }
-    pageUrl = `${proto}://${host}/?m=${encodeURIComponent(prod.id)}`;
-  } else {
-    title = "L1MA Motors Multimarcas & Concessionária Shineray | Catálogo Oficial";
-    desc = "Linha completa de motos e ciclomotores Shineray, scooters elétricas e quadriciclos off-road. Pronta entrega e parcelamento em até 21x no cartão.";
-    img = `${proto}://${host}/assets/vegas-0.jpg`;
-    pageUrl = `${proto}://${host}/`;
-  }
+  // Sempre exibe o Catálogo Oficial no preview de compartilhamento (Open Graph / WhatsApp / Telegram)
+  // Mesmo que o link tenha ID de moto, não exibe a moto individual, mas sim o Catálogo Oficial completo
+  const title = "L1MA Motors Multimarcas | Catálogo Oficial";
+  const desc = "Catálogo Oficial L1MA Motors — Elétricas, Semi-novos e Off-Road. Pronta entrega e parcelamento em até 21x no cartão. Acesse o catálogo completo!";
+  const img = `${proto}://${host}/assets/vegas-0.jpg`;
+  const pageUrl = `${proto}://${host}/`;
 
   const ogTags = `
 <!-- Open Graph / WhatsApp Preview Dinâmico -->
