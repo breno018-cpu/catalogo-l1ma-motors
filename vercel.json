@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
+    { "source": "/(moto|m|produto)/(.*)", "destination": "/api/index.js" },
+    { "source": "/admin", "destination": "/api/index.js" },
+    { "source": "/index.html", "destination": "/api/index.js" },
+    { "source": "/", "destination": "/api/index.js" }
+  ]
+}

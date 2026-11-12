@@ -1,5 +1,119 @@
 [
   {
+    "type": "remove",
+    "id": "shineray-sh4",
+    "text": "Shineray SH4 saiu do catálogo",
+    "at": "2026-11-12T13:26:06.779Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-sh3",
+    "text": "Shineray SH3 saiu do catálogo",
+    "at": "2026-11-12T13:26:03.003Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-ptxs",
+    "text": "Shineray PTXS saiu do catálogo",
+    "at": "2026-11-12T13:25:59.813Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-ptxr",
+    "text": "Shineray PTXR saiu do catálogo",
+    "at": "2026-11-12T13:25:55.214Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt4-pro-s",
+    "text": "Shineray PT4-PRO S saiu do catálogo",
+    "at": "2026-11-12T13:25:51.793Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt4-pro",
+    "text": "Shineray PT4-PRO saiu do catálogo",
+    "at": "2026-11-12T13:25:48.792Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3s",
+    "text": "Shineray PT3S saiu do catálogo",
+    "at": "2026-11-12T13:25:45.800Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3-triciclo",
+    "text": "Shineray PT3 TRICICLO saiu do catálogo",
+    "at": "2026-11-12T13:25:43.004Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3-m1",
+    "text": "Shineray PT3 M1 saiu do catálogo",
+    "at": "2026-11-12T13:25:39.945Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt3",
+    "text": "Shineray PT3 saiu do catálogo",
+    "at": "2026-11-12T13:25:36.796Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2xs",
+    "text": "Shineray PT2XS saiu do catálogo",
+    "at": "2026-11-12T13:25:32.971Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2n",
+    "text": "Shineray PT2N saiu do catálogo",
+    "at": "2026-11-12T13:25:29.592Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt2",
+    "text": "Shineray PT2 saiu do catálogo",
+    "at": "2026-11-12T13:25:26.250Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt1s",
+    "text": "Shineray PT1s saiu do catálogo",
+    "at": "2026-11-12T13:25:22.570Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt1",
+    "text": "Shineray PT1 saiu do catálogo",
+    "at": "2026-11-12T13:25:18.787Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-pt-stand",
+    "text": "Shineray PT-STAND saiu do catálogo",
+    "at": "2026-11-12T13:25:13.701Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-se1",
+    "text": "Shineray SE1 saiu do catálogo",
+    "at": "2026-11-12T13:25:03.975Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-se2",
+    "text": "Shineray SE2 saiu do catálogo",
+    "at": "2026-11-12T13:23:59.753Z"
+  },
+  {
+    "type": "remove",
+    "id": "shineray-she-s",
+    "text": "Shineray SHE-S saiu do catálogo",
+    "at": "2026-11-12T13:23:54.108Z"
+  },
+  {
     "type": "update",
     "id": "shineray-sbm-250s",
     "text": "Shineray SBM 250s foi atualizado",
@@ -243,119 +357,5 @@
     "id": "shineray-pt1s",
     "text": "Shineray PT1s ocultado do catálogo",
     "at": "2026-11-11T20:34:41.468Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt2xs",
-    "text": "Shineray PT2XS ocultado do catálogo",
-    "at": "2026-11-11T20:34:40.530Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt2n",
-    "text": "Shineray PT2N ocultado do catálogo",
-    "at": "2026-11-11T20:34:38.613Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt4-pro",
-    "text": "Shineray PT4-PRO ocultado do catálogo",
-    "at": "2026-11-11T20:34:37.695Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt2",
-    "text": "Shineray PT2 ocultado do catálogo",
-    "at": "2026-11-11T20:34:36.029Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt3-m1",
-    "text": "Shineray PT3 M1 ocultado do catálogo",
-    "at": "2026-11-11T20:34:34.467Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt3",
-    "text": "Shineray PT3 ocultado do catálogo",
-    "at": "2026-11-11T20:34:33.404Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt3s",
-    "text": "Shineray PT3S ocultado do catálogo",
-    "at": "2026-11-11T20:34:32.384Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt3-triciclo",
-    "text": "Shineray PT3 TRICICLO ocultado do catálogo",
-    "at": "2026-11-11T20:34:30.320Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-pt4-pro-s",
-    "text": "Shineray PT4-PRO S ocultado do catálogo",
-    "at": "2026-11-11T20:34:29.026Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-kart-200",
-    "text": "Shineray KART 200 foi atualizado",
-    "at": "2026-11-11T20:34:26.897Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-125",
-    "text": "Shineray ATV 125 ocultado do catálogo",
-    "at": "2026-11-11T20:34:19.462Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-125-efi",
-    "text": "Shineray ATV 125 EFI ocultado do catálogo",
-    "at": "2026-11-11T20:34:17.811Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-kart-125",
-    "text": "Shineray KART 125 ocultado do catálogo",
-    "at": "2026-11-11T20:34:15.333Z"
-  },
-  {
-    "type": "update",
-    "id": "shineray-atv-200",
-    "text": "Shineray ATV 200 foi atualizado",
-    "at": "2026-11-11T20:34:12.939Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-250",
-    "text": "Shineray ATV 250 ocultado do catálogo",
-    "at": "2026-11-11T20:34:04.227Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-kart-200s",
-    "text": "Shineray KART 200s ocultado do catálogo",
-    "at": "2026-11-11T20:34:02.969Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-200-efi",
-    "text": "Shineray ATV 200 EFI ocultado do catálogo",
-    "at": "2026-11-11T20:34:01.123Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-300",
-    "text": "Shineray ATV 300 ocultado do catálogo",
-    "at": "2026-11-11T20:33:58.964Z"
-  },
-  {
-    "type": "remove",
-    "id": "shineray-atv-1000",
-    "text": "Shineray ATV 1000 ocultado do catálogo",
-    "at": "2026-11-11T20:33:56.426Z"
   }
 ]

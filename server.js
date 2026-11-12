@@ -16,13 +16,25 @@ const PUB = path.join(ROOT, "public");
 const F = { cat: path.join(ROOT, "data/catalog.json"), cfg: path.join(ROOT, "data/config.json"), ev: path.join(ROOT, "data/events.json") };
 
 const read = (f, d) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return d; } };
-const write = (f, o) => fs.writeFileSync(f, JSON.stringify(o, null, 2));
+const write = (f, o) => {
+  try {
+    fs.writeFileSync(f, JSON.stringify(o, null, 2));
+  } catch (err) {
+    // Ambiente serverless (Vercel/Lambda) com sistema de arquivos somente leitura
+  }
+};
 let catalog = read(F.cat, { version: 1, products: [] });
 let config = read(F.cfg, {});
 let events = read(F.ev, []);
 
 /* snapshot estático: permite abrir o catálogo sem servidor (file:// ou hospedagem estática) */
-function snapshot() { fs.writeFileSync(path.join(PUB, "catalog.js"), "window.CATALOG=" + JSON.stringify({ ...catalog, config }) + ";"); }
+function snapshot() {
+  try {
+    fs.writeFileSync(path.join(PUB, "catalog.js"), "window.CATALOG=" + JSON.stringify({ ...catalog, config }) + ";");
+  } catch (err) {
+    // Silencia em ambiente somente leitura
+  }
+}
 snapshot();
 
 /* ---------- SSE ---------- */
@@ -356,8 +368,8 @@ function renderIndexHtml(req, modelId) {
   return template;
 }
 
-http.createServer(async (req, res) => {
-  const url = new URL(req.url, "http://x");
+async function requestHandler(req, res) {
+  const url = new URL(req.url, `http://${req.headers.host || "localhost"}`);
   const p = url.pathname;
   if (req.method === "OPTIONS") { res.writeHead(204, { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type, Authorization", "Access-Control-Allow-Methods": "GET,POST,OPTIONS" }); return res.end(); }
   try {
@@ -370,12 +382,12 @@ http.createServer(async (req, res) => {
     if (p === "/api/stream") {
       res.writeHead(200, { "Content-Type": "text/event-stream", "Cache-Control": "no-cache", Connection: "keep-alive", "Access-Control-Allow-Origin": "*" });
       res.write(`retry: 3000\ndata: ${JSON.stringify({ hello: true, version: catalog.version })}\n\n`);
-      clients.add(res); const ka = setInterval(() => res.write(": ping\n\n"), 25000);
+      clients.add(res); const ka = setInterval(() => { try { res.write(": ping\n\n"); } catch {} }, 25000);
       req.on("close", () => { clients.delete(res); clearInterval(ka); }); return;
     }
     if (p === "/api/sync" && req.method === "POST") {
       const auth = req.headers.authorization || "";
-      const qToken = new URL(req.url, `http://${req.headers.host}`).searchParams.get("token");
+      const qToken = url.searchParams.get("token");
       const b = await body(req);
       const bToken = b && (b.token || b.secret);
       if (auth !== `Bearer ${TOKEN}` && qToken !== TOKEN && bToken !== TOKEN) {
@@ -428,8 +440,15 @@ http.createServer(async (req, res) => {
       "Expires": "0"
     });
     fs.createReadStream(fp).pipe(res);
-  } catch (e) { send(res, 400, { ok: false, error: e.message }); }
-}).listen(PORT, "0.0.0.0", () => {
-  const nets = Object.values(require("os").networkInterfaces()).flat().filter(n => n.family === "IPv4" && !n.internal).map(n => n.address);
-  console.log(`\n  L1MA Motors rodando\n  Catálogo:  http://localhost:${PORT}\n  Celular:   ${nets.map(ip => `http://${ip}:${PORT}`).join("  ")}\n  Painel:    http://localhost:${PORT}/admin\n  Token:     ${TOKEN}\n  IA:        ${GEMINI ? "Gemini + local" : "motor local (defina GEMINI_API_KEY para IA generativa)"}\n`);
-});
+  } catch (e) { send(res, 500, { ok: false, error: e.message }); }
+}
+
+if (require.main === module) {
+  const server = http.createServer(requestHandler);
+  server.listen(PORT, "0.0.0.0", () => {
+    const nets = Object.values(require("os").networkInterfaces()).flat().filter(n => n.family === "IPv4" && !n.internal).map(n => n.address);
+    console.log(`\n  L1MA Motors rodando\n  Catálogo:  http://localhost:${PORT}\n  Celular:   ${nets.map(ip => `http://${ip}:${PORT}`).join("  ")}\n  Painel:    http://localhost:${PORT}/admin\n  Token:     ${TOKEN}\n  IA:        ${GEMINI ? "Gemini + local" : "motor local (defina GEMINI_API_KEY para IA generativa)"}\n`);
+  });
+}
+
+module.exports = requestHandler;
