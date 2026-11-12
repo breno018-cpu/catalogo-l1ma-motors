@@ -407,13 +407,18 @@ function renderIndexHtml(req, modelId) {
     const introDesc = clean(prod.desc || "Confira fotos oficiais, ficha técnica e simulação de parcelas na L1MA Motors.");
     desc = clean(`${priceStr}${parcelas}${specsHighlight ? ` • ${specsHighlight}` : ""}. ${introDesc}`).slice(0, 250);
 
-    const firstPhoto = prod.photos?.[0];
+    const firstPhoto = prod.photos?.[0] || prod.image;
     if (firstPhoto && typeof firstPhoto === "string") {
       if (firstPhoto.startsWith("http://") || firstPhoto.startsWith("https://")) {
         img = firstPhoto;
+      } else if (firstPhoto.startsWith("/")) {
+        img = `${proto}://${host}${firstPhoto}`;
       } else if (firstPhoto.startsWith("assets/")) {
         img = `${proto}://${host}/${firstPhoto}`;
       }
+    }
+    if (!img && prod.cat === "shineray") {
+      img = `${proto}://${host}/assets/shineray/${prod.id}.jpg`;
     }
     if (!img && prod.img) {
       img = `${proto}://${host}/assets/${prod.img}-0.jpg`;
@@ -421,13 +426,19 @@ function renderIndexHtml(req, modelId) {
     if (!img) {
       img = `${proto}://${host}/assets/passion-0.jpg`;
     }
-    pageUrl = `${proto}://${host}/?m=${encodeURIComponent(prod.id)}`;
+    pageUrl = `${proto}://${host}/moto/${encodeURIComponent(prod.id)}`;
   } else {
     title = "L1MA Motors Multimarcas | Catálogo Oficial";
     desc = "Linha completa de motos elétricas, semi-novos e off-road. Pronta entrega e parcelamento em até 21x no cartão. Simule suas parcelas online!";
     img = `${proto}://${host}/assets/passion-0.jpg`;
     pageUrl = `${proto}://${host}/`;
   }
+
+  const imgExt = path.extname(img.split("?")[0]).toLowerCase();
+  const mimeType = imgExt === ".webp" ? "image/webp" : imgExt === ".png" ? "image/png" : "image/jpeg";
+  const isSquare = img.includes("/shineray/") || img.includes("500x500");
+  const imgWidth = isSquare ? "500" : "1200";
+  const imgHeight = isSquare ? "500" : "630";
 
   const ogTags = `
 <!-- Open Graph / WhatsApp Preview Dinâmico -->
@@ -441,9 +452,10 @@ function renderIndexHtml(req, modelId) {
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:image" content="${esc(img)}">
 <meta property="og:image:secure_url" content="${esc(img)}">
+<meta property="og:image:type" content="${mimeType}">
 <meta property="og:image:alt" content="${esc(title)}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="${imgWidth}">
+<meta property="og:image:height" content="${imgHeight}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">

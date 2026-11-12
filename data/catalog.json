@@ -1,6 +1,6 @@
 {
-  "version": 117,
-  "updatedAt": "2026-11-12T19:18:19.901Z",
+  "version": 118,
+  "updatedAt": "2026-11-12T20:11:39.202Z",
   "products": [
     {
       "id": "passion",
@@ -537,7 +537,7 @@
     {
       "id": "drift",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Drift",
       "brand": "L1MA MOTORS",
       "name": "Triciclo Elétrico de Drift",
@@ -593,7 +593,7 @@
       "stock": 4,
       "desc": "A cub mais vendida do Brasil agora com injeção eletrônica EFI e painel 100% digital. Máxima economia e praticidade para o dia a dia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2023/08/500x500-JET-125-EFI.webp",
+        "/assets/shineray/shineray-jet-125ss-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-serie-JET-125-EFI-2-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-JET-125-EFI-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-JET-125-EFI-5.webp",
@@ -661,7 +661,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/08/360-JET-125-EFI-24.webp"
       ],
       "video": "XtXGbtz0WIs",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "image": "/assets/shineray/shineray-jet-125ss-efi.jpg"
     },
     {
       "id": "shineray-jet-125",
@@ -677,7 +678,7 @@
       "stock": 4,
       "desc": "Confortável e econômica, a New Jet 125 entrega agilidade no trânsito urbano com embreagem semi-automática sem necessidade de manete.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-MENU.webp",
+        "/assets/shineray/shineray-jet-125.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-7.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-5.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/02/Cor-JET-125-6.webp",
@@ -744,7 +745,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/02/NEW-JET-24.webp"
       ],
       "video": "bnt1FeZ1d5Y",
-      "sortOrder": 4
+      "sortOrder": 4,
+      "image": "/assets/shineray/shineray-jet-125.jpg"
     },
     {
       "id": "shineray-phoenix-50-efi",
@@ -760,7 +762,7 @@
       "stock": 4,
       "desc": "O ciclomotor mais tradicional da Shineray, agora atualizado com injeção eletrônica EFI, consumo ultrabaixo e partida elétrica.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2023/08/Phoenix-S-EFI.webp",
+        "/assets/shineray/shineray-phoenix-50-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Foto-Capa-PHOENIX-S-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-PARTIDA.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/08/Itens-de-Serie-RODAS.webp",
@@ -823,7 +825,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/05/Phoenix-S-360-20-scaled.webp"
       ],
       "video": "rvPkg7DSvDY",
-      "sortOrder": 5
+      "sortOrder": 5,
+      "image": "/assets/shineray/shineray-phoenix-50-efi.jpg"
     },
     {
       "id": "shineray-jet-50",
@@ -839,7 +842,7 @@
       "stock": 4,
       "desc": "Ideal para trajetos curtos na cidade com máxima economia de combustível e facilidade de pilotagem.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-500x500-Principal.webp",
+        "/assets/shineray/shineray-jet-50.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/02-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/01-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-10.webp",
@@ -901,7 +904,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/03/JET-50-01-19.png"
       ],
       "video": "FlzFr5aDlDs",
-      "sortOrder": 8
+      "sortOrder": 8,
+      "image": "/assets/shineray/shineray-jet-50.jpg"
     },
     {
       "id": "shineray-shi-175ss",
@@ -917,7 +921,7 @@
       "stock": 4,
       "desc": "Trail de alta performance com suspensão invertida, excelente altura do solo e motor com torque forte para cidade e estrada de terra.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Home.webp",
+        "/assets/shineray/shineray-shi-175ss.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Cores-6.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/09/Galeria-SHI-175ss-6-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/09/SHI-175ss-Cores-5.webp",
@@ -959,7 +963,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "1Y598CuK7kg",
-      "sortOrder": 9
+      "sortOrder": 9,
+      "image": "/assets/shineray/shineray-shi-175ss.jpg"
     },
     {
       "id": "shineray-shi-175",
@@ -975,7 +980,7 @@
       "stock": 4,
       "desc": "A trail mais robusta e versátil da categoria, perfeita para encarar qualquer tipo de terreno com conforto e tanque de grande capacidade.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-SHI-175.webp",
+        "/assets/shineray/shineray-shi-175.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-3.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-4.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cores-SHI-175-2.webp",
@@ -1042,7 +1047,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/04/SHI-175-01-24.webp"
       ],
       "video": "iZZSooND1R0",
-      "sortOrder": 10
+      "sortOrder": 10,
+      "image": "/assets/shineray/shineray-shi-175.jpg"
     },
     {
       "id": "shineray-shi-170-cs",
@@ -1058,7 +1064,7 @@
       "stock": 4,
       "desc": "Street moderna com ciclística ágil e motor 170 cc de aceleração rápida, ideal para o trânsito do dia a dia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-Menu-SHI-170.webp",
+        "/assets/shineray/shineray-shi-170-cs.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-9-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-8-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-170-2-1.webp",
@@ -1125,7 +1131,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/04/360-SHI-170-24.webp"
       ],
       "video": "6c1ze1DGwyY",
-      "sortOrder": 11
+      "sortOrder": 11,
+      "image": "/assets/shineray/shineray-shi-170-cs.jpg"
     },
     {
       "id": "shineray-shi-250",
@@ -1141,7 +1148,7 @@
       "stock": 4,
       "desc": "Trail média completa para turismo e aventura, com arrefecimento líquido, câmbio de 6 marchas e freios ABS.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/04/Miniatura-SHI-250.webp",
+        "/assets/shineray/shineray-shi-250.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI250-Cores.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI-250.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/04/SHI-COR-2.webp",
@@ -1183,7 +1190,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "dYrPSaA4fQI",
-      "sortOrder": 12
+      "sortOrder": 12,
+      "image": "/assets/shineray/shineray-shi-250.jpg"
     },
     {
       "id": "shineray-jef-150s-efi",
@@ -1199,7 +1207,7 @@
       "stock": 4,
       "desc": "Street de visual esportivo e arrojado, perfeita para o trabalho ou locomoção diária com conforto e estilo.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150.webp",
+        "/assets/shineray/shineray-jef-150s-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/02/JEF-150s-EFI.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/02/ITENS-DE-SERIE-JEF-150S-EFI-04.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/02/ITENS-DE-SERIE-JEF-150S-EFI.webp",
@@ -1241,7 +1249,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "ngexK-6wBKc",
-      "sortOrder": 13
+      "sortOrder": 13,
+      "image": "/assets/shineray/shineray-jef-150s-efi.jpg"
     },
     {
       "id": "shineray-jef-170",
@@ -1257,7 +1266,7 @@
       "stock": 4,
       "desc": "Mais potência e acelerações vigorosas para a cidade, mantendo a ergonomia e facilidade de pilotagem.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/06/JEF-170-500x500-1.webp",
+        "/assets/shineray/shineray-jef-170.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/06/01-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/06/Itens-de-Serie-JEF-170-4-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/06/Itens-de-Serie-JEF-170-3-1.webp",
@@ -1299,7 +1308,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "t2n1Wj24ZDA",
-      "sortOrder": 14
+      "sortOrder": 14,
+      "image": "/assets/shineray/shineray-jef-170.jpg"
     },
     {
       "id": "shineray-rio-125-efi",
@@ -1315,7 +1325,7 @@
       "stock": 4,
       "desc": "Scooter urbana moderna, fácil de pilotar, com transmissão CVT automática e piso plano para máximo conforto.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2023/12/Home-RIO-125-EFI.webp",
+        "/assets/shineray/shineray-rio-125-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2023/12/Cor-RIO-125-EFI-preta.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/12/Itens-de-Serie-RIO-125-EFI-5.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/12/Itens-de-Serie-RIO-125-EFI-4.webp",
@@ -1357,7 +1367,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "5EVzFzM7Yck",
-      "sortOrder": 15
+      "sortOrder": 15,
+      "image": "/assets/shineray/shineray-rio-125-efi.jpg"
     },
     {
       "id": "shineray-free-150",
@@ -1373,7 +1384,7 @@
       "stock": 4,
       "desc": "A utilitária urbana ideal para o trabalho diário, com mecânica confiável, peças acessíveis e grande durabilidade.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-EFI.webp",
+        "/assets/shineray/shineray-free-150.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/FREE-150-Cinza.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie-Acessorios.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-FREE-150-10-1.webp",
@@ -1415,7 +1426,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "SEebxVqolME",
-      "sortOrder": 16
+      "sortOrder": 16,
+      "image": "/assets/shineray/shineray-free-150.jpg"
     },
     {
       "id": "shineray-urban-150",
@@ -1431,7 +1443,7 @@
       "stock": 4,
       "desc": "Maxi-scooter premium com acabamento refinado, chave presencial e tanque de 13,5 litros para cidade e rodovia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/01/URBAN-150-EFI.webp",
+        "/assets/shineray/shineray-urban-150.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-URBAN-2-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-URBAN-1-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/URBAN-150-ROXA.webp",
@@ -1498,7 +1510,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-150_24.webp"
       ],
       "video": "CP7pHieXSdo",
-      "sortOrder": 17
+      "sortOrder": 17,
+      "image": "/assets/shineray/shineray-urban-150.jpg"
     },
     {
       "id": "shineray-urban-lite",
@@ -1514,7 +1527,7 @@
       "stock": 4,
       "desc": "Scooter compacta e ágil para quem busca praticidade, peso leve e pilotagem descomplicada no dia a dia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/URBAN-LITE-MENU.webp",
+        "/assets/shineray/shineray-urban-lite.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/10-1-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/09-2-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/08-2-scaled.webp",
@@ -1581,7 +1594,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/04/360-URBAN-LITE-24.webp"
       ],
       "video": "sH9StImEoEo",
-      "sortOrder": 18
+      "sortOrder": 18,
+      "image": "/assets/shineray/shineray-urban-lite.jpg"
     },
     {
       "id": "shineray-denver",
@@ -1597,7 +1611,7 @@
       "stock": 4,
       "desc": "Custom clássica com assento baixo, guidão largo e o som encorpado do motor de 250 cc.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
+        "/assets/shineray/shineray-denver.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-1-8.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-2-8.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Denver-3-6.webp",
@@ -1639,7 +1653,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "LdAS55vDIKA",
-      "sortOrder": 19
+      "sortOrder": 19,
+      "image": "/assets/shineray/shineray-denver.jpg"
     },
     {
       "id": "shineray-iron",
@@ -1655,7 +1670,7 @@
       "stock": 4,
       "desc": "Estilo minimalista e agressivo com acabamentos em preto fosco para quem quer presença por onde passa.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/01/Iron.webp",
+        "/assets/shineray/shineray-iron.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-2-4.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-3-4.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/01/Galeria-Iron-4-4.webp",
@@ -1722,7 +1737,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/07/360-Iron-24.webp"
       ],
       "video": "nu_n-RPhO_k",
-      "sortOrder": 20
+      "sortOrder": 20,
+      "image": "/assets/shineray/shineray-iron.jpg"
     },
     {
       "id": "shineray-titanium",
@@ -1738,7 +1754,7 @@
       "stock": 4,
       "desc": "Custom sofisticada para pegar a estrada com elegância, conforto térmico e excelente dirigibilidade.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/12/Titanium-500x500-1.webp",
+        "/assets/shineray/shineray-titanium.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-Titanium-04-3.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Titanium-3-4.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-Titanium-2-5.webp",
@@ -1805,7 +1821,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/08/360-SBM-Titanium-24.webp"
       ],
       "video": "PcRuHFX2A80",
-      "sortOrder": 21
+      "sortOrder": 21,
+      "image": "/assets/shineray/shineray-titanium.jpg"
     },
     {
       "id": "shineray-shi-400sc",
@@ -1821,7 +1838,7 @@
       "stock": 4,
       "desc": "Scrambler potente e clássica com motor 400 cc refrigerado a ar e óleo, com grande torque em todas as marchas.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/Foto-Principal-SHI-400sc.webp",
+        "/assets/shineray/shineray-shi-400sc.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Cor-SHI-400sc-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-400sc-2-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Galeria-SHI-400sc-3-1.webp",
@@ -1863,7 +1880,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "o9GJ-vGV0NY",
-      "sortOrder": 22
+      "sortOrder": 22,
+      "image": "/assets/shineray/shineray-shi-400sc.jpg"
     },
     {
       "id": "shineray-sbm-600",
@@ -1879,7 +1897,7 @@
       "stock": 4,
       "desc": "Naked de 4 cilindros em linha com alta potência de 81 cv e acelerações de tirar o fôlego.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/11/SBM-600C-Home-Menu.webp",
+        "/assets/shineray/shineray-sbm-600.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Galeria-SBM-600C-10.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Galeria-05-SBM-600C.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Cores-SBM-600C-3.webp",
@@ -1946,7 +1964,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2025/11/360-SBM-600C-24.webp"
       ],
       "video": "QhMXMzazk_k",
-      "sortOrder": 23
+      "sortOrder": 23,
+      "image": "/assets/shineray/shineray-sbm-600.jpg"
     },
     {
       "id": "shineray-sbm-600rc",
@@ -1962,7 +1981,7 @@
       "stock": 4,
       "desc": "Superesportiva carenada com motor 4 cilindros de 84 cv, desenvolvida para velocidade e precisão em curvas.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-600R-Home-e-Menu.png",
+        "/assets/shineray/shineray-sbm-600rc.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Banner-Principal-SBM-600R.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Cores-SBM-600R-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Cores-SBM-600R-1.webp",
@@ -2029,7 +2048,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/01/360-SBM-600R-24.webp"
       ],
       "video": "HbhtExCZ38g",
-      "sortOrder": 24
+      "sortOrder": 24,
+      "image": "/assets/shineray/shineray-sbm-600rc.jpg"
     },
     {
       "id": "shineray-sbm-600rc-v2",
@@ -2045,7 +2065,7 @@
       "stock": 4,
       "desc": "Evolução esportiva com 85 cv e entrega de potência imediata para pilotos exigentes.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/08/SBM-600rc-v2-500x500-1.webp",
+        "/assets/shineray/shineray-sbm-600rc-v2.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-SBM-600rc2-v2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Galeria-SBM-600rc-v2-3-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Itens-de-Serie-SBM-600rc-v2-1.webp",
@@ -2087,7 +2107,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "k9Rj-0UDskw",
-      "sortOrder": 25
+      "sortOrder": 25,
+      "image": "/assets/shineray/shineray-sbm-600rc-v2.jpg"
     },
     {
       "id": "shineray-sbm-600t",
@@ -2103,7 +2124,7 @@
       "stock": 4,
       "desc": "Maxi-trail 4 cilindros feita para cruzar estados com máximo conforto, proteção aerodinâmica e força de sobra.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/10/Home-e-Menu-SBM-600-Trail.webp",
+        "/assets/shineray/shineray-sbm-600t.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/11/Itens-de-serie-Acessorios.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Cores-SBM-600-TRAIL-3.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Cores-SBM-600-TRAIL-4.webp",
@@ -2145,7 +2166,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "bzc45jd7vL0",
-      "sortOrder": 26
+      "sortOrder": 26,
+      "image": "/assets/shineray/shineray-sbm-600t.jpg"
     },
     {
       "id": "shineray-sbm-600v",
@@ -2161,7 +2183,7 @@
       "stock": 4,
       "desc": "Muscle bike de 4 cilindros com postura agressiva e arranque potente.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/12/Fotos.webp",
+        "/assets/shineray/shineray-sbm-600v.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/12/Galeria-SBM-600V.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/12/Item-de-Serie-Acessorios-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/12/SBM-600v-Cores-1.webp",
@@ -2228,7 +2250,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2025/12/360-SBM-600v-24.webp"
       ],
       "video": "8JMnsvi_R70",
-      "sortOrder": 27
+      "sortOrder": 27,
+      "image": "/assets/shineray/shineray-sbm-600v.jpg"
     },
     {
       "id": "shineray-sbm-400",
@@ -2244,7 +2267,7 @@
       "stock": 4,
       "desc": "Naked bicilíndrica com excelente relação peso-potência, ágil na cidade e veloz na rodovia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-400s-500x500-1.webp",
+        "/assets/shineray/shineray-sbm-400.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-7.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-6.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-400s-9.webp",
@@ -2286,7 +2309,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "3LWzW03VFsI",
-      "sortOrder": 28
+      "sortOrder": 28,
+      "image": "/assets/shineray/shineray-sbm-400.jpg"
     },
     {
       "id": "shineray-sbm-400rr",
@@ -2302,7 +2326,7 @@
       "stock": 4,
       "desc": "Esportiva carenada de 400 cc desenvolvida para quem quer desempenho de pista com custo de manutenção inteligente.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-500x500-1.webp",
+        "/assets/shineray/shineray-sbm-400rr.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/07/Cor-SBM-400rr.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/07/Banner-SBM-400rr.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/07/SBM-400rr-Rodas-e-Freios.webp",
@@ -2369,7 +2393,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/07/360-SBM-400rr-24.webp"
       ],
       "video": "DcxNvsDr3Y0",
-      "sortOrder": 29
+      "sortOrder": 29,
+      "image": "/assets/shineray/shineray-sbm-400rr.jpg"
     },
     {
       "id": "shineray-sbm-250s",
@@ -2385,7 +2410,7 @@
       "stock": 4,
       "desc": "Esportiva leve com ciclística precisa e excelente arrancada, ideal para pilotos que querem subir de categoria.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Home.webp",
+        "/assets/shineray/shineray-sbm-250s.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-250s-Amarelo.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-250s-3-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Galeria-SBM-250s-2-1.webp",
@@ -2454,7 +2479,8 @@
       "video": "8Fw4Dun0ViU",
       "sortOrder": 30,
       "store_id": "all",
-      "store_name": "Todas as Lojas"
+      "store_name": "Todas as Lojas",
+      "image": "/assets/shineray/shineray-sbm-250s.jpg"
     },
     {
       "id": "shineray-sbm-250t",
@@ -2470,7 +2496,7 @@
       "stock": 4,
       "desc": "Trail técnica e ágil com motor forte de 28 cv para superar qualquer obstáculo na terra ou no asfalto.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/500X500.webp",
+        "/assets/shineray/shineray-sbm-250t.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/04-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/09-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/08-1.webp",
@@ -2537,7 +2563,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/05/360-SBM-250T-24.webp"
       ],
       "video": "72uChYjqbrU",
-      "sortOrder": 31
+      "sortOrder": 31,
+      "image": "/assets/shineray/shineray-sbm-250t.jpg"
     },
     {
       "id": "shineray-250f",
@@ -2553,7 +2580,7 @@
       "stock": 4,
       "desc": "Naked acessível e de presença marcante com motor 250 cc para pilotagem dinâmica no dia a dia.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/12/250F.webp",
+        "/assets/shineray/shineray-250f.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-05-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-04-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Itens-de-Serie-250F-03-1.webp",
@@ -2595,7 +2622,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "1uazzlNGq-E",
-      "sortOrder": 32
+      "sortOrder": 32,
+      "image": "/assets/shineray/shineray-250f.jpg"
     },
     {
       "id": "shineray-atv-125",
@@ -2611,7 +2639,7 @@
       "stock": 4,
       "desc": "Quadriciclo leve perfeito para lazer na fazenda, chácara ou praia, com marcha ré e condução segura.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/07/ATV-125.webp",
+        "/assets/shineray/shineray-atv-125.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/07/Itens-de-Serie-ATV-125-03.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/07/Galeria-ATV-125-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/07/Galeria-ATV-125-10.webp",
@@ -2653,7 +2681,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "44d7zU3qcrc",
-      "sortOrder": 36
+      "sortOrder": 36,
+      "image": "/assets/shineray/shineray-atv-125.jpg"
     },
     {
       "id": "shineray-atv-125-efi",
@@ -2669,7 +2698,7 @@
       "stock": 4,
       "desc": "Versão moderna com injeção eletrônica EFI, freios a disco e maior facilidade de manutenção para trilhas e lazer.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/12/ATV-125-EFI-1.webp",
+        "/assets/shineray/shineray-atv-125-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-10.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-9.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/12/Galeria-ATV-125-EFI-8.webp",
@@ -2711,7 +2740,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "nYn62ZHaVFY",
-      "sortOrder": 37
+      "sortOrder": 37,
+      "image": "/assets/shineray/shineray-atv-125-efi.jpg"
     },
     {
       "id": "shineray-atv-200",
@@ -2727,7 +2757,7 @@
       "stock": 4,
       "desc": "Quadriciclo adulto robusto e confortável para trilhas médias, trabalhos rurais e diversão em família.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200.webp",
+        "/assets/shineray/shineray-atv-200.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2023/06/Banner-Principal-ATV-200.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200-COR-2-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2023/06/ATV-200-COR-1-1.webp",
@@ -2769,7 +2799,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "33NMBWRSglA",
-      "sortOrder": 38
+      "sortOrder": 38,
+      "image": "/assets/shineray/shineray-atv-200.jpg"
     },
     {
       "id": "shineray-atv-200-efi",
@@ -2785,7 +2816,7 @@
       "stock": 4,
       "desc": "Quadriciclo 200 cc equipado com injeção eletrônica, oferecendo mais torque, economia e partida imediata.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-500x500-Principal.webp",
+        "/assets/shineray/shineray-atv-200-efi.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-9-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-8-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/03/ATV-200-EFI-7-scaled.webp",
@@ -2827,7 +2858,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "Qjj0MFJ9x1g",
-      "sortOrder": 39
+      "sortOrder": 39,
+      "image": "/assets/shineray/shineray-atv-200-efi.jpg"
     },
     {
       "id": "shineray-atv-250",
@@ -2843,7 +2875,7 @@
       "stock": 4,
       "desc": "Quadriciclo esportivo de alta performance para quem busca emoção pura em dunas, pistas de terra e trilhas radicais.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/05/ATV-250.webp",
+        "/assets/shineray/shineray-atv-250.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Banner-Principal-ATV-250.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Itens-de-Serie03.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/05/Galeria-ATV-250-10.webp",
@@ -2885,7 +2917,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "ohsdbOBB3D0",
-      "sortOrder": 40
+      "sortOrder": 40,
+      "image": "/assets/shineray/shineray-atv-250.jpg"
     },
     {
       "id": "shineray-atv-300",
@@ -2901,7 +2934,7 @@
       "stock": 4,
       "desc": "Quadriciclo utilitário e recreativo para uso severo no campo, com reduzida e suspensão independente.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-300.webp",
+        "/assets/shineray/shineray-atv-300.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-5.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-300-2.webp",
@@ -2943,7 +2976,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "ym2WInbRjpo",
-      "sortOrder": 41
+      "sortOrder": 41,
+      "image": "/assets/shineray/shineray-atv-300.jpg"
     },
     {
       "id": "shineray-atv-1000",
@@ -2959,7 +2993,7 @@
       "stock": 4,
       "desc": "O monstro off-road da Shineray: motor V-Twin de 1.000 cc com 87 cv, tração 4x4 com reduzida e guincho de fábrica.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/04/500x500-ATV-1000.webp",
+        "/assets/shineray/shineray-atv-1000.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-5.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/04/Itens-de-Serie-ATV-1000-2.webp",
@@ -3001,7 +3035,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "jGQ4GyFxZi0",
-      "sortOrder": 42
+      "sortOrder": 42,
+      "image": "/assets/shineray/shineray-atv-1000.jpg"
     },
     {
       "id": "shineray-kart-125",
@@ -3017,7 +3052,7 @@
       "stock": 4,
       "desc": "Mini Buggy Kart para 2 ocupantes com gaiola protetora e cinto de 4 pontos, diversão com segurança garantida.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-125.webp",
+        "/assets/shineray/shineray-kart-125.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/9-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/2-2-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/1-2.webp",
@@ -3059,7 +3094,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "cJuGKNGqzDc",
-      "sortOrder": 43
+      "sortOrder": 43,
+      "image": "/assets/shineray/shineray-kart-125.jpg"
     },
     {
       "id": "shineray-kart-200",
@@ -3075,7 +3111,7 @@
       "stock": 4,
       "desc": "Kart off-road resistente e divertido com mecânica simples e motor 4 tempos para acelerar em pistas de terra.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200.webp",
+        "/assets/shineray/shineray-kart-200.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200-Cores-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/9.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/5.webp",
@@ -3117,7 +3153,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "gvIMvuHDhjE",
-      "sortOrder": 44
+      "sortOrder": 44,
+      "image": "/assets/shineray/shineray-kart-200.jpg"
     },
     {
       "id": "shineray-kart-200s",
@@ -3133,7 +3170,7 @@
       "stock": 4,
       "desc": "Buggy kart de dois lugares para trilhas fechadas, equipado com faróis auxiliares, marcha ré e suspensão aprimorada.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/09/KART-200s.webp",
+        "/assets/shineray/shineray-kart-200s.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-4.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-1-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/09/Galeria-KART-200s-2-1.webp",
@@ -3175,7 +3212,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "byB9IQ6x-Gs",
-      "sortOrder": 45
+      "sortOrder": 45,
+      "image": "/assets/shineray/shineray-kart-200s.jpg"
     },
     {
       "id": "shineray-denver-400-2",
@@ -3191,7 +3229,7 @@
       "stock": 4,
       "desc": "Custom Bobber imponente com motor 400 cc, visual retrô limpo e excelente torque em baixas rotações.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/12/Principal-Denver.webp",
+        "/assets/shineray/shineray-denver-400-2.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/Cor-Denver-400@1x_1.png",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/preto.png",
         "https://www.shineray.com.br/wp-content/uploads/2026/08/preto-prata.png",
@@ -3233,7 +3271,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "tPsgm7BOY4Q",
-      "sortOrder": 62
+      "sortOrder": 62,
+      "image": "/assets/shineray/shineray-denver-400-2.jpg"
     },
     {
       "id": "shineray-sbm-150",
@@ -3249,7 +3288,7 @@
       "stock": 4,
       "desc": "Naked 150 cc topo de linha com refrigeração líquida e 13,4 cv, muito acima das 150 cc convencionais.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2025/10/SBM-150-Home-1.webp",
+        "/assets/shineray/shineray-sbm-150.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/01-5-scaled.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Rodas.webp",
         "https://www.shineray.com.br/wp-content/uploads/2025/10/Acessorios-1.webp",
@@ -3291,7 +3330,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "Lqnio1Vw2zE",
-      "sortOrder": 63
+      "sortOrder": 63,
+      "image": "/assets/shineray/shineray-sbm-150.jpg"
     },
     {
       "id": "shineray-sbm-400ss-2",
@@ -3307,7 +3347,7 @@
       "stock": 4,
       "desc": "Trail bicilíndrica moderna projetada para expedições e turismo de aventura com máxima comodidade.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2026/01/SBM-400ss-Home.webp",
+        "/assets/shineray/shineray-sbm-400ss-2.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Cor-SBM-400ss-2.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Galeria-SBM-400ss-3-1.webp",
         "https://www.shineray.com.br/wp-content/uploads/2026/01/Galeria-SBM-400ss-2-1.webp",
@@ -3349,7 +3389,8 @@
       "disc": "Valores sujeitos a alteração pela montadora. Frete e emplacamento conforme condições locais.",
       "rotation360": null,
       "video": "dIkqpEDDjxU",
-      "sortOrder": 64
+      "sortOrder": 64,
+      "image": "/assets/shineray/shineray-sbm-400ss-2.jpg"
     },
     {
       "id": "shineray-storm-200",
@@ -3365,7 +3406,7 @@
       "stock": 4,
       "desc": "Trail versátil e moderna de 200 cc com 6 marchas, suspensão invertida e injeção eletrônica, perfeita para terra e asfalto.",
       "photos": [
-        "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm.webp",
+        "/assets/shineray/shineray-storm-200.jpg",
         "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-5.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-6.webp",
         "https://www.shineray.com.br/wp-content/uploads/2024/08/Storm-200-Cor-7.webp",
@@ -3432,7 +3473,8 @@
         "https://www.shineray.com.br/wp-content/uploads/2026/05/360-Storm-24.webp"
       ],
       "video": "qVYPuIwMrJ4",
-      "sortOrder": 65
+      "sortOrder": 65,
+      "image": "/assets/shineray/shineray-storm-200.jpg"
     }
   ]
 }

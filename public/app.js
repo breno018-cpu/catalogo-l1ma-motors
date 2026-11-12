@@ -33,7 +33,24 @@ let offline = false, DATA = { products: [], config: {} }, cat = "ele", sub = "al
 const newIds = new Set();
 const cfg = () => DATA.config || {};
 const P = () => DATA.products.filter(p => p.active !== false);
-const byId = id => P().find(p => p.id === id);
+const byId = id => {
+  if (!id) return null;
+  const s = String(id).toLowerCase().trim();
+  const sClean = s.replace(/[^a-z0-9]/g, "");
+  return (DATA.products || []).find(p => {
+    const pid = (p.id || "").toLowerCase();
+    const pidClean = pid.replace(/[^a-z0-9]/g, "");
+    const pname = (p.name || "").toLowerCase();
+    return pid === s ||
+      pidClean === sClean ||
+      (sClean.length >= 3 && pidClean.includes(sClean)) ||
+      (pidClean.length >= 3 && sClean.includes(pidClean)) ||
+      pname.includes(s) ||
+      (s.startsWith("shineray-") && pid === s) ||
+      (`shineray-${pid}` === s) ||
+      (s === "tokyo01" && pid === "toky01");
+  });
+};
 const isOut = p => p.stock === 0;
 const isLow = p => p.stock != null && p.stock > 0 && p.stock <= (cfg().lowStockThreshold ?? 2);
 const maxN = () => cfg().maxInstallments || 21;
@@ -721,23 +738,31 @@ function route() {
   const urlP = new URLSearchParams(location.search);
   const mParam = (urlP.get("m") || urlP.get("p") || urlP.get("moto") || urlP.get("id") || "").toLowerCase();
   const pathMatch = path.match(/\/(?:moto|m|produto)\/([^\/]+)/i);
-  const targetId = mParam || (pathMatch ? decodeURIComponent(pathMatch[1]).toLowerCase() : null) || h;
+  const targetId = mParam || (pathMatch ? decodeURIComponent(pathMatch[1]).toLowerCase() : null) || (h && !CATS[h] ? h : null);
 
   const catParam = (urlP.get("cat") || urlP.get("c") || "").toLowerCase();
-  if (targetId === "shineray" || path.includes("shineray") || h === "shineray" || catParam === "shineray") {
+
+  // 1. Se tem uma moto específica no link, sempre prioriza abrir o modal dela
+  if (targetId && targetId !== "shineray" && !CATS[targetId]) {
+    const p = byId(targetId);
+    if (p) {
+      setCat(p.cat);
+      setTimeout(() => {
+        openModal(p.id);
+        const card = $(`.card[data-id="${CSS.escape(p.id)}"]`);
+        if (card) card.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, 80);
+      return;
+    }
+  }
+
+  // 2. Se for link para a aba da Shineray (sem moto específica)
+  if (targetId === "shineray" || catParam === "shineray" || h === "shineray" || path === "/shineray" || path.endsWith("/shineray")) {
     setCat("shineray");
     return;
   }
-  const p = byId(targetId);
-  if (p) {
-    setCat(p.cat);
-    setTimeout(() => {
-      openModal(p.id);
-      const card = $(`.card[data-id="${CSS.escape(p.id)}"]`);
-      if (card) card.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, 80);
-    return;
-  }
+
+  // 3. Fallback de categoria padrão
   setCat(CATS[h] && !CATS[h].hidden ? h : "ele");
 }
 window.addEventListener("hashchange", () => {
@@ -750,7 +775,10 @@ window.addEventListener("hashchange", () => {
     setCat(h);
   } else {
     const p = byId(h);
-    if (p && (!cur || cur.id !== p.id)) openModal(p.id);
+    if (p && (!cur || cur.id !== p.id)) {
+      setCat(p.cat);
+      openModal(p.id);
+    }
   }
 });
 
