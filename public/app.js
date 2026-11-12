@@ -505,17 +505,20 @@ function openModal(id, keepIdx) {
   const modeBar = hasModes ? `
     <div class="media-modes">
       <button class="mode-btn on" data-mm="photo">${ic("store")} Fotos (${p.photos.length})</button>
-      ${p.rotation360?.length ? `<button class="mode-btn" data-mm="360">${ic("spin360")} Giro 360° (${p.rotation360.length})</button>` : ""}
-      ${p.video ? `<button class="mode-btn" data-mm="video">${ic("play")} Vídeo Oficial</button>` : ""}
+      ${p.rotation360?.length ? `<button class="mode-btn" data-mm="360">${ic("spin360")} Giro 360°</button>` : ""}
+      ${p.video ? `<button class="mode-btn" data-mm="video">${ic("play")} Vídeo</button>` : ""}
     </div>` : "";
 
   $("#mbox").innerHTML = `
-   <button type="button" class="mbox-close-btn" id="mboxCloseBtn" aria-label="Fechar">${ic("x")}</button>
+   <div class="mbox-top-bar">
+    <div class="sheet-handle"></div>
+    <button type="button" class="mbox-close-btn" id="mboxCloseBtn" aria-label="Fechar">${ic("x")}</button>
+   </div>
    <div class="gal">
     ${modeBar}
     <div id="galPhoto">
       <div class="mph ${out ? "out" : ""}"><img id="mimg" src="${im(p, idx)}" alt="">
-        ${out ? `<span class="stamp sold ${wasOpen ? "" : "anim"}" style="font-size:44px">Esgotado</span>` : p.promo ? `<span class="stamp promo anim" style="font-size:26px">Oferta</span>` : ""}
+        ${out ? `<span class="stamp sold ${wasOpen ? "" : "anim"}" style="font-size:36px">Esgotado</span>` : p.promo ? `<span class="stamp promo anim" style="font-size:22px">Oferta</span>` : ""}
         ${p.photos.length > 1 ? `<button class="nav p" data-step="-1" aria-label="Anterior">${ic("left")}</button><button class="nav n" data-step="1" aria-label="Próxima">${ic("right")}</button>` : ""}<span class="cnt" id="mcnt"></span></div>
       <div class="thumbs" id="mth">${p.photos.map((l, i) => `<button data-i="${i}" aria-label="Foto ${i + 1}"><img src="${im(p, i)}" alt="" loading="lazy"></button>`).join("")}</div>
     </div>
@@ -548,18 +551,23 @@ function openModal(id, keepIdx) {
     </div>
     <p class="desc">${esc(p.desc)}</p>
     <div class="pbox">${p.price ? `
-      ${p.oldPrice && p.oldPrice > p.price ? `<div class="old-price-wrap" style="margin-bottom:6px"><span class="old-price" style="font-size:14px">De <s>R$ ${brl0(p.oldPrice)},00</s></span><span class="disc-pill" style="font-size:11px;padding:3px 8px">-R$ ${brl0(p.oldPrice - p.price)}</span></div>` : `<span class="brand">À vista</span>`}
+      ${p.oldPrice && p.oldPrice > p.price ? `<div class="old-price-wrap" style="margin-bottom:6px"><span class="old-price" style="font-size:13px">De <s>R$ ${brl0(p.oldPrice)},00</s></span><span class="disc-pill" style="font-size:10px;padding:2px 7px">-R$ ${brl0(p.oldPrice - p.price)}</span></div>` : `<span class="brand">À vista</span>`}
       <div class="v">R$ ${brl0(p.price)}<small>,00</small></div>
-      ${p.installments ? `<span style="font-size:13px">ou em até <b>${maxN()}x no cartão</b></span>` : `<span style="font-size:13px;color:var(--mut)">Consulte as condições de pagamento.</span>`}
-      <div class="ms">${ic("card")} Simular em <select id="mPar" aria-label="Parcelas">${Array.from({ length: maxN() }, (_, i) => `<option value="${i + 1}" ${i === 11 ? "selected" : ""}>${i + 1}x</option>`).join("")}</select><b id="mParV"></b></div>
-      <span style="font-size:11px;color:var(--mut);margin-top:6px">${hasRates() ? "Valor estimado com a taxa da maquininha." : esc(cfg().installmentNote || "")}</span>`
-      : `<div class="v" style="font-size:28px;color:var(--c)">Preço sob consulta</div><span style="font-size:13px;color:var(--mut)">Fale com um consultor para valores e condições.</span>`}</div>
+      ${p.installments ? `<span class="pbox-inst">ou em até <b>${maxN()}x no cartão</b></span>` : `<span class="pbox-inst" style="color:var(--mut)">Consulte as condições de pagamento.</span>`}
+      <div class="ms"><div class="ms-left">${ic("card")} Simular em <select id="mPar" aria-label="Parcelas">${Array.from({ length: maxN() }, (_, i) => `<option value="${i + 1}" ${i === 11 ? "selected" : ""}>${i + 1}x</option>`).join("")}</select></div><b id="mParV"></b></div>
+      <span class="pbox-note">${hasRates() ? "Valor estimado com a taxa da maquininha." : esc(cfg().installmentNote || "")}</span>`
+      : `<div class="v" style="font-size:26px;color:var(--c)">Preço sob consulta</div><span class="pbox-inst" style="color:var(--mut)">Fale com um consultor para valores e condições.</span>`}</div>
     ${p.colors ? `<div class="sec">${p.colors.length > 1 ? "Cores disponíveis (toque para ver na foto)" : "Cor disponível"}</div><div class="sw">${p.colors.map(c => `<button data-i="${c[2]}"><i style="background:${esc(c[1])}"></i>${esc(c[0])}</button>`).join("")}</div>` : ""}
     <div class="sec">Ficha técnica</div><div class="spec">${p.specs.map(s => `<div><b>${esc(s[0])}</b><small>${esc(s[1])}</small></div>`).join("")}</div>
     <div class="sec">Destaques</div><ul class="feat">${p.feat.map(f => `<li><span class="ck">${ic("check")}</span>${esc(f)}</li>`).join("")}</ul>
     <p class="disc">${esc(p.disc || "")}</p>
-    <div class="acts"><a class="btn ${out ? "k" : "c"}" id="mWa" target="_blank" rel="noopener">${ic(out ? "bell" : "wa")} ${out ? "Avise-me quando chegar" : "Tenho interesse"}</a><button class="btn o rp" id="mShare" aria-label="Compartilhar no WhatsApp" title="Compartilhar link com foto no WhatsApp">${ic("share")} Compartilhar</button></div>
-    ${p.price && !out ? `<button type="button" class="btn o rp" style="width:100%;margin-top:10px" data-sim="${p.id}">${ic("calc")} Simulação completa com entrada</button>` : ""}
+    <div class="acts">
+      <a class="btn ${out ? "k" : "c"}" id="mWa" target="_blank" rel="noopener">${ic(out ? "bell" : "wa")} ${out ? "Avise-me quando chegar" : "Tenho interesse"}</a>
+      <div class="acts-sub">
+        <button class="btn o rp" id="mShare" aria-label="Compartilhar no WhatsApp" title="Compartilhar link com foto no WhatsApp">${ic("share")} Compartilhar</button>
+        ${p.price && !out ? `<button type="button" class="btn o rp" data-sim="${p.id}">${ic("calc")} Simular entrada</button>` : ""}
+      </div>
+    </div>
    </div>`;
   const upd = () => { const n = +($("#mPar")?.value || 0); const fullN = pName(p); if (n) $("#mParV").textContent = `${n}x de R$ ${brl(parc(p.price, n))}`;
     $("#mWa").href = wa(out ? `Olá! Quero ser avisado quando a ${fullN} voltar ao estoque.` : `Olá! Tenho interesse na ${fullN}${p.price ? ` (R$ ${brl0(p.price)},00${n ? ` — simulei ${n}x de R$ ${brl(parc(p.price, n))}` : ""})` : ""}. Pode me ajudar?`); };
