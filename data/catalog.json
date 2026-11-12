@@ -1,6 +1,6 @@
 {
-  "version": 113,
-  "updatedAt": "2026-11-12T19:05:37.761Z",
+  "version": 114,
+  "updatedAt": "2026-11-12T19:13:12.174Z",
   "products": [
     {
       "id": "passion",
@@ -21,14 +21,14 @@
       "desc": "Scooter elétrica GOAT Passion 1.000W com excelente autonomia.",
       "img": "passion",
       "photos": [
-        "Passion verde",
-        "Passion verde, outro ângulo",
-        "Passion preta",
-        "Passion bege",
-        "Detalhe da traseira",
-        "Passion bege, outro ângulo",
-        "Painel digital",
-        "Compartimento sob o banco"
+        "/assets/passion-0.jpg",
+        "/assets/passion-1.jpg",
+        "/assets/passion-2.jpg",
+        "/assets/passion-3.jpg",
+        "/assets/passion-4.jpg",
+        "/assets/passion-5.jpg",
+        "/assets/passion-6.jpg",
+        "/assets/passion-7.jpg"
       ],
       "colors": [
         [
@@ -73,7 +73,8 @@
       ],
       "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para condições de garantia e disponibilidade das cores.",
       "sortOrder": 1,
-      "rotation360": null
+      "rotation360": null,
+      "image": "/assets/passion-0.jpg"
     },
     {
       "id": "quatro-e",
@@ -94,13 +95,13 @@
       "desc": "Praticidade para a sua rotina, com cesta dianteira, pedais e compartimento frontal. Uma elétrica compacta para os seus deslocamentos do dia a dia.",
       "img": "quatro",
       "photos": [
-        "Quatro E cinza",
-        "Quatro E branca",
-        "Quatro E preta",
-        "Cores da Quatro E",
-        "Vista traseira",
-        "Detalhes laterais",
-        "Banco e painel"
+        "/assets/quatro-0.jpg",
+        "/assets/quatro-1.jpg",
+        "/assets/quatro-2.jpg",
+        "/assets/quatro-3.jpg",
+        "/assets/quatro-4.jpg",
+        "/assets/quatro-5.jpg",
+        "/assets/quatro-6.jpg"
       ],
       "colors": [
         [
@@ -141,7 +142,8 @@
       ],
       "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para mais informações e disponibilidade das cores.",
       "sortOrder": 2,
-      "rotation360": null
+      "rotation360": null,
+      "image": "/assets/quatro-0.jpg"
     },
     {
       "id": "toky01",
@@ -162,11 +164,11 @@
       "desc": "Conforto e praticidade para o dia a dia, com banco amplo, encosto traseiro e painel digital.",
       "img": "toky",
       "photos": [
-        "Toky01 branca, frente e lateral",
-        "Toky01 branca, outro ângulo frontal",
-        "Toky01 branca, traseira e lateral",
-        "Detalhe da traseira e encosto",
-        "Banco e painel digital"
+        "/assets/toky-0.jpg",
+        "/assets/toky-1.jpg",
+        "/assets/toky-2.jpg",
+        "/assets/toky-3.jpg",
+        "/assets/toky-4.jpg"
       ],
       "colors": [
         [
@@ -200,7 +202,8 @@
       ],
       "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para condições de garantia e disponibilidade.",
       "sortOrder": 3,
-      "rotation360": null
+      "rotation360": null,
+      "image": "/assets/toky-0.jpg"
     },
     {
       "id": "vegas",
@@ -221,10 +224,10 @@
       "desc": "Estilo marcante para o dia a dia, com banco marrom e encosto traseiro.",
       "img": "vegas",
       "photos": [
-        "Vegas, vista frontal",
-        "Vegas, traseira e lateral direita",
-        "Vegas, traseira e lateral esquerda",
-        "Vegas, painel e guidão"
+        "/assets/vegas-0.jpg",
+        "/assets/vegas-1.jpg",
+        "/assets/vegas-2.jpg",
+        "/assets/vegas-3.jpg"
       ],
       "colors": null,
       "specs": [
@@ -247,7 +250,8 @@
       ],
       "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para condições de garantia e disponibilidade.",
       "sortOrder": 4,
-      "rotation360": null
+      "rotation360": null,
+      "image": "/assets/vegas-0.jpg"
     },
     {
       "id": "foston-1000",
@@ -266,11 +270,11 @@
       "desc": "Um visual moderno para acompanhar sua rotina. Com motor de 1.000 W, painel digital e banco amplo com encosto traseiro, ela reúne estilo e praticidade nos deslocamentos do dia a dia.",
       "img": "foston1000",
       "photos": [
-        "Foston elétrica, frente",
-        "Foston elétrica, traseira e lateral",
-        "Foston elétrica, banco e guidão",
-        "Foston elétrica, painel digital e controles",
-        "Foston elétrica, outro ângulo frontal"
+        "/assets/foston1000-0.jpg",
+        "/assets/foston1000-1.jpg",
+        "/assets/foston1000-2.jpg",
+        "/assets/foston1000-3.jpg",
+        "/assets/foston1000-4.jpg"
       ],
       "colors": null,
       "specs": [
@@ -303,7 +307,8 @@
       "rotation360": null,
       "store_id": "all",
       "store_name": "Todas as Lojas",
-      "autoSyncStock": true
+      "autoSyncStock": true,
+      "image": "/assets/foston1000-0.jpg"
     },
     {
       "id": "foston-x1",
@@ -324,14 +329,14 @@
       "desc": "Diversão com estilo: iluminação em LED, som que simula o motor e efeito de fumaça no escapamento ao adicionar água.",
       "img": "fostonx1",
       "photos": [
-        "Foston X1 verde, lateral",
-        "Foston X1 azul, lateral",
-        "Foston X1 azul, frente",
-        "Foston X1 azul, outro ângulo",
-        "Foston X1 verde, frente",
-        "Foston X1 verde, outro ângulo",
-        "Foston X1 azul, traseira",
-        "Foston X1 verde, vista superior"
+        "/assets/fostonx1-0.jpg",
+        "/assets/fostonx1-1.jpg",
+        "/assets/fostonx1-2.jpg",
+        "/assets/fostonx1-3.jpg",
+        "/assets/fostonx1-4.jpg",
+        "/assets/fostonx1-5.jpg",
+        "/assets/fostonx1-6.jpg",
+        "/assets/fostonx1-7.jpg"
       ],
       "colors": [
         [
@@ -362,7 +367,8 @@
       ],
       "disc": "Consulte a loja para indicação de idade, condições de uso, garantia e disponibilidade.",
       "sortOrder": 6,
-      "rotation360": null
+      "rotation360": null,
+      "image": "/assets/fostonx1-0.jpg"
     },
     {
       "id": "atv-200",
@@ -383,12 +389,12 @@
       "desc": "Quadriciclo automático com injeção eletrônica EFI, painel digital e iluminação em LED.",
       "img": "atv200",
       "photos": [
-        "MXF ATV 200, frente e lateral",
-        "MXF ATV 200, outro ângulo frontal",
-        "MXF ATV 200, lateral e encosto",
-        "MXF ATV 200, traseira e engate",
-        "MXF ATV 200, outro ângulo traseiro",
-        "MXF ATV 200, detalhes laterais"
+        "/assets/atv200-0.jpg",
+        "/assets/atv200-1.jpg",
+        "/assets/atv200-2.jpg",
+        "/assets/atv200-3.jpg",
+        "/assets/atv200-4.jpg",
+        "/assets/atv200-5.jpg"
       ],
       "colors": null,
       "specs": [
@@ -419,7 +425,8 @@
       "sortOrder": 7,
       "rotation360": null,
       "store_id": "all",
-      "store_name": "Todas as Lojas"
+      "store_name": "Todas as Lojas",
+      "image": "/assets/atv200-0.jpg"
     },
     {
       "id": "quad-125",
@@ -440,12 +447,12 @@
       "desc": "Veja cada detalhe nas fotos e conheça os equipamentos deste quadriciclo.",
       "img": "quad125",
       "photos": [
-        "Quadriciclo 125, frente e lateral",
-        "Quadriciclo 125, painel",
-        "Quadriciclo 125, traseira",
-        "Quadriciclo 125, outro ângulo frontal",
-        "Quadriciclo 125, iluminação em LED",
-        "Quadriciclo 125, lateral"
+        "/assets/quad125-0.jpg",
+        "/assets/quad125-1.jpg",
+        "/assets/quad125-2.jpg",
+        "/assets/quad125-3.jpg",
+        "/assets/quad125-4.jpg",
+        "/assets/quad125-5.jpg"
       ],
       "colors": null,
       "specs": [
@@ -476,12 +483,13 @@
       "sortOrder": 8,
       "rotation360": null,
       "store_id": "all",
-      "store_name": "Todas as Lojas"
+      "store_name": "Todas as Lojas",
+      "image": "/assets/quad125-0.jpg"
     },
     {
       "id": "kart",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Kart",
       "brand": "L1MA MOTORS",
       "name": "Kart Elétrico para Manobras",
@@ -522,7 +530,9 @@
       "sortOrder": 9,
       "rotation360": null,
       "store_id": "all",
-      "store_name": "Todas as Lojas"
+      "store_name": "Todas as Lojas",
+      "image": "/assets/kart-0.jpg",
+      "autoSyncStock": true
     },
     {
       "id": "drift",
@@ -541,8 +551,8 @@
       "desc": "A felicidade do seu filho e a diversão da família! Com motor de 1.000 W, visual azul camuflado e capacidade de até 140 kg, o Triciclo de Drift convida a compartilhar momentos de lazer e emoção em cada curva.",
       "img": "drift",
       "photos": [
-        "Triciclo de Drift, frente e lateral",
-        "Triciclo de Drift, banco e traseira"
+        "/assets/drift-0.jpg",
+        "/assets/drift-1.jpg"
       ],
       "colors": null,
       "specs": [
@@ -565,7 +575,8 @@
       "sortOrder": 10,
       "rotation360": null,
       "store_id": "all",
-      "store_name": "Todas as Lojas"
+      "store_name": "Todas as Lojas",
+      "image": "/assets/drift-0.jpg"
     },
     {
       "id": "shineray-jet-125ss-efi",

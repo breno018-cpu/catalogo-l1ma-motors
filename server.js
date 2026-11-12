@@ -424,7 +424,27 @@ async function requestHandler(req, res) {
     if (p === "/api/catalog") {
       catalog = read(F.cat, catalog);
       config = read(F.cfg, config);
-      return send(res, 200, { ...catalog, config: { ...config }, events: events.slice(0, 10) });
+      const host = req.headers.host || "localhost:5173";
+      const proto = (req.headers["x-forwarded-proto"] || (host.startsWith("localhost") ? "http" : "https")).split(",")[0].trim();
+      const baseUrl = `${proto}://${host}`;
+
+      const productsWithUrls = catalog.products.map(prod => {
+        const pCopy = { ...prod };
+        if (Array.isArray(pCopy.photos)) {
+          pCopy.photos = pCopy.photos.map(ph => {
+            if (typeof ph === "string" && ph.startsWith("/")) return `${baseUrl}${ph}`;
+            return ph;
+          });
+        }
+        if (pCopy.image && typeof pCopy.image === "string" && pCopy.image.startsWith("/")) {
+          pCopy.image = `${baseUrl}${pCopy.image}`;
+        } else if (!pCopy.image && pCopy.photos?.[0]) {
+          pCopy.image = pCopy.photos[0];
+        }
+        return pCopy;
+      });
+
+      return send(res, 200, { ...catalog, products: productsWithUrls, config: { ...config }, events: events.slice(0, 10) });
     }
     if (p === "/api/events") return send(res, 200, events);
     if (p === "/api/stream") {
