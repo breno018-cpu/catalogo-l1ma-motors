@@ -136,7 +136,7 @@ document.addEventListener("click", e => {
 function setCat(c, scroll) {
   cat = CATS[c] ? c : "ele"; sub = "all"; q = ""; sort = "";
   document.body.dataset.cat = cat;
-  document.querySelector('meta[name="theme-color"]').content = { ele: "#00a651", semi: "#e10600", off: "#ff6a00", shineray: "#d80000" }[cat] || "#0a0a0a";
+  document.querySelector('meta[name="theme-color"]').content = { ele: "#111418", semi: "#e10600", off: "#ff6a00", shineray: "#d80000" }[cat] || "#0a0a0a";
   history.replaceState(null, "", "#" + cat);
   renderAll();
   if (scroll) scrollTo({ top: innerWidth < 900 ? $("#catalogo").offsetTop - 70 : 0, behavior: "smooth" });
@@ -362,8 +362,7 @@ function renderList() {
       <h3 class="disp">${nameWithBrand}</h3>
       ${highlight ? `<div class="card-feature">${highlight}</div>` : ''}
       <div class="pr">
-        <div class="pr-l">${priceBlock(p)}</div>
-        <div class="pr-r"><span class="card-btn-action">${out ? `${ic("bell")} Avise-me` : `Ver detalhes ${ic("arrow")}`}</span></div>
+        <div>${priceBlock(p)}</div>
       </div>
      </div>
     </article>`;
