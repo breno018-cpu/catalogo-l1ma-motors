@@ -60,7 +60,14 @@ function applyOp(op) {
   const P = catalog.products;
   const find = id => P.find(p => p.id === id);
   const need = id => { const p = find(id); if (!p) throw new Error(`produto '${id}' não existe`); return p; };
-  const name = p => `${p.brand || ''} ${p.name || ''}`.trim();
+  const name = p => {
+    if (!p) return '';
+    const b = (p.brand || '').trim();
+    const n = (p.name || '').trim();
+    if (!b || b === 'L1MA MOTORS') return n;
+    if (n.toLowerCase().startsWith(b.toLowerCase())) return n;
+    return `${b} ${n}`.trim();
+  };
   switch (op.action) {
     case "upsert":
     case "create":

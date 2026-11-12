@@ -7,7 +7,7 @@ const pName = p => {
   if (!p) return "";
   const b = (p.brand || "").trim();
   const n = (p.name || "").trim();
-  if (!b) return n;
+  if (!b || b === "L1MA MOTORS") return n;
   if (n.toLowerCase().startsWith(b.toLowerCase())) return n;
   return `${b} ${n}`;
 };
@@ -679,20 +679,23 @@ function sim() {
     const dr = cfg().debitRate ?? 1.1, tot = p.price * (1 + dr / 100);
     $("#sLbl").textContent = "Valor no débito"; $("#sBig").innerHTML = `R$ ${brl(tot).replace(/,(\d\d)$/, "<small>,$1</small>")}`; $("#sSub").textContent = `à vista no cartão de débito (taxa ${String(dr).replace(".", ",")}%)`;
     $("#sRows").innerHTML = `<div><span>Valor à vista</span><b>R$ ${brl(p.price)}</b></div><div><span>Taxa débito</span><b>${String(dr).replace(".", ",")}%</b></div><div><span>Total</span><b>R$ ${brl(tot)}</b></div>`;
-    $("#sQuick").innerHTML = ""; msg = `Olá! Quero a ${p.brand} ${p.name} no débito: R$ ${brl(tot)}.`;
+    const fullN = pName(p);
+    $("#sQuick").innerHTML = ""; msg = `Olá! Quero a ${fullN} no débito: R$ ${brl(tot)}.`;
   } else if (sMode === "pix") {
+    const fullN = pName(p);
     $("#sLbl").textContent = "Valor no Pix"; $("#sBig").innerHTML = `R$ ${brl0(p.price)}<small>,00</small>`; $("#sSub").textContent = "Pagamento único no Pix ou dinheiro";
     $("#sRows").innerHTML = `<div><span>Modelo</span><b>${esc(p.name)}</b></div><div><span>Forma</span><b>Pix / dinheiro</b></div><div><span>Taxa</span><b>sem acréscimo</b></div><div><span>Total</span><b>R$ ${brl(p.price)}</b></div>`;
-    $("#sQuick").innerHTML = ""; msg = `Olá! Quero a ${p.brand} ${p.name} à vista por R$ ${brl0(p.price)},00.`;
+    $("#sQuick").innerHTML = ""; msg = `Olá! Quero a ${fullN} à vista por R$ ${brl0(p.price)},00.`;
   } else {
     const pv = parc(rest, n), tot = ent + pv * n;
+    const fullN = pName(p);
     $("#sLbl").textContent = ent ? "Entrada + parcelas" : (hasRates() ? "Parcela estimada" : "Parcela base");
     $("#sBig").innerHTML = `${n}x R$ ${brl(pv).replace(/,(\d\d)$/, "<small>,$1</small>")}`;
     $("#sSub").textContent = ent ? `com entrada de R$ ${brl(ent)}` : "sem entrada, no cartão de crédito";
     $("#sRows").innerHTML = `<div><span>Valor à vista</span><b>R$ ${brl(p.price)}</b></div><div><span>Entrada</span><b>R$ ${brl(ent)}</b></div><div><span>Saldo no cartão</span><b>R$ ${brl(rest)}</b></div>
       ${hasRates() ? `<div><span>Taxa (${n}x)</span><b>${String(rate(n)).replace(".", ",")}%</b></div>` : `<div><span>Taxa da maquininha</span><b>a confirmar</b></div>`}<div><span>Total ${hasRates() ? "estimado" : "base"}</span><b>R$ ${brl(tot)}</b></div>`;
     $("#sQuick").innerHTML = [3, 6, 10, 12, 18, 21].filter(k => k <= maxN()).map(k => `<button class="${k === n ? "on" : ""}" data-k="${k}">${k}x R$ ${brl(parc(rest, k))}</button>`).join("");
-    msg = `Olá! Simulei no catálogo a ${p.brand} ${p.name} (R$ ${brl0(p.price)},00): entrada de R$ ${brl(ent)} + ${n}x no cartão. Pode me passar o valor final com a taxa?`;
+    msg = `Olá! Simulei no catálogo a ${fullN} (R$ ${brl0(p.price)},00): entrada de R$ ${brl(ent)} + ${n}x no cartão. Pode me passar o valor final com a taxa?`;
   }
   $("#sWa").href = wa(msg);
 }
