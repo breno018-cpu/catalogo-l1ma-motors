@@ -571,7 +571,7 @@ function openModal(id, keepIdx) {
   $("#mPar")?.addEventListener("change", upd); upd();
   $("#mShare").onclick = shareIt;
   show(idx); if (!wasOpen) openBox();
-  history.replaceState(null, "", "?m=" + encodeURIComponent(id));
+  history.replaceState(null, "", "/moto/" + encodeURIComponent(id));
 }
 $("#mbox").addEventListener("click", e => {
   if (e.target.closest("#mboxCloseBtn")) return closeModal();
@@ -616,7 +616,7 @@ $("#modal").addEventListener("touchend", e => { if (tx === null) return; const t
 function shareIt() {
   if (!cur) return;
   const fullN = pName(cur);
-  const u = `${location.origin}/?m=${encodeURIComponent(cur.id)}`;
+  const u = `${location.origin}/moto/${encodeURIComponent(cur.id)}`;
   const text = `${fullN}${cur.price ? ` — R$ ${brl0(cur.price)},00` : ""}\nConfira fotos e simulação na L1MA Motors:\n${u}`;
   if (navigator.share) {
     navigator.share({ title: `${fullN} | L1MA Motors`, text, url: u }).catch(() => {});

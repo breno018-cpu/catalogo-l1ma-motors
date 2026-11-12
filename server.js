@@ -319,7 +319,10 @@ const send = (res, code, obj) => { res.writeHead(code, { "Content-Type": "applic
 const body = req => new Promise((ok, no) => { let b = ""; req.on("data", c => { b += c; if (b.length > 2e6) req.destroy(); }); req.on("end", () => { try { ok(b ? JSON.parse(b) : {}); } catch { no(new Error("JSON inválido")); } }); });
 
 function renderIndexHtml(req, modelId) {
-  let template = fs.readFileSync(path.join(PUB, "index.html"), "utf8");
+  const tplPath = fs.existsSync(path.join(ROOT, "template.html"))
+    ? path.join(ROOT, "template.html")
+    : path.join(PUB, "index.html");
+  let template = fs.readFileSync(tplPath, "utf8");
   const host = req.headers.host || "localhost:5173";
   const proto = (req.headers["x-forwarded-proto"] || (host.startsWith("localhost") ? "http" : "https")).split(",")[0].trim();
 
