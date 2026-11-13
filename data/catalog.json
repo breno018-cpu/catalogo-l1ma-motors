@@ -1,6 +1,6 @@
 {
-  "version": 121,
-  "updatedAt": "2026-11-13T16:38:37.826Z",
+  "version": 122,
+  "updatedAt": "2026-11-13T16:56:51.300Z",
   "products": [
     {
       "id": "passion",
@@ -369,6 +369,76 @@
       "sortOrder": 6,
       "rotation360": null,
       "image": "/assets/fostonx1-0.jpg"
+    },
+    {
+      "id": "foston-gtx",
+      "active": true,
+      "cat": "ele",
+      "sub": "Scooter",
+      "brand": "L1MA MOTORS",
+      "name": "Foston Elétrica GTX",
+      "price": 8490,
+      "oldPrice": 9490,
+      "installments": true,
+      "stock": null,
+      "readyDelivery": true,
+      "badge": "Lançamento",
+      "promo": {
+        "label": "R$ 1.000 OFF"
+      },
+      "desc": "Design esportivo e moderna mobilidade urbana. Equipada com motor de 1.000 W, conjunto óptico Full LED, painel 100% digital, freios a disco, encosto para garupa e suspensão traseira dupla para máximo conforto.",
+      "img": "foston-gtx",
+      "photos": [
+        "/assets/foston-gtx-0.jpg",
+        "/assets/foston-gtx-1.jpg",
+        "/assets/foston-gtx-2.jpg",
+        "/assets/foston-gtx-3.jpg",
+        "/assets/foston-gtx-4.jpg"
+      ],
+      "colors": [
+        [
+          "Cinza Fosco",
+          "#4a4f55",
+          0
+        ]
+      ],
+      "specs": [
+        [
+          "1.000 W",
+          "Potência do motor"
+        ],
+        [
+          "Até 60 km",
+          "Autonomia"
+        ],
+        [
+          "32 km/h",
+          "Velocidade máxima"
+        ],
+        [
+          "Digital",
+          "Painel"
+        ],
+        [
+          "1 ano",
+          "Garantia"
+        ]
+      ],
+      "feat": [
+        "Farol projetor dianteiro Full LED",
+        "Painel digital esportivo completo",
+        "Encosto traseiro confortável para garupa",
+        "Freio dianteiro e traseiro esportivo a disco",
+        "Suspensão traseira dupla reforçada",
+        "Paralamas com acabamento textura fibra de carbono"
+      ],
+      "disc": "A autonomia varia conforme peso, percurso e condições de uso. Consulte a loja para condições de garantia, formas de pagamento e disponibilidade.",
+      "sortOrder": 7,
+      "rotation360": null,
+      "store_id": "all",
+      "store_name": "Todas as Lojas",
+      "autoSyncStock": true,
+      "image": "/assets/foston-gtx-0.jpg"
     },
     {
       "id": "atv-200",
