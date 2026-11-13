@@ -1,6 +1,6 @@
 {
-  "version": 120,
-  "updatedAt": "2026-11-12T20:27:19.535Z",
+  "version": 121,
+  "updatedAt": "2026-11-13T16:38:37.826Z",
   "products": [
     {
       "id": "passion",
@@ -489,7 +489,7 @@
     {
       "id": "kart",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Kart",
       "brand": "L1MA MOTORS",
       "name": "Kart Elétrico para Manobras",
@@ -537,7 +537,7 @@
     {
       "id": "drift",
       "active": true,
-      "cat": "off",
+      "cat": "ele",
       "sub": "Drift",
       "brand": "L1MA MOTORS",
       "name": "Triciclo Elétrico de Drift",
