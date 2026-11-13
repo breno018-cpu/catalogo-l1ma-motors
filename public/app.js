@@ -23,13 +23,14 @@ const im = (p, i = 0) => {
 };
 
 const CATS = {
-  ele: { name: "Elétricas", ic: "zap", kick: "L1MA MOTORS ELÉTRICAS", title: "L1MA Motors Elétricas", desc: "Economia, silêncio e zero combustível. Scooters elétricas e modelos infantis." },
+  all: { name: "Todos", ic: "grid", kick: "L1MA MOTORS MULTIMARCAS", title: "L1MA Motors Catálogo Geral", desc: "Linha completa multimarcas de motos elétricas, semi-novos e off-road. Pronta entrega e parcelamento em até 21x no cartão." },
+  ele: { name: "Elétricas", ic: "zap", kick: "L1MA MOTORS ELÉTRICAS", title: "L1MA Motors Elétricas", desc: "Economia, silêncio e zero combustível. Scooters elétricas, kart, drift e modelos infantis." },
   semi: { name: "Semi-novos", ic: "key", kick: "L1MA MOTORS SEMI-NOVOS", title: "L1MA Motors Semi-novos", desc: "Motos selecionadas e com procedência. Também avaliamos a sua na troca." },
-  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos, kart e drift para trilha, fazenda e lazer." },
+  off: { name: "Off-road", ic: "mountain", kick: "L1MA MOTORS OFF-ROAD", title: "L1MA Motors Off-road", desc: "Quadriciclos e modelos para trilha, fazenda e lazer." },
   shineray: { name: "Shineray L1MA", hidden: true, ic: "store", kick: "L1MA MOTORS SHINERAY", title: "L1MA Motors Shineray", desc: "Concessionária autorizada Shineray do Brasil. Pronta entrega, garantia de fábrica e facilidade de pagamento com as melhores taxas.", promo: "Condições Especiais Shineray" }
 };
 
-let offline = false, DATA = { products: [], config: {} }, cat = "ele", sub = "all", q = "", sort = "", cmpList = [];
+let offline = false, DATA = { products: [], config: {} }, cat = "all", sub = "all", q = "", sort = "", cmpList = [];
 const newIds = new Set();
 const cfg = () => DATA.config || {};
 const P = () => DATA.products.filter(p => p.active !== false);
@@ -123,7 +124,10 @@ function fx(ev) {
 }
 
 /* ---------------- navegação / tabs ---------------- */
-function count(k) { return P().filter(p => p.cat === k).length; }
+function count(k) {
+  if (k === "all") return P().filter(p => p.cat !== "shineray").length;
+  return P().filter(p => p.cat === k).length;
+}
 function renderTabs() {
   if (cat === "shineray") {
     $("#tabs").innerHTML = "";
@@ -156,10 +160,10 @@ document.addEventListener("click", e => {
   e.preventDefault(); setCat(g.dataset.go, true);
 });
 function setCat(c, scroll) {
-  cat = CATS[c] ? c : "ele"; sub = "all"; q = ""; sort = "";
+  cat = CATS[c] ? c : "all"; sub = "all"; q = ""; sort = "";
   document.body.dataset.cat = cat;
-  document.querySelector('meta[name="theme-color"]').content = { ele: "#111418", semi: "#e10600", off: "#ff6a00", shineray: "#d80000" }[cat] || "#0a0a0a";
-  history.replaceState(null, "", "#" + cat);
+  document.querySelector('meta[name="theme-color"]').content = { all: "#111418", ele: "#111418", semi: "#e10600", off: "#ff6a00", shineray: "#d80000" }[cat] || "#0a0a0a";
+  history.replaceState(null, "", cat === "all" ? "/" : "#" + cat);
   renderAll();
   if (scroll) scrollTo({ top: innerWidth < 900 ? $("#catalogo").offsetTop - 70 : 0, behavior: "smooth" });
 }
@@ -168,7 +172,7 @@ function renderAll(keepFilters) {
   $("#kick").textContent = C.kick; $("#ctitle").textContent = C.title; $("#cdesc").textContent = C.desc;
   $("#shinerayBanner")?.remove();
   $$(".logo small").forEach(s => s.textContent = (cat === "shineray") ? "SHINERAY" : "MULTIMARCAS");
-  $$(".logo").forEach(a => a.dataset.go = (cat === "shineray") ? "shineray" : "ele");
+  $$(".logo").forEach(a => a.dataset.go = (cat === "shineray") ? "shineray" : "all");
   renderTop(); renderTabs(); renderHero(); renderCampaign(); renderTrust(); renderFilters(); renderList(); fillSimModels(keepFilters ? $("#sModel").value : null);
   if (cur && $("#modal").classList.contains("open") && !cmpView) { const p = byId(cur.id); p ? openModal(p.id, idx) : closeModal(); }
 }
@@ -176,14 +180,15 @@ function renderAll(keepFilters) {
 /* ---------------- topo ---------------- */
 function renderTop() {
   const L = P(), pr = L.filter(p => p.price && !isOut(p));
-  const min = pr.length ? Math.min(...pr.filter(p => p.cat === cat || (!CATS[cat]?.hidden && p.cat === "ele")).map(p => p.price)) : null;
+  const isAll = cat === "all";
+  const min = pr.length ? Math.min(...pr.filter(p => (isAll ? p.cat !== "shineray" : p.cat === cat) || (!CATS[cat]?.hidden && p.cat === "ele")).map(p => p.price)) : null;
   const storeLbl = cat === "shineray" ? "<b>SHINERAY L1MA MOTORS</b> · CONCESSIONÁRIA AUTORIZADA" : "<b>L1MA</b> MOTORS MULTIMARCAS";
   const inauBanner = cat === "shineray"
     ? "<b>🔥 PROMOÇÃO EXCLUSIVA SHINERAY:</b> R$ 1.800 DE DESCONTO EM TODAS AS MOTOS!"
     : (cat === "ele" 
       ? "<b>🔥 MEGA INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODAS AS ELÉTRICAS!" 
       : "<b>🎉 PROMOÇÃO DE INAUGURAÇÃO:</b> R$ 1.000 DE DESCONTO EM TODOS OS MODELOS!");
-  const items = [["store", storeLbl], ["tag", inauBanner], min ? ["zap", `${cat === "shineray" ? "Motos Shineray" : "Elétricas"} a partir de R$ ${brl0(min)}`] : null, ["card", `Até ${maxN()}x no cartão`], ["key", "Avaliamos sua moto na troca"],
+  const items = [["store", storeLbl], ["tag", inauBanner], min ? ["zap", `${cat === "shineray" ? "Motos Shineray" : "Motos e elétricas"} a partir de R$ ${brl0(min)}`] : null, ["card", `Até ${maxN()}x no cartão`], ["key", "Avaliamos sua moto na troca"],
     ...L.filter(p => p.promo && (p.cat === cat || (!CATS[cat]?.hidden && p.cat !== "shineray"))).map(p => ["tag", `${esc(p.brand)} ${esc(p.name)}: ${esc(p.promo.label)}`])].filter(Boolean);
   const h = items.map(([i, t]) => `<span>${ic(i)}${t}</span>`).join("");
   $("#topm").innerHTML = h + h;
@@ -192,7 +197,7 @@ function renderTop() {
 /* ---------------- hero ---------------- */
 let hi = 0, ht;
 function heroItems() {
-  const L = P().filter(p => p.cat === cat && !isOut(p));
+  const L = P().filter(p => (cat === "all" ? p.cat !== "shineray" : p.cat === cat) && !isOut(p));
   if (Array.isArray(cfg().heroIds) && cfg().heroIds.length) {
     const list = cfg().heroIds.map(id => L.find(p => p.id === id)).filter(Boolean);
     if (list.length) return list.slice(0, 5);
@@ -208,6 +213,7 @@ function renderHero() {
   const S = heroItems();
   hi = 0; clearInterval(ht);
   const catLabels = {
+    all: "L<em>1</em>MA MOTORS MULTIMARCAS",
     ele: "L<em>1</em>MA MOTORS ELÉTRICAS",
     off: "L<em>1</em>MA MOTORS OFF-ROAD",
     semi: "L<em>1</em>MA MOTORS SEMI-NOVOS",
@@ -324,9 +330,9 @@ function renderTrust() {
 
 /* ---------------- lista ---------------- */
 function renderFilters() {
-  const items = P().filter(p => p.cat === cat);
+  const items = P().filter(p => cat === "all" ? p.cat !== "shineray" : p.cat === cat);
   if (!items.length) { $("#filters").innerHTML = ""; return; }
-  const subs = ["all", ...new Set(items.map(p => p.sub))];
+  const subs = ["all", ...new Set(items.map(p => p.sub).filter(Boolean))];
   if (!subs.includes(sub)) sub = "all";
   $("#filters").innerHTML = `<div class="chips">${subs.map(s => `<button class="chip ${s === sub ? "on" : ""}" data-s="${esc(s)}">${s === "all" ? "Todos" : esc(s)}</button>`).join("")}</div>
    <label class="search">${ic("search")}<input id="q" type="search" placeholder="Buscar modelo..." value="${esc(q)}" aria-label="Buscar"></label>
@@ -349,7 +355,7 @@ function priceBlock(p) {
 function renderList() {
   if (cat === "semi" && !P().some(p => p.cat === "semi")) return renderSemi();
   const nq = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  let l = P().filter(p => p.cat === cat && (sub === "all" || p.sub === sub) && nq(`${pName(p)} ${p.sub}`).includes(nq(q)));
+  let l = P().filter(p => (cat === "all" ? p.cat !== "shineray" : p.cat === cat) && (sub === "all" || p.sub === sub) && nq(`${pName(p)} ${p.sub}`).includes(nq(q)));
   const base = (a, b) => isOut(a) - isOut(b);
   l.sort((a, b) => base(a, b) || (
     sort === "asc" ? (a.price ?? 1e9) - (b.price ?? 1e9) :
@@ -607,7 +613,7 @@ function closeModal() {
   document.body.style.overflow = "";
   cur = null;
   cmpView = false;
-  history.replaceState(null, "", "/" + (cat === "ele" ? "" : "#" + cat));
+  history.replaceState(null, "", cat === "all" ? "/" : "#" + cat);
 }
 function show(i) {
   if (!cur) return; idx = (i + cur.photos.length) % cur.photos.length;
@@ -671,7 +677,7 @@ function fillSimModels(pick) {
   const s = $("#sModel"), L = P().filter(p => p.price && !isOut(p));
   if (!L.length) return;
   s.innerHTML = Object.entries(CATS)
-    .filter(([k, v]) => !v.hidden || k === cat || (pick && byId(pick)?.cat === k))
+    .filter(([k, v]) => k !== "all" && (!v.hidden || k === cat || (pick && byId(pick)?.cat === k)))
     .map(([k, v]) => {
       const l = L.filter(p => p.cat === k);
       return l.length ? `<optgroup label="${v.name}">${l.map(p => `<option value="${p.id}">${esc(p.brand)} ${esc(p.name)} — R$ ${brl0(p.price)}</option>`).join("")}</optgroup>` : "";
@@ -763,7 +769,7 @@ function route() {
   }
 
   // 3. Fallback de categoria padrão
-  setCat(CATS[h] && !CATS[h].hidden ? h : "ele");
+  setCat(CATS[h] && !CATS[h].hidden ? h : "all");
 }
 window.addEventListener("hashchange", () => {
   const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
