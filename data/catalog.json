@@ -1,6 +1,6 @@
 {
-  "version": 122,
-  "updatedAt": "2026-11-13T16:56:51.300Z",
+  "version": 123,
+  "updatedAt": "2026-11-13T17:00:15.243Z",
   "products": [
     {
       "id": "passion",
@@ -377,8 +377,8 @@
       "sub": "Scooter",
       "brand": "L1MA MOTORS",
       "name": "Foston Elétrica GTX",
-      "price": 8490,
-      "oldPrice": 9490,
+      "price": 9990,
+      "oldPrice": 10990,
       "installments": true,
       "stock": null,
       "readyDelivery": true,
