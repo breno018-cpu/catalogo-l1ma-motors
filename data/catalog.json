@@ -1,6 +1,6 @@
 {
-  "version": 124,
-  "updatedAt": "2026-11-23T12:45:20.443Z",
+  "version": 125,
+  "updatedAt": "2026-11-27T12:25:09.078Z",
   "products": [
     {
       "id": "passion",
@@ -260,13 +260,15 @@
       "sub": "Scooter",
       "brand": "L1MA MOTORS",
       "name": "Foston Elétrica 1.000 W",
-      "price": 5400,
-      "oldPrice": 8990,
-      "installments": false,
+      "price": 5990,
+      "oldPrice": 6990,
+      "installments": true,
       "stock": null,
       "readyDelivery": false,
       "badge": null,
-      "promo": null,
+      "promo": {
+        "label": "R$ 1.000 OFF"
+      },
       "desc": "Um visual moderno para acompanhar sua rotina. Com motor de 1.000 W, painel digital e banco amplo com encosto traseiro, ela reúne estilo e praticidade nos deslocamentos do dia a dia.",
       "img": "foston1000",
       "photos": [
